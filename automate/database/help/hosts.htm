@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<head>
+<title>Blocking Unwanted Parasites with a Hosts File</title>
+<meta content="HOSTS, HOSTS file, parasites, hijacker, trojans, adware, spyware, Windows XP, HOSTS, pop-ups, pop-up blocker, web bugs, IE 6, Internet Explorer, cookies, hosts, hit counter, toolbars" name="keywords">
+<meta content="This article provides details on blocking Ads, Banners, Parasites, and Hijackers, web bugs, etc. with a custom HOSTS file" name="description">
+<meta content="Microsoft FrontPage 6.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta content="10 days" name="revisit-after">
+<meta content="all, index, follow" name="robots">
+<META Name="Googlebot" Content="index,follow"><meta content="Mike Burgess" name="AUTHOR">
+<meta content="General" name="rating">
+<meta name="categories" content="spyware">
+<meta name="categories" content="adware">
+<meta name="categories" content="security">
+<meta name="categories" content="trojans">
+<meta name="categories" content="antispyware">
+<meta name="categories" content="anti-spyware">
+<meta name="categories" content="hijack">
+<meta name="googlebot" content="index, follow">
+<meta name="classification" content="internet,security,spyware,adware,privacy">
+<link href="concepts.css" type="text/css" rel="STYLESHEET">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<script type="text/javascript" src="buttons.js"></SCRIPT>
+
+<SCRIPT language="JavaScript">
+
+<!--
+function GotoURL(f){window.location.href=f.picker.options[f.picker.selectedIndex].value;}<!--end-->
+</SCRIPT>
+
+<table cellspacing="0" cellpadding="8" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td align="middle" width="100%" bgcolor="#bcbcbc">
+        <div align="center">
+          <center>
+          <table cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tbody>
+              <tr>
+                <td valign="center" align="left" width="119" height="100%" rowspan="2">
+				<img alt="Powered by Windows Vista Ultimate" src="pc1.gif" border="0" width="119" height="70"></td>
+                <td align="left" width="5" height="100%" rowspan="2"><img alt="" height="100%" src="trans_space.gif" width="5" border="0"></td>
+                <td valign="bottom" nowrap align="left">
+                  <p align="center"><font face="Arial" color="#000080" size="5"><b>Blocking
+                  Unwanted Parasites with a Hosts File</b></font></p>
+                </td>
+                <td align="left" bgcolor="#bcbcbc" width="5" height="100%" rowspan="2"><img alt="" height="100%" src="trans_space.gif" width="5" border="0"></td>
+              </tr>
+              <tr>
+                <td valign="top" nowrap align="left">
+                  <form name="SelectURL4">
+                    <div align="center">
+                      <center>
+                      <p><font face="Arial" color="#000080" size="3"><strong><b>Select
+                      a Tip</b></strong></font> <img alt="" src="rt_hand.gif" border="0" width="22" height="17">
+                      <select size="1" name="picker">
+                        <option selected value="unwanted.htm">How To: Deal with
+                        Unwanted Spyware and Parasites</option>
+                        <option value="hostsfaq.htm">How To: HOSTS File - Frequently Asked Questions</option>
+                        <option value="hosts2.htm">How To: Download and Extract the HOSTS File Help</option>
+<option value="hostsvista.htm">How To: Update the HOSTS file in Windows Vista</option>
+                        <option value="nopopups.htm">How To: Deal with Unwanted
+                        Pop-ups</option>
+                        <option value="restricted.htm">How To: Add sites to
+                        Internet Explorer Restricted Zone</option>
+                        <option value="delcache.htm">How To: Delete the Internet
+                        Explorer Temporary Internet Files</option>
+                        <option value="cookies.htm">How To: Block Unwanted
+                        Cookies with Internet Explorer</option>
+                        <option value="services.htm">How To: Determine the
+                        Services running in WinXP</option>
+                        <option value="security.htm">Security Issues for Windows
+                        and IE</option>
+                        <option value="ietips.htm">Internet Explorer Tips and
+                        Tricks</option>
+                      </select><input onclick="GotoURL(this.form)" type="button" value="Go!">
+						<a target="_blank" href="http://msmvps.com/blogs/hostsnews/default.aspx">
+						Hosts News blog</a></p>
+                      </center>
+                    </div>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          </center>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="1%" height="100%" bgcolor="#BCBCBC"><img alt="" border="0" src="trans_space.gif" width="1%" height="100%"></td>
+      <td valign="top" width="1%" background="sidegrad.gif" height="100%"><img alt="" src="gradcorner.gif" width="16" height="17"></td>
+      <td valign="top" width="84%">
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" valign="top">
+          <tbody>
+            <tr>
+              <td valign="top" align="left" width="100%" background="topgrad.gif"><font size="-3">&nbsp;</font></td>
+            </tr>
+          </tbody>
+        </table>
+        <div align="center">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+					<img alt="" border="0" src="banner2.gif" width="677" height="102"></td>
+				</tr>
+			</table></div>
+		<blockquote>
+			<p><b><font face="Arial" size="3" color="#000080">What it does ...</font></b><br>The 
+			<a title="Wikipedia Definition of a Hosts file" target="_blank" href="http://en.wikipedia.org/wiki/Hosts_file">Hosts file</a> contains the mappings of IP addresses to host names. 
+			This file is loaded into memory (cache) at startup, then Windows checks the 
+			Hosts file <b>before</b> it queries any DNS servers, which enables it to 
+			override addresses in the DNS. This prevents access to the listed 
+			sites by redirecting any connection attempts back to the local 
+			(your) machine. Another feature of the HOSTS file is its ability to block 
+			other applications from connecting to the Internet, providing the 
+			entry exists.</p>
+			<p>You can use a HOSTS file to block ads, banners, 
+			<a title="Blocking Unwanted Cookies with Internet Explorer" href="cookies.htm">3rd party Cookies</a>, 
+			3rd party page counters, web bugs,
+          and even most 
+			<a title="Dealing with Unwanted Parasites and Hijackers" href="unwanted.htm">hijackers</a>. 
+			This is accomplished by blocking the connection(s)
+          that supplies these little gems. </p>
+			<p>Example - the following entry <b>127.0.0.1
+          ad.doubleclick.net</b> blocks all files supplied by that 
+			<a title="Wikipedia Definition of Doubleclick" target="_blank" href="http://en.wikipedia.org/wiki/Doubleclick">DoubleClick</a> 
+			Server to the web page you are viewing. This also prevents the 
+			server from tracking your movements. Why? ... because in certain cases &quot;Ad 
+			Servers&quot; like Doubleclick (and many others) will try to
+			<a title="View screenshot of DoubleClick trying to open a seperate connection." target="_blank" href="doubleclick.gif">open a separate connection</a> on the 
+			webpage you are viewing. </p>
+			<p>For XP SP2 users you <b>should</b> see a Security Center prompt about 
+			allowing this connection. [<a title="View screenshot of DoubleClick attempting to open a seperate connection" target="_blank" href="doubleclick.gif">screenshot</a>] 
+			<br>Simply click No and continue. Yes the prompts can be annoying 
+			but at least you'll know, however you should <b>not</b> see these 
+			prompts if these entries are included in the HOSTS file.<br>
+			<b>Note</b>: this prompt <b>only</b> occurs if (example)<b> *.doubleclick.net</b> is included in the &quot;<a title="Tips for using the Internet Explorer Restricted Zone" href="restricted.htm">Restricted Zone</a>&quot;.<br>
+			<br><b>More Examples</b><br>
+&nbsp;<a target="_blank" href="adtech.gif">AdTech</a> |&nbsp;
+			<a target="_blank" href="bridgetrack.gif">BridgeTrack</a> |&nbsp;
+			<a target="_blank" href="honesty.gif">Honesty</a> |&nbsp; 
+			<a target="_blank" href="mgnetwork.gif">Mgnetwork</a> |&nbsp; 
+			<a target="_blank" href="valueclick.gif">ValueClick</a> |
+			<a target="_blank" href="googlead.gif">Google AdSense</a> |
+			<a target="_blank" href="atdmt.gif">Atdmt</a> |
+			<a target="_blank" href="atdmt2.gif">Atdmt</a><br>
+			Now here is a 3rd party ad server opening a connection to another 
+			3rd party ad server - <a target="_blank" href="adflow.gif">Ad-Flow</a><br>
+			More 3rd parties opening other 3rd parties:
+			<a target="_blank" href="overture.gif">Overture</a> |
+			<a target="_blank" href="overture2.gif">Overture</a> |
+			<a target="_blank" href="directtrack.gif">Directtrack</a> |
+			<a target="_blank" href="directtrack2.gif">Directtrack</a> |
+			<a target="_blank" href="realmedia.gif">RealMedia</a><br><br><b>Note</b>:
+			By placing these type sites in the 
+			<a title="View Tips for using the Restricted Zone" href="restricted.htm">Restricted Zone</a> 
+			this also cures most &quot;<a title="View issues about the Back Button" href="hostsfaq.htm#Button">Back 
+			Button</a>&quot; issues.<br><br>
+			<font face="Arial" size="3" color="#FF0000"><b>Now includes most 
+			major parasites, hijackers and unwanted Adware/Spyware programs!<br></b></font>Proudly now the 
+			<b><font face="Arial" size="2">#</font><font face="Arial" size="3">1</font></b> rated HOSTS file on the Internet!&nbsp; -
+			<a target="_blank" href="http://www.google.com/search?hl=en&q=HOSTS+file&btnG=Google+Search">Google</a> |
+			<a target="_blank" href="http://search.msn.com/results.aspx?FORM=MSNH&q=HOSTS file">MSN</a> |
+			<a href="http://search.yahoo.com/search?p=HOSTS+file&sm=Yahoo!+Search&fr=FP-tab-web-t&toggle=1&ei=UTF-8" target="new">Yahoo</a> |
+			<a href="http://www.altavista.com/web/results?itag=wrx&q=HOSTS+file&kgs=1&kls=0" target="new">AltaVista</a><br>Now 
+			regularly featured on the 
+			<a href="http://www.komando.com/index.asp" target="new">Kim 
+			Komando</a> Radio Show<br>The MVPS HOSTS file has been selected by
+			<a title="The best of the best as selected by alt.comp.freeware Newsgroup Participants" target="_blank" href="http://www.pricelesswarehome.org/2006/about2006PL.php">Pricelessware</a> as &quot;<i>the best of the best in Freeware</i>&quot; 
+			for the 2nd time ...</p>
+			<p>In many cases using a well designed HOSTS file can speed the loading of web pages by not having 
+			to wait for these ads, annoying banners,
+			<a title="Wikipedia Definition of Hit Counter" target="_blank" href="http://en.wikipedia.org/wiki/Hit_counter">hit counters</a>, etc. to load. This 
+			also helps to protect your Privacy and Security by blocking sites that 
+			may track 
+			your viewing habits, also known as&nbsp; &quot;click-thru tracking&quot; 
+			or
+			<a title="Webopedia Definition of Data Miner" target="_blank" href="http://www.webopedia.com/TERM/D/data_miner.html">Data Miners</a>. 
+			Simply using a HOSTS file is <b>not</b> a cure-all against all the 
+			dangers on the Internet, but it <b>does</b> provide another 
+			very effective &quot;Layer of Protection&quot;.</p>
+			<p><b>Editors Note</b>: As time has progressed the focus of this 
+			project has changed from just blocking ads/banners to protecting the 
+			user from the many parasites that now exist on the Internet. It 
+			doesn't serve much purpose if you block the ad banner from 
+			displaying as most other HOSTS files do, but get hijacked by a 
+			parasite from an evil exploit or download contained on
+          the web site. The object is to surf faster while preserving your 
+			<a title="Security Issues for Windows and IE" href="security.htm">Safety,
+          Security and Privacy</a>. [<a target="_blank" title="Microsoft Security" href="http://www.microsoft.com/protect/default.mspx">more
+          info</a>]</p>
+			<table border="0">
+				<tr>
+					<td>
+					<img alt="" border="0" src="download.gif" width="30" height="32"></td>
+					<td><a target="new" title="View Hosts.txt" href="hosts.txt">To view the HOSTS file in plain
+              text form</a>. (603 kb) (opens in IE)<br><b>Note:</b>
+					The text version also makes a terrific reference for 
+					determining possible unwanted sites<br>
+					<b>Download:</b> <a title="Download hosts.zip" href="hosts.zip">hosts.zip</a> [right-click
+              - Select: Save Target As] [<b>Updated October-23-2008</b>]</td>
+				</tr>
+			</table>
+			<p>This download includes a simple batch file (mvps.bat) that will 
+			rename the existing HOSTS file to HOSTS.MVP then copy the included 
+			updated HOSTS file to the proper location. For more information please see 
+			the
+			<a title="View the readme text file" target="_blank" href="readme.txt">readme.txt</a> included in the download.</p>
+			<p><b>
+			<img border="0" src="smallvista.gif" width="45" height="46" align="middle"> Important!</b> 
+			<b>Windows Vista requires special instructions</b>&nbsp; 
+			<img border="0" src="rt_hand.gif" width="22" height="17" align="baseline" alt="Not here - over there &gt;"> 
+			<a title="Update the HOSTS file in Windows Vista" href="hostsvista.htm">
+			see here</a></p>
+			<p>When you run the (mvps.bat) batch file XP users may
+			<a title="Screenshot of Pop-up prompt" target="_blank" href="batch.gif">
+			see a prompt</a>, simply click Run and continue. Once updated you 
+			should see
+			<a title="Screenshot of HOSTS file update" target="_blank" href="updated.gif">
+			another prompt</a> that the task was completed. Some users may see a 
+			pop-up from certain Security programs about changes to the HOSTS 
+			file. Allow the change ... however if you see this pop-up at any 
+			other time ... investigate.<br>
+			<br><b>Download Information: </b>(checksum info is on the HOSTS file
+			<b>not</b> the &quot;hosts.zip&quot;)<b><br>MD5</b>: 
+			75a773d0cbbec7d7bc6ad486b96debb6<b> SHA-1</b>: 
+			a768a229551352ec86c4643ba0239ddde6cfe9c6<br>(created by
+			<a title="Microsoft File Checksum Integrity Verifier" target="_blank" href="http://support.microsoft.com/kb/841290/?sd=RMVP">File Checksum Integrity Verifier</a>) To view Checksum for this 
+			download&nbsp; 
+			<img border="0" src="rt_hand.gif" width="22" height="17" align="baseline" alt="Not here - over there &gt;"> 
+			[<a title="View Checksum.txt" target="_blank" href="checksum.txt">click 
+			here</a>]<br><br><b>Manual Method - Unzip in a &quot;temp&quot; folder</b> and place in the appropriate installed location:</p>
+			<ul>
+				<li>If you are having trouble downloading or extracting the HOSTS 
+			file <img alt="" border="0" src="rt_hand.gif" width="22" height="17"> [<a title="Download and Extract Help" href="hosts2.htm">click 
+			here</a>]<br><b>Note:</b> the below locations are for the typical default paths, edit
+              as needed.</li>
+			</ul>
+			<table border="0" cellpadding="2">
+				<tr>
+					<td nowrap><b>Windows Vista</b></td>
+					<td>=</td>
+					<td><b>C:\WINDOWS\SYSTEM32\DRIVERS\ETC</b></td>
+				</tr>
+				<tr>
+					<td nowrap><b>Windows XP</b></td>
+					<td>=</td>
+					<td><b>C:\WINDOWS\SYSTEM32\DRIVERS\ETC</b></td>
+				</tr>
+				<tr>
+					<td nowrap><b>Windows 2K</b></td>
+					<td>=</td>
+					<td><b>C:\WINNT\SYSTEM32\DRIVERS\ETC</b></td>
+				</tr>
+				<tr>
+					<td nowrap><b>Win 98/ME</b></td>
+					<td>=</td>
+					<td><b>C:\WINDOWS</b></td>
+				</tr>
+			</table>
+			<p>There is no need to turn on, adjust or change any settings with 
+			the exception of the DNS Client service (see below).
+          Windows automatically looks for the existence of a HOSTS file and if
+          found, checks the HOSTS file first for entries to the web page you
+          just requested. The 127.0.0.1 is the location of your computer, so
+          when the entry (example) &quot;<b>ad.doubleclick.net</b>&quot; is requested your
+          computer thinks 127.0.0.1 is the location of the file. When this file
+          is not located it skips onto the next file and thus the ad server is
+          blocked from loading the banner, Cookie, or some unscrupulous
+          	ActiveX, or javascript file.</p>
+			<p>In case you're wondering ... this all happens in microseconds,
+          which is much faster than trying to fetch a file from half way around
+          the world. Another great feature of the HOSTS file is that it is a
+          two-way file, meaning if some parasite does get into your system
+          (usually bundled with other products) the culprit can not get out
+          (call home) as long as the necessary entries exist. This is why it's
+          important to keep your HOSTS file up to Date. 
+			<a target="_blank" href="updates.htm">Subscribe to a secure mailing list</a></p>
+			<p><b>Editors <a name="Note">Note</a></b>: in most cases a
+          large HOSTS file (over 135 kb) tends to slow down the machine. This 
+			only occurs in W2000/XP/Vista. Windows 98 and ME are not affected.</p>
+			<p>To resolve this issue (manually) open the &quot;<b>Services Editor</b>&quot;</p>
+			<ul>
+				<li>Start | Run (type) &quot;<b>services.msc</b>&quot; (no quotes)</li>
+				<li>Scroll down to &quot;<b>DNS Client</b>&quot;, Right-click and
+              select: <b>Properties</b></li>
+				<li>Click the drop-down arrow for &quot;<b>Startup type</b>&quot;</li>
+				<li>Select: <b>Manual</b>, or <b>Disabled</b> (recommended) click Apply/Ok and restart. [<a title="How To Determine the Services running in 2K/XP" href="services.htm">more
+              info</a>]</li>
+			</ul>
+		</blockquote>
+		<blockquote>
+			<p>When set to Manual (or Disabled) you can see that the above &quot;Service&quot; is <b>not</b> needed (after a little 
+			browsing) by opening the Services Editor again, scroll down to DNS 
+			Client and check the &quot;Status&quot; column. It should be blank, if it was 
+			needed it would show &quot;Started&quot; in that column. There are 
+			several Utilities that can reset the DNS Client for you ... [<a href="#Related">more info</a>]</p>
+			<p align="center">
+			<img alt="" border="1" src="dnsclient.gif" width="512" height="37"></p>
+			<p><b>Editors Note</b>: The above instructions are intended for a 
+			single (home-user) PC. If your machine is part of a &quot;Domain&quot;, check 
+			with your IT Dept. <b>before</b> applying this work-around. This 
+			especially applies to Laptop users who travel or bring their 
+			machines home. Make sure to reset the Service (if needed) prior to connecting 
+			(reboot required) to your work Domain ...<br>
+			<br>
+			JBF sends along this Tip: IPCOP running a DHCP server needs the 
+			local PC DNS Client enabled to function.</p>
+		</blockquote>
+		<blockquote>
+			<p><b><font face="Arial" size="3" color="#000080">Reset the DNS Client 
+			with a simple batch file</font></b> (submitted by: Ronny Ong - 2K/XP 
+			only)</p>
+			<p><a href="DnsManual.bat">DnsManual.bat</a> (resets the DNS Client 
+			to Manual) [right-click and select: Save Target As]<br>
+			<a href="DnsDisabled.bat">DnsDisabled.bat</a> (resets the DNS Client 
+			to Disabled) [right-click and select: Save Target As]<br><b>To use</b>: double-click on the downloaded file and 
+			reboot that's it ...</p>
+			<p><b><font face="Arial" size="3" color="#000080">For all other 
+			Questions, Issues and Solutions</font></b> - see:
+			<a title="Take me to the FAQ" href="hostsfaq.htm">The HOSTS File FAQ</a><br>
+			<b><font face="Arial" size="3" color="#000080">For detailed Download and Extract Instructions</font></b> - see:
+			<a title="Detailed Download and Extract Instructions" href="hosts2.htm">Download Help</a></p>
+			<p>
+			<img src="link.gif" border="0" align="middle" width="62" height="66">
+			<b><font face="Arial" size="3" color="#000080"><a name="Related">Related</a> Utilities</font></b></p>
+			<ul>
+				<li>
+			<a target="new" title="Off-site link -  opens in a New Browser" href="http://www.javacoolsoftware.com/spywareblaster.html">SpywareBlaster</a>
+              can encrypt and create a backups of your HOSTS file. <img border="0" src="5star.gif" width="58" height="10"></li>
+				<li><a href="http://www.winpatrol.com/" target="new">WinPatrol</a>
+              will allow you to lock your HOSTS file and will monitor changes. <img alt="" border="0" src="5star.gif" width="58" height="10"></li>
+				<li>ZoneAlarm Pro and Security Suite users have a &quot;Lock Hosts&quot; 
+				file option.<br>
+				However this requires <a href="hostsfaq.htm#Suite">special 
+				instructions</a> to edit <b>or</b> update the HOSTS file.</li>
+			</ul>
+		</blockquote>
+		<blockquote>
+		<table border="0">
+			<tr>
+				<td align="center" valign="top">
+				<img border="0" src="hostsman.gif" width="36" height="36" align="middle"></td>
+				<td>
+				<a target="new" href="http://abelhadigital.com/">HostsMan</a> is a 
+				freeware application that lets you manage your Hosts file.<br>Includes an option to turn off the 
+				<a href="#Note">unneeded 
+					DNS Client Service</a>.<br>
+				This also has an option to
+				<a title="How to update using HostsMan" target="_blank" href="hostman1.gif">
+				update the existing HOSTS file</a> when needed.<br>
+				<b>Important!</b> - make sure you select: Default action -
+				<a href="hostsfaq.htm#Merging">Overwrite</a><br>
+				Use the Server option to replace the
+				<a href="hostsfaq.htm#message">Action Cancelled</a> message.<p>
+				<b>Windows Vista</b> users ... once installed right-click on &quot;hm.exe&quot; 
+				and select: Properties<br>
+				Click the Compatibility tab and select: &quot;Run as Administrator&quot; [<a target="_blank" href="hostman3.gif">screenshot</a>]<br>
+				<img border="0" src="eyes_bar.gif" width="582" height="9"></td>
+			</tr>
+			<tr>
+				<td><img border="0" src="cprompt.gif" width="56" height="47"></td>
+				<td><a href="hostsfaq.htm#Rename">Rename the HOSTS</a> file 
+					on the fly ... a simple one click batch file. (Win9x/XP/Vista)</td>
+			</tr>
+			<tr>
+				<td align="center" valign="top">
+				<img border="0" src="hostericon.gif" width="36" height="37"></td>
+				<td>
+				<a target="_blank" href="http://www.funkytoad.com/">HostsXpert</a> 
+					is a terrific multi-function Hosts File Manager [<a title="Screenshot of Hoster File Manager" target="_blank" href="hoster.gif">screenshot</a>]<br>
+				<b>Note</b>: no install required, it runs from anywhere ... 
+				when updating the HOSTS file make <b>sure</b> to use the Replace 
+				option, rather than Merge<br>
+&nbsp;<img border="0" src="eyes_bar.gif" width="582" height="9"><br>
+				<a target="_blank" href="http://www.funkytoad.com/">Homer</a> is a LocalHost webserver used to replace the
+				<a href="hostsfaq.htm#message">Action Cancelled</a> message.<br>
+				<a target="_blank" href="http://www.mvps.org/winhelp2002/blocked.gif">
+				Download a custom image</a> for use in Homer.<br>
+				Simply save (Save Target As) blocked.gif (2 kb) to the &quot;\Homer\Homer\images\&quot; 
+				folder.<br>
+				<img border="0" src="eyes_bar.gif" width="582" height="9"></td>
+			</tr>
+			</table>
+			<p>&nbsp;<font face="Arial" color="#000080" size="3"><b>Various
+          Troubleshooting Articles</b></font></p>
+			<ul>
+				<li>
+			<a target="_blank" href="http://support.microsoft.com/kb/923947">You 
+			cannot modify the Hosts file in Windows Vista</a></li>
+				<li>
+			<a target="new" href="http://support.microsoft.com/kb/314850/?sd=RMVP">Options
+              for Using the Ipconfig Diagnostic Utility</a> (XP)</li>
+				<li>WinME users - Start | Run (type) &quot;winipcfg&quot; (no
+              quotes)</li>
+				<li>
+			<a target="new" href="http://support.microsoft.com/kb/326155/?sd=RMVP">&quot;The
+              Page Cannot Be Displayed&quot; Error Message</a> (XP) [<a target="new" href="http://support.microsoft.com/kb/812336/?sd=RMVP">more
+              info</a>]</li>
+				<li>
+			<a target="new" href="http://support.microsoft.com/kb/241344/?sd=RMVP">Error
+              Message: The Page Cannot Be Displayed</a> (98/ME)</li>
+				<li>
+			<a target="new" href="http://support.microsoft.com/kb/308780/?sd=RMVP">&quot;The
+              Page Cannot Be Displayed&quot; Error Message</a> (2K)</li>
+				<li><a target="new" href="http://www.cexx.org/lspfix.htm">Repairs
+              Winsock 2 settings</a> (usually spyware related)</li>
+				<li>
+			<a href="http://support.microsoft.com/kb/299357/?sd=RMVP" target="new">How
+              to Reset Internet Protocol (TCP/IP) in Windows XP</a></li>
+				<li>
+			<a href="http://support.microsoft.com/kb/314067/?sd=RMVP" target="new">How
+              to Troubleshoot TCP/IP Connectivity with Windows XP</a></li>
+			</ul>
+		</blockquote>
+		<p align="center"><br><font face="Arial" size="3"><b>To 
+		<a name="contribute">contribute</a> a listing for our 
+			resources, or any other comments:
+			<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#105;&#110;&#104;&#101;&#108;&#112;&#50;&#48;&#48;&#50;&#64;&#99;&#111;&#109;&#99;&#97;&#115;&#116;&#46;&#110;&#101;&#116;">webmaster</a></b></font></p>
+		<blockquote>
+					<p>Thanks to Randy Knobloch (aka:
+					<a target="new" title="Siljaline's IE &amp; Security Blog" href="http://msmvps.com/blogs/siljaline/default.aspx">Siljaline</a>) 
+					and others for providing the online update notices for the HOSTS 
+					file. These updates are posted to most major
+					<a href="http://asap.maddoktor2.com/" target="new">security related sites</a>, 
+					Newsgroups, and mailing lists. </p>
+					<p>To subscribe to a secure 
+					mailing list for notification of HOSTS updates
+					<a title="Subscribe to the Mailing List" href="updates.htm">click here</a>.</p>
+				</blockquote>
+		<blockquote>
+			<p align="center"><b><font face="Arial" size="3" color="#000080">
+			This site subscribes to the following:
+			<a target="new" href="criteria.htm">General Criteria 
+			for Detection</a></font></b></p>
+        </blockquote>
+        <hr size="1">
+        <div align="center">
+          <center>
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <form name="frmDemo2">
+                    <p><input onclick="Clickme2 ()" type="button" value="Return Home" name="btnDemo2&quot;"></p>
+                  </form>
+                </td>
+                <td>
+                  <form name="frmDemo">
+                    <p><input onclick="Clicked ()" type="button" value="Return to Previous Page" name="btnDemo&quot;"></p>
+                  </form>
+                </td>
+                <td>
+                  <form name="frmDemo1">
+                    <p><input onclick="Clickme ()" type="button" value="Return to Top" name="btnDemo1&quot;"></p>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          </center>
+        </div>
+        <p align="center"><font face="Arial" color="#000080" size="1">
+		Reproduction of information on this site, in any form, is prohibited 
+		without express written permission.<br>
+		Microsoft and or MVPS.org are in no way affiliated with, nor offers 
+		endorsement of, this site.<br>
+		</font>Website
+					<a title="View the Privacy Policy for this site" href="privacy.htm">
+					Privacy Policy</a> 
+		| <a target="_blank" href="http://mvps.org/winhelp2002/Disclaimer.txt">Disclaimer</a><br><font face="Arial" color="#000080" size="1">
+        Copyright © 1998 - 2008 All rights reserved.<br>
+		<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/" target="new"><img alt="Creative Commons License" border="0" src="somerights20.gif" width="88" height="31" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="new">Creative Commons License</a>.
+<!-- /Creative Commons License --><br>
+        http://www.mvps.org/winhelp2002/hosts.htm</font></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table height="10" cellspacing="0" cellpadding="0" width="100%" bgcolor="#bcbcbc" border="0">
+  <tbody>
+    <tr>
+      <td width="100%"><img height="10" src="trans_space.gif" width="100%" border="0"></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+- Save pid in wrsync.pid
+- Find if pid in wrsync.pid is of a wrsync.exe process
+- Shadow volume mounting:
+	- Collect source drives
+	- Create shadow points
+	- Mount shadow points on drive letters
+	- Backup
+	- Unmount shadow points
+	- Remove shadow points
+- rsync over SSH to remote computer
+- ERROR: Failes to run if hidden
+- Delete old log files
+- Retry transfer over network
+- Report to mail
+- Report to SMS
+- Fatal application exception reporter
++ Store destination path and id in log
+- ssh/rsync client setup gui with minimal cygwin
+- Large files alert
++ Process monitor
+- Rsync log parser (line by line)
+- Move EPath to JBlib and write tests.
+- List of known files to include/exclude
+
+High priority: (6/4/10)
+- Activity monitor:
+	- New project
+	- Activity indicator 
+		+ 3 states: Running, Waiting, Unviewed error
+		+ Find a way to check if wrsync is running and active
+		- Check log for error.
+		- Save date when last time the log viewer was started from the application, and reset error flag
+- More informative log viewer
+	+ Error messages for selected day
+	- Readable in english and hebrew
+	+ Appear optionally next to the calendar view
+- Remote notification of invalid state before backup starts
+	- Send a message to select windows stations about failure in backup setup
+	+ Move pre-backup checks into seperate method and add to plugin interface
+		+ 2 states for pre-backup checks :
+			+ Only check.
+			+ Proceed to backup.
+- Remote reporter
+	- Report to iBackup server
+	- Viewer client for server data
+- Dekstop application started which listens on network
+- Rsync error log parser
+
+
++ Missing destination => Error in log
++ Track multiple backup devices on a single backup job and pick one alternately

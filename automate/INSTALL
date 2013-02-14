@@ -1,0 +1,45 @@
+= Common instructions =
+Place the database folder in the same folder with auto-mate executable.
+
+= Install instructions on linux =
+Requirements:
+ * boost
+ * qt4
+
+Use your distributions package manager to install development packages for both of the above.
+
+Build:
+ * qmake
+ * make
+
+= Build instructions on win32 =
+
+Download:
+ * [ftp://ftp.trolltech.com/qt/source/qt-win-opensource-4.4.3-mingw.exe Qt4 open source for windows]
+ * [http://sourceforge.net/project/showfiles.php?group_id=7586&package_id=8041&release_id=619445 Boost sources]
+ * [http://torjo.com/code/log2.zip Boost logging v2]
+ * [http://sourceforge.net/project/showfiles.php?group_id=7586&package_id=72941&release_id=558771 Bjam]
+
+Tested with versions:
+ * Qt4 - 4.4.3
+ * boost - 1.36.0
+ * bjam 3.1.16-1
+
+Install qt to default path. Extract boost anywhere reasonable (eg. c:\mingw\boost). extract bjam to a folder in the PATH. Extract boost logging into boost folder.
+
+Instructions
+ # Add Bjam to PATH
+ # cd to\boost\dir
+ # bjam toolset=gcc target-os=windows --layout=system --with-filesystem --build-type=minimal --with-system stage
+ # append to src/src.pro:
+    * LIBS += -L"<path to boost>/stage/lib"
+    * INCLUDEPATH += "<path to boost>"
+ # from "Qt4 command prompt" (look in the start menu):
+  # cd to/auto-mate/cpp-port/
+  # qmake
+  # make
+ # Copy the following to the bin folder:
+  # boost_filesystem-mt.dll and boost_system-mt.dll from boost/stage.
+  # qtcore4.dll, qtgui4.dll, qtnetwork4.dll and qtxml4.dll from qt\bin.
+  # c:\mingw\bin\mingwm10.dll.
+ # run

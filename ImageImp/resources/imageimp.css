@@ -1,0 +1,25 @@
+* {
+	font-size: 8pt;
+}
+
+
+#albumEditingSection {
+	border: 1px solid black;
+}
+
+QLineEdit,
+QTableView,
+QToolBar,
+QToolButton {
+	margin: 0;
+	spacing: 0;
+}
+
+QPushButton {
+	margin: 0;
+	padding: 3px;
+}
+
+QToolButton {
+
+}

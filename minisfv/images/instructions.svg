@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="instructions.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+   inkscape:export-xdpi="140"
+   inkscape:export-ydpi="140">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="6.1230318e-14 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="123.53838"
+     inkscape:cy="685.40522"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1204"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="31">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3200" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3430"
+       inkscape:export-xdpi="140"
+       inkscape:export-ydpi="140"
+       inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png">
+      <rect
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         y="316.00497"
+         x="124.85714"
+         height="30"
+         width="210"
+         id="rect3216"
+         style="fill:#eae8f1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.52301259;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         transform="translate(-85.501259,80.714233)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="flowRoot3158"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3160"><rect
+             style="font-size:14px;text-align:end;text-anchor:end"
+             y="240.21933"
+             x="182.85715"
+             height="25.000004"
+             width="228.57143"
+             id="rect3162" /></flowRegion><flowPara
+           id="flowPara3186">Drop files or folder to work with</flowPara></flowRoot>    </g>
+    <g
+       id="g3423"
+       inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+       inkscape:export-xdpi="140"
+       inkscape:export-ydpi="140">
+      <rect
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         y="278.93362"
+         x="134.85715"
+         height="30"
+         width="190"
+         id="rect3212"
+         style="fill:#c2ffed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.52301259;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         transform="translate(39.087608,-67.157899)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="flowRoot3166"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3168"><rect
+             style="font-size:14px;text-align:start;text-anchor:start"
+             y="350.93362"
+             x="104.28571"
+             height="20.000004"
+             width="180.71429"
+             id="rect3170" /></flowRegion><flowPara
+           id="flowPara3176">Drop checksum file to verify</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3178"
+       style="fill:black;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;font-family:Arial;font-style:normal;font-weight:normal;font-size:6;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+       inkscape:export-xdpi="140"
+       inkscape:export-ydpi="140"><flowRegion
+         id="flowRegion3180"><rect
+           id="rect3182"
+           width="164.28572"
+           height="26.428572"
+           x="221.42857"
+           y="402.36218" /></flowRegion><flowPara
+         id="flowPara3184" /></flowRoot>    <g
+       id="g3437"
+       inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+       inkscape:export-xdpi="140"
+       inkscape:export-ydpi="140">
+      <rect
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         y="353.07645"
+         x="132.85715"
+         height="30"
+         width="194"
+         id="rect3218"
+         style="fill:#fbdbae;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.52301259;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         inkscape:export-ydpi="120.18874"
+         inkscape:export-xdpi="120.18874"
+         inkscape:export-filename="/home/tlailax/Projects/minisfv/images/instructions.png"
+         transform="translate(-116.21806,-43.015077)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="flowRoot3202"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3204"><rect
+             style="font-size:14px"
+             y="400.93362"
+             x="257.85715"
+             height="17.857143"
+             width="178.57143"
+             id="rect3206" /></flowRegion><flowPara
+           id="flowPara3208">Right click file list for options</flowPara></flowRoot>    </g>
+  </g>
+</svg>

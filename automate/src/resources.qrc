@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icons" >
+    <file>about.png</file>
+    <file>advancedsettings.png</file>
+    <file>auto-mate.png</file>
+    <file>install_v2.png</file>
+    <file>install.png</file>
+    <file>abort.png</file>
+    <file>download.png</file>
+    <file>filenew.png</file>
+    <file>filesave.png</file>
+    <file>fileopen.png</file>	
+  </qresource>
+  <qresource prefix="help" >
+    <file>appdb.html</file>
+  </qresource>
+</RCC>

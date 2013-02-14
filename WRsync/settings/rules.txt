@@ -1,0 +1,23 @@
+Exclude known cache folders (Internet Explorer, Firefox etc.)
+	- "Temporary Internet Files"
+	- "Profile/*/Cache"
+Only include specified files
+	+ */
+	- *
+Exclude media files (music, movies)
+	- *.mp3
+	- *.avi
+	- *.mov
+	- *.wav
+	- *.wmv
+	- *.flv
+Include Microsoft office documents
+	+ *.doc
+	+ *.xls
+	+ *.prs
+Include PDF files
+	+ *.pdf
+Exclude system temporary files
+	- /pagefile.sys
+	- /hibernate.sys
+

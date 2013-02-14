@@ -1,0 +1,16 @@
+- Add right-click menu to file list to remove (one/all), copy file list to
+  clipboard (useful for saving error list)
+- Set table to single selection (?)
+- Add restrictions to drop events
+  filename). Automatic switch to full mode on errors.
+- Added error state : error reading file
+- Polish stylesheet. move stylesheet to specific widgets instead of the entire
+  app
+- optimize speed
+- checksum plugins
+- add showing bad files during scan
+- prevent flicked when scanning single small file
+
+Notes:
+- qt table view emits indexes of real model not of proxy
+

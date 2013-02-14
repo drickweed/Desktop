@@ -1,0 +1,215 @@
+<html>
+<head>
+   <title>Delete/Copy by Owner utility for Windows NT/2000/XP</title>
+   <META name="description" content="Delete or copy files by owner from Windows secure file systems.">
+   <META name="keywords" content="Delete files by Owner, Owner, delete, copy, xcopy, Security Descriptor, Copy files based on owner, Win32, Win2k, Windows 2000, Windows NT, Windows XP, Command Line, NTFS">
+</head>
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" BASEFONT FACE=ARIAL>
+
+<STYLE TYPE="text/css">
+#TITLEBLOCK { text-decoration: none; color:#FFFFFF }
+TD,P,FONT,A,LI,B {font-family : Arial}
+PRE,TT {color:#100080}
+BODY { background: white url(/bgyellow.gif); background-repeat: repeat-y}
+</STYLE>
+
+<BR><CENTER>
+<TABLE BOARDER=0 WIDTH="95%"><TR>
+  <TD WIDTH="25%"><CENTER><a href="http://www.beyondlogic.org"><img src="/beyondsmall.gif" alt="Beyond Logic" border=0></a></CENTER></TD>
+  <TD WIDTH="50%"><CENTER>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-7725444460812017";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "0033FF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  <NOSCRIPT><FONT COLOR=RED>This page is optimised with JavaScript 1.2. Currently your browser has JavaScript switched off.</NOSCRIPT>
+  </CENTER></TD>
+  <TD ALIGN=RIGHT VALIGN=CENTER><BR><FONT FACE=ARIAL>
+  <script language=javascript src="http://www.beyondlogic.org/menu/beyondmenu_plain.js"></script>
+<NOSCRIPT></TD></TR></TABLE></CENTER></noscript>
+
+<BR>
+<CENTER><FONT SIZE=5 COLOR=GREEN><B>Delete/Copy by Owner utility for Windows NT/2000/XP</B></FONT>
+<BR>
+<TABLE WIDTH="90%"><TR><TD>
+<BR>
+
+<P>
+Have you ever had the need to copy or delete files which were owned by a certain user?
+</P>
+<P>
+The Delete-by-Owner (delbyown.exe) Command Line Utility will scan a NTFS or secure Windows Network 
+file system for files which has an owner matching the one specified. Matched files may be copied to
+a designated location or deleted.
+</P>
+<P>
+For example, you have just had a staff member leave your organisation. You would like to back up 
+all their files, however many of them are scattered between project folders and programs across 
+the file system. You have no idea which files were created by this user. However as this staff 
+member has their own login, and any files created would be also be owned by them, you can search 
+the file system for files belonging to the staff member and have them copied to a folder for 
+safe keeping.
+</P>
+<PRE>delbyown -c h:\backup -r -o harryc -e c:\winnt\profiles c:\*.*</PRE>
+<P>
+On the other hand you have a public access machine and it's common for users to store files or 
+create folders just about anywhere on the machine. You can restrict the ability to do so with
+normal security permissions, but you don't want to go overboard and decrease productivity. As 
+the machine was prepared as an Administrator and all the software has been installed as 
+Administrator you can delete all files not owned by the Administrators group. You could choose 
+to schedule this action on a regular basis.
+</P>
+<PRE>delbyown -d -r -o !Administrators -e c:\winnt\profiles c:\*.*</PRE>
+
+<P><B>Usage</B></P>
+
+<P>
+The Delete-by-Owner utility has the following settings:
+</P>
+<CENTER><TABLE><TR><TD>
+<PRE>
+Delete/XCopy by Owner V1.01
+Copyright(C) 2002-2003 Craig.Peacock@beyondlogic.org
+Usage: delbyown -c [path] -r -o [owner] -e [exclude path] file
+       delbyown -d -r -o [owner] -e [exclude path] file
+       delbyown -t -r -o [owner] -e [exclude path] file
+        -c    Copy Files to [destination path.]
+        -d    Delete Files.
+        -t    Test/Display files matching owner.
+        -e    Exclude [Directory].
+        -o    Owner [Account/Group Name].
+                Accepts not operator e.g. !Administrators
+        -r    Recursive.
+</PRE></TD></TR></TABLE></CENTER>
+<P>
+The <B>-c</B> copy, <B>-d</B> delete and <B>-t</B> test switches control what 
+operation will be performed. The test switch simply displays the files that match the 
+owner and is a good way of viewing what files will be targeted or simply as to find 
+which files are owned by a certain user.
+</P>
+<P>
+Quite often you may wish to exclude a directory. e.g if you are deleting stray files 
+which public users have created, you may wish to skip the users' profile. For example 
+c:\winnt\profiles may be excluded on Windows NT machines, and c:\Document and Settings 
+from Windows 2000 and Windows XP Workstations.
+</P>
+<P>
+The <B>-o</B> switch specifies the owner of the file to match against. All operating system 
+files are normally owned by the Administrators group. As the utility accepts the not
+operator, you may choose to use -o !Administrators to delete all files not owned 
+(i.e not installed) by the Administrator. This should be a good start to tiding up 
+the machine up.
+</P>
+<P>
+If no -o switch is specified, the utility will retrieve the security descriptor for all the files, but will not match it with an owner and subsequently 
+perform any operations. This is a good way to test for any corrupt security descriptors. They should be reported with 
+a message such as <PRE>Error 0x539 : The security ID structure is invalid.</PRE>
+</P>
+<P>
+The utility accepts all the normal wildcards. You may choose to only delete *.doc files 
+owned by cpeacock e.g. <PRE>delbyown -d -r -o cpeacock c:\*.doc</PRE> or only files
+in the c:\program files group <PRE>delbyown -d -r -o cpeacock &quot;c:\Program Files\&quot;</PRE> 
+</P>
+<P>
+The <B>-r</B> recursive switch should be self explanatory. It allows the utility to search in
+any subdirectories it finds.
+</P>
+<BR>
+<FONT COLOR=GREEN SIZE=4>Download</FONT>
+<P>
+<LI><a href="delbyown102.zip">Version 1.02</a>, 18K bytes. (Freeware)</LI>
+</P>
+<P>
+<UL>
+<B>Revision History</B>
+<UL>
+<LI>5th June 2003 - Version 1.02</LI>
+<UL>
+  <LI>Improved parsing of path/file/wildcards.</LI>
+  <LI>Changed &quot;Deleting files matching&quot; to accurately display action whether it be deleting, testing or copying.</LI>
+</UL>
+<LI>2nd May 2003 - Version 1.01</LI>
+<UL>
+  <LI>Improved error reporting for corrupt security descriptions, unnamed accounts/groups etc</LI>
+</UL>
+<LI>22nd April 2002 - Version 1.00</LI>
+<UL>
+  <LI>First release to public.</LI>
+</UL>
+</P>
+</UL>
+</UL>
+
+<BR>
+<FONT COLOR=GREEN SIZE=4>Other Unique and Innovative Software Solutions from Beyond Logic</FONT>
+<UL>
+
+<font SIZE=-1 FACE="ARIAL"><LI><a href="/solutions/trust-no-exe/trust-no-exe.htm">Trust-No-Exe - An executable filter for Windows NT/2000/XP</a></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-1>
+Allow users to run trusted applications from defined directories, while preventing 
+the execution of non-trusted programs from floppy disk and CDROM drives or from 
+the users e-mail attachment directory. Stop PE viruses in their tracks where on Windows 
+platforms year, nine out of ten of the top viruses were spread via e-mail. 
+</FONT>
+
+<BR>
+<BR>
+<font SIZE=-1 FACE="ARIAL"><LI><a href="/solutions/processutil/processutil.htm">Command Line Process Viewer/Killer/Suspender for Windows NT/2000/XP</a></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-1>
+Want a command line utility to view, kill, suspend or set the priority or affinity of processes, 
+perhaps from a batch file? Kills rouge processes where Window's Task Manager fails.
+</FONT>
+
+<BR>
+<BR>
+<font SIZE=-1 FACE="ARIAL"><LI><a href="/solutions/remoteprocess/BeyondExec.htm">BeyondExec - Spawn Processes and/or Shutdown Remote Windows NT/2000/XP WorkStations. </a></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-1>
+Have you ever wanted to run a process such as an application installer, service pack, virus 
+signature update etc or shutdown a single or group of remote computers without having the 
+burden of installing any remote client on your target computers? 
+</FONT>
+
+<BR>
+<BR>
+<font SIZE=-1 FACE="ARIAL"><LI><a href="/solutions/cmdlinemail/cmdlinemail.htm">Bmail - Command Line SMTP Mailer for Batch Jobs </a></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-1>
+Bmail is a free but lean command line SMTP mail sender. Bmail allows the user to automate 
+the sending of email messages containing log files, data downloads or error messages on Win32 
+based computers. 
+</FONT>
+
+<BR>
+<BR>
+<FONT SIZE=-1 FACE="ARIAL"><LI><a href="/porttalk/porttalk.htm">PortTalk - A Windows NT/2000/XP I/O Port Device Driver </a></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-1>
+A problem that plagues Windows NT/2000/XP, is it's strict control over I/O ports. Unlike Windows 
+95, 98 or ME, Windows NT/2000/XP will cause an exception (Privileged Instruction) if an attempt is 
+made to access an I/O port that your program is not privileged to access. The PortTalk
+driver allows existing programs to access selected I/O ports.
+</FONT>
+
+
+</TD></TR></TABLE>
+<BR>
+<FONT SIZE=2>Copyright 2002-2007 <A href="/solutions/about.htm">Craig Peacock</a> - 6th April 2007.</FONT>
+<BR><BR>
+</CENTER>
+</BODY>
+</HTML>

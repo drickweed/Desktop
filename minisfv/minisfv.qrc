@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>images/invalid.png</file>
+    <file>images/missing.png</file>
+    <file>images/unknown.png</file>
+    <file>images/valid.png</file>
+    <file>images/instructions.png</file>
+    <file>images/add.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+<html><head>
+ <title>Application database structure description</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body>
+ 
+ 
+ <div style="font-style: italic; margin-top: 3px;">
+      <h1>
+        Application database structure description
+      </h1>
+    </div>
+ 
+ </div>
+ This is a description of the application database. Sample database is included with the application. <p><a name="Introduction">Must be located in "database" folder under the application's folder. </a></p><p><a name="Introduction">Top level folders: </a></p><ul><li><a name="Introduction">applications - application install files. </a></li><li><a name="Introduction">templates - setting templates. </a></li><li><a name="Introduction">tweaks - tweaks and setting files. </a></li></ul><h1><a name="applications">Applications</a></h1><p><a name="applications">Contains a folder for each application </a></p><h1><a name="application_folder">Application folder</a></h1><p><a name="application_folder">Contains a folder for each version, inside of which are the install files. Automatic installer detection: </a></p><ul><li><a name="application_folder">Windows Installer (.msi) : First one is detected and used. Installed without user interaction. </a></li><li><a name="application_folder">Executable (.exe) : If only one in folder, it is used as installer. If more than one, relies on presence of installer.<i>version</i> file (see below) </a></li><li><a name="application_folder">setup.exe : Used automatically as installer. Overridden by installer.<i>version</i> </a></li></ul><p><a name="application_folder">Optional files in the root application folder: </a></p><ul><li><a name="application_folder">parameters.<i>version</i> : Single line of command line parameters for installer. </a></li><li><a name="application_folder">urls : List of urls for application version downloads. Lines of the format <tt>version url</tt> where <tt>version</tt> is a single word (no whitespace). </a></li><li><a name="application_folder">installer.<i>version</i> : Single line containing the file to run to install the application. </a></li><li><a name="application_folder">description : Application description. First line is used as summary. </a></li><li><a name="application_folder">nosilent
+: If file exists, specified that application has no silent install
+methods. By default all installers are assumed to be silent either by
+msi or using proper parameters. </a></li></ul><p><a name="application_folder">parameters and installer files can be added without .<i>version</i> for global application settings. </a></p>
+ </body></html>

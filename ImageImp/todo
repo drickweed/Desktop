@@ -1,0 +1,34 @@
++ Auto calculate time between selected picture and person
++ Prevent photoshop from running if no album selected
+- Help docs
+- Save relative picture path if image file full path is in the application's path
++ Confirmation delete dialog box
+- Embedded instructions
+- About dialog
+- Baloon help
++ when album selected and then removed, order/selection list is not cleared
+
+Kenjamin bugs:
+- Make it more apperant that the buttons on top are tabs.
++ Check what happens when only groups and people
++ rename "create album" button to "send to photoshop"
++ picking default photos doesn't refresh on changes automatically.
+- pictures with different sizes. how to handle.
+- change "add" and "remove" button names in "take photos section"
+- double click person in unphotographed people list to take photo.
+- confirm removing photographed person from list
+- double click to remove photographed person
+- in default picture selection add ability to remove picture from person in context menu.
+- add ability to deselect default picture. (back to no default selected for person)
+- add utility to relocate picture files (find picture files in path)
+
+
+
+- Handling large image directory. Faster thumbnail loading (progressive)
+- Pages
+- Application selection (photoshop versions)
+- Select pictures without assigning names
+- Different background for each page
+- Profiles
+- Support photoshop 8 script
+

@@ -1,0 +1,6 @@
+Adding files and folders to the list:
+
+Drop
+* file: Add file
+* directory: Add directory recursively (Checksum for a directory is not defined)
+* .*(sfv|md5): load file list

@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Remove Hotfix Backup Files</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+<meta name="Microsoft Theme" content="copy-of-corporate 011, default">
+</HEAD>
+
+<body background="../../_themes/copy-of-corporate/corbkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#6666FF" vlink="#747474" alink="#336699"><!--mstheme--><font face="Arial, Arial, Helvetica">
+
+<P><font color="#0000FF"><a href="xp_remove_hotfix_backup.zip">
+XP_Remove_Hotfix_Backup.exe</a></font> - Removes Hotfix Backup files and the 
+Add/Remove Programs Registry entries.<BR>
+&copy; 2003 - Doug Knox<br>
+Version <a href="#rev">2.1.6</a> - 05/29/2004</P>
+<p><font size="2">When you install updates from Windows Update, backup folders 
+are created for the files that were replaced during the update.&nbsp; These are 
+created so that you can easily uninstall a particular Hotfix, if it causes 
+problems with your system.&nbsp; If your system is running stable and you don't 
+need to uninstall the hotfixes, then you can safely remove the backup files to 
+free up disk space.</font></p>
+<P><font size="2">This utility will locate the Hotfixes that have created backup 
+files on your system, and will remove those backups.&nbsp; It will also removes 
+the associated Registry entries for these items in Add/Remove Programs. </font></P>
+<P><b><font size="2">NOTE:</font></b><font size="2">&nbsp; This utility does <b>
+NOT</b> remove application specific hotfix backups (Internet Explorer, Outlook 
+Express, Media player and etc.).&nbsp; It will only remove hotfix backups that 
+are specific to the Windows XP operating system.</font></P>
+<P><font size="2"><b>Additionally</b>, you may not notice an immediate recovery 
+of disk space.&nbsp; This is because the backup files are protected by System 
+Restore.&nbsp; When they are deleted, System Restore places a copy in the most 
+recent, or a new, restore point.&nbsp; As older restore points are flushed out, 
+and new ones created, you'll see the space gain.</font></P>
+<P><font size="2">This is a one-way operation.&nbsp; If you remove the Hotfix 
+backup files and the Registry entries, it cannot be undone, unless you back up 
+these items manually.&nbsp; </font></P>
+
+<P><font size="2">Usage:&nbsp; </font><font color="#000000" size="2"> 
+<a href="xp_remove_hotfix_backup.zip">Download</a></font><font size="2"> the
+xp_remove_hotfix_backup.zip file and save it to your hard drive. Double-click the 
+xp_remove_hotfix_backup.zip file and extract the EXE file inside to your hard drive.&nbsp; 
+Double click xp_remove_hotfix_backup.exe to run the program.</font></P>
+<P><font size="2">The licensed version allows for selective deletion of Hotfix 
+files and Registry entries.&nbsp; <b>Licenses can be purchased
+<a href="http://www.dougknox.com/xp/xp_hotfixbckp_reg.htm">here</a>.</b></font></P>
+<P align="center"><a href="http://www.anova.org/software/#SYSTEM_TOOLS">
+<img border="0" src="../../images/z-award_5star.gif" width="120" height="120"></a></P>
+
+<P><font size="2"><a name="rev"></a>v2.1.6 - 05/29/2004 - Re-enabled this 
+utility to run under Windows 2000. However, no support is offered for this 
+utility under Windows 2000.&nbsp; Your use of this program on a Windows 2000 
+system is at your own risk and expense.</font></P>
+<P><font size="2">v2.1.5 - 10/25/2003 - Removed support for Windows 2000.</font></P>
+<P><font size="2">v2.1.0 - 10/19/2003 - Added support for selective 
+deletion of Hotfix Backup files (licensed version only).</font></P>
+<P><font size="2">v1.2 - Updated 8/23/2003. This update corrects an 
+issue where Windows Update checks the Registry for the presence of the 
+&quot;Uninstall&quot; key for various Hotfixes.&nbsp; If the key wasn't present, Windows 
+Update would prompt you to install some updates that had already been installed.&nbsp; </font></P>
+<P><font size="2">v1.1.3&nbsp; Added support for the new KBxxxxxx number format.&nbsp; This version allows you to selectively choose to 
+delete the Hotfix installation LOG files, as well.</font></P>
+<P><font size="2">v1.0.1 Corrected minor bugs when no Hotfix backups 
+existed, and when one or more backup folders had been deleted manually. (Thanks 
+to Mike Eastman for pointing this out).</font></P>
+
+<P><font size="2">This page last updated
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y %H:%M" startspan -->12/01/2005 18:59<!--webbot bot="Timestamp" endspan i-checksum="26467" --><br>
+All material © 2003 - Doug Knox</font></P>
+<center>
+<script language="javascript">
+    if ( top != self ){
+document.write('<a href="javascript:history.go(-1)"><img border="0" src="../../images/backblk.gif" width="100" height="30"></a>');
+}
+	if ( top == self ){
+document.write('<a href="http://www.dougknox.com/index.html"><img border="0" src="../../images/homeblk.gif" width="100" height="30"></a>');
+    }
+</script>
+</center>
+<P align="center">
+<!--webbot bot="HitCounter" u-custom i-image="4" i-resetvalue="1589" PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;" i-digits="0" startspan --><img src="../../_vti_bin/fpcount.exe/?Page=xp/utils/xp_hotfix_backup.htm|Image=4" alt="Hit Counter"><!--webbot bot="HitCounter" endspan i-checksum="21633" --></P>
+
+<!--mstheme--></font></body>
+
+</html>

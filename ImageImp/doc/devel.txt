@@ -1,0 +1,63 @@
+ImageImp development documentation.
+
+The following is a description of the overall structure of the data model and
+actions which can be taken in the application.
+
+Definitions:
+- Person : A single person.
+- Group : A group of people.
+- Photo : A photograph of a single person.
+- Image : A computer image file. Represents a photograph.
+- Album : A collection of people who were photographed in order and/or have
+  pictures assigned to them. This will always be a subset of the people in a
+  single group.
+
+Collections of people are sorted into groups. Each group of people can have
+several albums. Each person in the group can:
+
+- Be photographed in a specific album. This means the person has been photographed in
+  order along with the people in the group, and there exists a date/time at which
+  the photographer started taking pictures for this person. The person is then
+  said to be a "Photographed Person". A Person who isn't known to be
+  photographed at a specific date/time is said to be "Unphotographed Person".
+  This does not state whether the person has any actual pictures assigned.
+
+- Have pictures assigned to them. This can be a manual or automatic
+  assignment. Only a "Photographed Person" can have pictures automatically
+  assigned to him, but all People can have pictures manually assigned. A
+  person with photographs (either automatic or manually assigned) is said to
+  be a "Person With Pictures".
+
+Models:
+
+	Groups : Represents a list of all the groups in the database. Always
+	returns all the available groups.
+
+	People : At any given time returns either an empty list, or all the people
+	in a specific group.
+
+
+= Album creation process =
+Imageimp creates 3 files:
+- $HOME/Local Settings/Temp/imageimp_create_album.cfg : contains 2 lines, which are
+  the file names of the settings and data files for the album currently being
+  imported.
+- $IMAGEIMP_ROOT/export/album_$ID_data.txt : Contains a list of person
+  name/image-file lines. person name and image file are each on a separate
+  line.
+- $IMAGEIMP_ROOT/export/album_$ID_settings.txt : Contains settings for the
+  generated album which are parsed by the photoshop javascript. Lines in the
+  settings file:
+  * width
+  * height
+  * autofill
+  * picture template
+  * album template
+
+SQL statements scribble:
+
+* Get one picture for each person
+select pictures.path, people.name from pictures join people on pictures.person_id = people.id where album_id = 3 group by people.name
+
+* Override with explicit default pictures
+select pictures.id, pictures.path, people.name from pictures join people on pictures.person_id = people.id join default_pictures on default_pictures.picture_id = pictures.id  where album_id = 3;

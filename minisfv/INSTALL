@@ -1,0 +1,8 @@
+Requires QT4 (Tested on QT 4.4.0)
+
+Instructions:
+- qmake
+- make
+
+program will be in ./bin folder
+

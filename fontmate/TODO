@@ -1,0 +1,32 @@
+version 2.0
+
+- Tagging
+- Remove font files on startup if cannot delete (display option to user)
++ Paste HTML
++ Print selection/all/previews
+- Text color edit
+- Disable hazardous ui when un/installing
+- Cancel button when un/installing
++ Copy all/selection to user provided folder
++ Hide font editing controls when no font selected
+- Inline font preview: Save highlighted font and reselect it after model reset
+- Drag and drop reorder previews
++ Progressive font loading - show loaded fonts (emit rowsAddad)
++ Font source : all previously viewed folder
++ "Edit font folder list view" stacked with font list
+- Search all folders for fonts (Load fonts from all folders, or search model with only results)
++ Enable/disable content syncing per font preview
++ Log
+- Sell for 20$ (usd)
+- New logo (meatwad or ken)
+- Grouping by language and similarity
+- Quick preview mode (Simpler than the complicated editor)
+- Defined targets for copying fonts. Clear folder before copying fonts option
+- Search for fonts online (how?)
+- Rename font files (all or selection) with warning that fonts may not be detected later.
+- Rename installed fonts ?
+- More instructions on startup (prettier)
+- Tag grouping
+- Search tag:[tag text] to search only in tags. (instructions ?)
+- Faster background font loading. Less Hard Disk thrashing.
+- Font details view

@@ -1,0 +1,2614 @@
+<tweaks>
+ <tweak>
+  <action link="AddUserPasswords2ToCP.reg">Add</action>
+  <action link="adduserpasswords2tcpremove.reg">Remove</action>
+  <description>ControlUserPasswords2 in Control Panel</description>
+ </tweak>
+ <tweak>
+  <action link="smfoldermm.vbs">My Music</action>
+  <action link="smfoldermp.vbs">My Pictures</action>
+  <description>Change user special folders</description>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="ietoolbars.vbs">Script</action>
+  <action link="ToolbarRepair.Exe">Executable</action>
+  <description>Restore missing IE toolbars</description>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="noautorunpro.reg">XP Pro</action>
+  <action link="noautorunhome.reg">XP Home</action>
+  <description>Disable CD auto-run</description>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="iconfix.reg">Repairs Icon View</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="numlockenabledisable.vbs">Set numlock state on startup</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="restoresrhicon.vbs">Restore "Safely remove hardware" Icon</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="adminwelcomescreen.vbs">Enable/Disable Administrator on Welcome Screen</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="dingfix.reg">Fix Ding.Wav file</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="changeownerorg.vbs">Change Registered owner and Organization</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="ienobrand.vbs">Remove Internet Explorer branding</action>
+  <clean/>
+ </tweak>
+ <tweak>
+  <action link="oeieclient.reg">Restore Outlook Express to the E-mail list in Internet Options</action>
+ </tweak>
+ <tweak>
+  <action link="autorunenable.reg">Enable CD auto-run (XP Pro)</action>
+ </tweak>
+ <tweak>
+  <action link="askmeagain.reg">Disable media player update message</action>
+ </tweak>
+ <tweak>
+  <action link="disableall.reg">Disable All</action>
+  <action link="baltips.vbs">Enable / Disable</action>
+  <description>Ballon tips</description>
+ </tweak>
+ <tweak>
+  <action link="ClearRecent.Exe">Disable Media Players play list</action>
+ </tweak>
+ <tweak>
+  <action link="exefix.reg">Restore default exe, lnk and reg file actions</action>
+ </tweak>
+ <tweak>
+  <action link="linkfilerestore.reg">Restore default link file actions</action>
+ </tweak>
+ <tweak>
+  <action link="nocomnearme.reg">Disable "no computers near me"</action>
+ </tweak>
+ <tweak>
+  <action link="ie_password_prompt.vbs">Restore IE save password prompt</action>
+ </tweak>
+ <tweak>
+  <action link="RemoveCommonTasksFromDesktop.reg">Remove Common Tasks from the Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="noasstundo.vbs">Enable</action>
+  <action link="noasst.vbs">Disable</action>
+  <description>	Search Assistant
+ </description>
+ </tweak>
+ <tweak>
+  <action link="activedesktop.vbs">Active Desktop - Enable or Disable</action>
+ </tweak>
+ <tweak>
+  <action link="RecentDocs.reg">Add Recent Documents to the Classic Menu</action>
+ </tweak>
+ <tweak>
+  <action link="autoplayiconrestore.reg">Restore AutoPlay Icon</action>
+ </tweak>
+ <tweak>
+  <action link="xp_thumbnail.exe">Restore Thumbnail Views XP</action>
+ </tweak>
+<tweak>
+  <action link="avimpegmpg.reg" />
+  <description>Avi mpeg mpg
+ </description>
+ </tweak>
+ <tweak>
+  <action link="Google.reg">Add Google as Primary Search</action>
+  <action link="RestoreSearch2.REG">Undo</action>
+  <description>Add google as primary search</description>
+ </tweak>
+ <tweak>
+  <action link="folderopenssearch.reg">Search Opens When Double Clicking A Folder</action>
+ </tweak>
+ <tweak>
+  <action link="oe_client.reg">Add Outlook Express as Default Client</action>
+ </tweak>
+ <tweak>
+  <action link="iedesktopshortcut.reg">0. Restore IE Desktop Shortcut Icon Functions </action>
+ </tweak>
+ <tweak>
+  <action link="nofilemenu.reg">Disable the File Menu in Windows Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="nobeeps.vbs">Disable System Beeps</action>
+ </tweak>
+ <tweak>
+  <action link="emptyrecyclebin.reg">Add Empty Recycle Bin to the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="xp_hide_users.vbs">Hide</action>
+  <action link="xp_unhide_users.vbs">Unhide</action>
+  <description>Users on Welcome Screen
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nohardwaretab.reg">Hardware Tab</action>
+  <action link="nosecuritytab.reg">Security Tab</action>
+  <description> Disable Hardware/Security tabs
+ </description>
+ </tweak>
+ <tweak>
+  <action link="cmdautorun.vbs">Run Startup Programs from the CMD Prompt</action>
+ </tweak>
+ <tweak>
+  <action link="cdburndisable.reg">Disable</action>
+  <action link="cdburnallow.reg">Allow</action>
+  <description>CD Burn Options
+ </description>
+ </tweak>
+ <tweak>
+  <action link="ClearRecent.Exe">Clear Search History under Search</action>
+ </tweak>
+ <tweak>
+  <action link="promptresume.reg">Enable</action>
+  <action link="promptresumeundo.reg">Disable</action>
+  <description>Prompt for Password on Resume
+ </description>
+ </tweak>
+ <tweak>
+  <action link="openwithnotepad.reg">Open With Notepad for Files with No Extension</action>
+ </tweak>
+ <tweak>
+  <action link="cmdhere.reg">Add Command Line to the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="securedesktopundo.reg">Disable</action>
+  <action link="securedesktop.reg">Enable</action>
+  <description>Secure Desktop
+ </description>
+ </tweak>
+ <tweak>
+  <action link="accessanddefaultsrestore.reg">Undo</action>
+  <action link="accessanddefaults.reg">Apply</action>
+  <description>Remove Set Program Access Defaults
+ </description>
+ </tweak>
+ <tweak>
+  <action link="xp_run_ie_setup.vbs">Run Command - Reinstalling Internet Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="nowelcomescreen.reg">Disable Getting Started Welcome Screen - Logon</action>
+ </tweak>
+ <tweak>
+  <action link="savesettings.reg">Windows XP Doesn't Save User Settings</action>
+ </tweak>
+ <tweak>
+  <action link="BootVis-Tool.exe">Windows XP Startup - Boot Performance</action>
+ </tweak>
+ <tweak>
+  <action link="startmenunochangeundo.reg">Undo</action>
+  <action link="startmenunochange.reg">Apply</action>
+  <description>Disable Changes Made to the Start Menu
+ </description>
+ </tweak>
+ <tweak>
+  <action link="KeepRAS.Exe">Exe</action>
+  <action link="KeepRASConnections.reg">Reg</action>
+  <description>KeepRas Connection (FUS)
+ </description>
+ </tweak>
+ <tweak>
+  <action link="searchbuttonremove.reg">Remove the Search Button</action>
+ </tweak>
+ <tweak>
+  <action link="taskbartoolbarsremove.reg">Remove Toolbars from Taskbar Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="usersmfolderremove.reg">Remove Users Folder From the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="fus.reg">Restore Fast User Switching</action>
+ </tweak>
+ <tweak>
+  <action link="PowerToySetup.exe">Super Fast Switcher PowerToy (Winkey + Q)</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.dougknox.com/xp/utils/xp_emergencyutil.zip">Creates copies of REGEDIT, MSCONFIG and Task Manager</action>
+ </tweak>
+ <tweak>
+  <action link="http://woundedmoon.org/win32/driverescue19d.zip">Drive Rescue - Undelete and Data Recovery Tool</action>
+ </tweak>
+ <tweak>
+  <action link="REST2514.EXE">Recover and Restore Deleted Files</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.microsoft.com/downloads/details.aspx?familyid=1B286E6D-8912-4E18-B570-42470E2F3582&amp;displaylang=en">User Profile Hive Cleanup Service</action>
+ </tweak>
+ <tweak>
+  <action link="autowhat.zip">Clear Form Fields in AutoComplete</action>
+ </tweak>
+ <tweak>
+  <action link="autocompletedisable.reg">Disabled</action>
+  <action link="autocompletenable.reg">Enabled</action>
+  <description>AutoComplete Mode
+ </description>
+ </tweak>
+ <tweak>
+  <action link="AutoDisconnect.reg">Set Auto Disconnect Back to Default</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.mchorse.com/autoruns.zip">AutoRuns - All Programs Running</action>
+  <description>Boot/Login
+ </description>
+ </tweak>
+ <tweak>
+  <action link="cmdquickedit.reg">Enhance CMD Quick Edit Options</action>
+ </tweak>
+ <tweak>
+  <action link="xpinfo-exe.zip">XP Info - Verifies Activation Components</action>
+ </tweak>
+ <tweak>
+  <action link="indexingservice.reg">Disable the Indexing Service (cisvc.exe)</action>
+ </tweak>
+ <tweak>
+  <action link="http://kellys-korner-xp.com/ClearRecent.Exe">Clear Recent File Lists</action>
+ </tweak>
+ <tweak>
+  <action link="cdburningallow.reg">Undo</action>
+  <action link="nocdburning.reg">Apply</action>
+  <description>Remove CD Burning Features
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nofilemru.reg">Hide the Display List of Recent Files</action>
+ </tweak>
+ <tweak/>
+ <tweak>
+  <action link="switch.reg">Add Switch User to the Start Button RC</action>
+ </tweak>
+ <tweak>
+  <action link="copytomoveto.reg">Enable</action>
+  <action link="copytomovetoundo.reg">Disable</action>
+  <description>Copy to / Move to
+ </description>
+ </tweak>
+ <tweak>
+  <action link="ginadll.vbs">Restore the Welcome Screen - Gina.Dll Error</action>
+ </tweak>
+ <tweak>
+  <action link="contentadvisoron.vbs">Content Advisor On (Place in Startup Folder)</action>
+ </tweak>
+ <tweak>
+  <action link="contentadvisoroff.vbs">Content Advisor Off (Place in Startup Folder)</action>
+ </tweak>
+ <tweak>
+  <action link="regeditlaststate.vbs">Regedit - Save to Favorites</action>
+ </tweak>
+ <tweak>
+  <action link="regopen.vbs">Regedit - Clear Last State</action>
+ </tweak>
+ <tweak>
+ </tweak>
+ <tweak>
+  <action link="deleteCompressOldFilesundo.reg">Undo</action>
+  <action link="deletecompressoldfiles.reg">Fix</action>
+  <description>Disk Cleanup/All tmp-Compress Old Files Freezes
+ </description>
+ </tweak>
+ <tweak>
+  <action link="OldSearchOn.reg">On</action>
+  <action link="OldSearchOff.reg">Off</action>
+  <description>Old Style Search Engine
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.oehelp.com/OETool/Default.aspx">Add Toolbar to Outlook Express</action>
+ </tweak>
+ <tweak>
+  <action link="typedurls.reg">Clear History of Typed URL's</action>
+ </tweak>
+ <tweak>
+  <action link="RecentDocs.reg">Prevent My Documents and Recent Documents</action>
+ </tweak>
+ <tweak>
+  <action link="sstabmissing.reg">Tab Missing</action>
+  <action link="screensaverenabledisable.vbs">Disable</action>
+  <action link="screensaverdisable.vbs">Enable</action>
+  <description>. ScreenSaver
+ </description>
+ </tweak>
+ <tweak>
+  <action link="taskmanager.reg">Enable</action>
+  <action link="taskmanagerdisable2.reg">Disable</action>
+  <description>the Task Manager
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.budja.com/shutdown/">Shutdown.Exe - Andrej Budja</action>
+ </tweak>
+ <tweak>
+  <action link="startmenulink.reg">Add a Website Link to the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="xp_pastitems.vbs">Remove Past Items From Notification Area</action>
+ </tweak>
+ <tweak>
+  <action link="msi.reg">Restore Admin Tools </action>
+ </tweak>
+ <tweak>
+  <action link="savesettings.reg">Enable</action>
+  <action link="dontsavesettings.reg">Disable</action>
+  <description>Save settings on exit
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restoremydocuments.reg">Restore My Documents</action>
+  <action link="recentdocsadd.reg">Restore Recent</action>
+  <description>Documents
+ </description>
+ </tweak>
+ <tweak>
+  <action link="iedownloads10.vbs">Apply</action>
+  <action link="iedownloads2.vbs">Undo (2)</action>
+  <description>Increase Internet Explorer Downloads to 10
+ </description>
+ </tweak>
+ <tweak>
+  <action link="shared.reg">Undo</action>
+  <action link="sharedremove.reg">Apply</action>
+  <description> Remove Files Stored on this Computer
+ </description>
+ </tweak>
+ <tweak>
+  <action link="contextmenu.reg" />
+  <action link="contextmenuundo.reg">Disable</action>
+  <description>or Right Click Context Menu
+ </description>
+ </tweak>
+ <tweak>
+  <action link="winhlp32.exe">XP</action>
+  <action link="winhlp32sp1.exe">XPSP1</action>
+  <description>Windows help
+ </description>
+ </tweak>
+ <tweak>
+  <action link="norun.reg">Restore the Run Command</action>
+ </tweak>
+ <tweak>
+  <action link="recoveryconsole.reg">Recovery Console Fix for XP SP1</action>
+ </tweak>
+ <tweak>
+  <action link="Default_Pictures.zip">Restore User Default Pictures</action>
+ </tweak>
+ <tweak>
+  <action link="oemessenger.vbs">Disable Messenger in Outlook Express</action>
+ </tweak>
+ <tweak>
+  <action link="desktopbranding.reg">Remove For Testing Purposes Only - Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="SendPage.zip">Email Page - IE (right click) w/ Clickable Link</action>
+ </tweak>
+ <tweak>
+  <action link="window_placement.vbs">VBS</action>
+  <action link="window_placement.reg">Reg</action>
+  <description>Correct IE Window Placement
+ </description>
+ </tweak>
+ <tweak>
+  <action link="windowstitle.vbs">Change Provided By in IE</action>
+ </tweak>
+ <tweak>
+  <action link="restoreshowdesktop.vbs">Restore/Add Show Desktop to Quick Launch Bar</action>
+ </tweak>
+ <tweak>
+  <action link="cleanupwiz.vbs">Apply</action>
+  <action link="desktopcleanuprestore.reg">Undo</action>
+  <description>Disable the Desktop Cleanup Wizard
+ </description>
+ </tweak>
+ <tweak>
+  <action link="separateprocess.vbs">Separate Process for the Desktop and Explorer </action>
+ </tweak>
+ <tweak>
+  <action link="HomePageLock.reg">Lock</action>
+  <action link="HomePageUnlock.reg">Unlock</action>
+  <description>Home Page
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://pjwalczak.com/spguard/spgsetup.exe">Start Page Guard for Internet Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="oereset.reg">Send To</action>
+  <action link="Mailto_URL.zip">Send Mail</action>
+  <action link="mailto.reg">Mail To</action>
+  <description>Reset OE for
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restorerecyclebin.reg">Replace/Repair the Recycle Bin</action>
+ </tweak>
+ <tweak>
+  <action link="lowdiskspace.reg">Disable Low Disk Space Message</action>
+ </tweak>
+ <tweak>
+  <action link="focusundo.vbs">Undo</action>
+  <action link="focus.vbs">Apply</action>
+  <description>Prevent Programs from Stealing Focus
+ </description>
+ </tweak>
+ <tweak>
+  <action link="statusbar.reg">Enable Show Status Bar</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.indievolume.com/">Set Volume Per Program/Application</action>
+ </tweak>
+ <tweak>
+  <action link="dns.reg">Page Cannot be Found and/or DNS/Server Error</action>
+ </tweak>
+ <tweak>
+  <action link="verbose.vbs">Startup/Shutdown/Logon/Logoff Status Messages</action>
+ </tweak>
+ <tweak>
+  <action link="ClearRecent.Exe">Clear</action>
+  <action link="cleardoconexitundo.reg">Prevent clear documents on exit Undo</action>
+  <description>Recent Documents
+ </description>
+ </tweak>
+ <tweak>
+  <action link="WINFILE.EXE">WinFile.Exe</action>
+ </tweak>
+ <tweak>
+  <action link="W95SENDTOX.EXE">SendTo Any Folder and SendTo Clipboard</action>
+ </tweak>
+ <tweak>
+  <action link="favmenus.vbs">Enable</action>
+  <action link="favdisable.vbs">Disable</action>
+  <description>Personalized Menus - Favorites
+ </description>
+ </tweak>
+ <tweak>
+  <action link="netplaces.reg">Network Places Missing from the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="LookUpExtensions.vbs">File Extension Identifier</action>
+ </tweak>
+ <tweak>
+  <action link="shutdownundo.reg">Undo</action>
+  <action link="shutdown.reg">Apply</action>
+  <description>Auto End Tasks to Enable a Proper Shutdown
+ </description>
+ </tweak>
+ <tweak>
+  <action link="netmeetingremove.vbs">Uninstall NetMeeting</action>
+ </tweak>
+ <tweak>
+  <action link="winkeysenabledisable.vbs">Enable or Disable Winkeys</action>
+ </tweak>
+ <tweak>
+  <action link="networkboot.reg">Speedup Network Logon/Boot</action>
+ </tweak>
+ <tweak>
+  <action link="welcomescreen.reg">Enable the Welcome Screen</action>
+ </tweak>
+ <tweak>
+  <action link="error.reg">Disable Pop-Up Error Messages Upon Boot</action>
+ </tweak>
+ <tweak>
+  <action link="changedefaultdir.vbs">Change Program File Directory</action>
+ </tweak>
+ <tweak>
+  <action link="properties.reg">Properties Missing From My Computer</action>
+ </tweak>
+ <tweak>
+  <action link="http://download.microsoft.com/download/office2000pro/util20/1/NT4/EN-US/msicuu.exe">Cleanup Utility</action>
+ </tweak>
+ <tweak>
+  <action link="installerlogging.vbs">Windows Installer Logging</action>
+ </tweak>
+ <tweak>
+  <action link="zip.reg">Restore Compressed Zipped Folders Association </action>
+ </tweak>
+ <tweak>
+  <action link="search.vbs">Shortcut to Search</action>
+ </tweak>
+ <tweak>
+  <action link="sp1dialup.reg">Dial-up Modem or PPPoE is Unavailable</action>
+ </tweak>
+ <tweak>
+  <action link="JBMAIL.EXE">Check E-Mail from Anywhere</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.pc-tools.net/files/win32/freeware/stbrws14.exe">Set Default Web Browser in Windows</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.pssoftlab.com/download/pstrayf.zip">Hide Inactive Icons and More</action>
+ </tweak>
+
+ <tweak>
+  <action link="FileInfo.exe">Find File Information (Name, Version and Path)</action>
+ </tweak>
+ <tweak>
+  <action link="ZipTip.EXE">Expand ReadMe.Txt Zip Files w/o Opening</action>
+ </tweak>
+ <tweak>
+  <action link="InfoTipX2.EXE">Read Reg, VBS Edits w/o Opening (also File info)</action>
+ </tweak>
+ <tweak>
+  <action link="enableautodial.reg">Enable</action>
+  <action link="disableautodial.reg">Disable</action>
+  <description>AutoDial
+ </description>
+ </tweak>
+ <tweak>
+  <action link="ShellIcons.zip">Customize Folder Shell Extensions</action>
+ </tweak>
+ <tweak>
+  <action link="iefullurl.reg">Show Full URL Path links in IE Status Bar</action>
+ </tweak>
+ <tweak>
+  <action link="ieonlinesupport.vbs">Change Online Support Link under IE/Help</action>
+ </tweak>
+ <tweak>
+  <action link="logonoptions.reg">Logon Using a Dial-Up Connection Prompt</action>
+ </tweak>
+ <tweak>
+  <action link="linksfoldernameundo.reg">Undo</action>
+  <action link="linksfoldername.reg">Remove Links folder from IE/Favorites</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="wininstallerwindows.reg">Windows</action>
+  <action link="wininstaller.reg">Windows Installer Fix </action>
+  <description>- Winntfor
+ </description>
+ </tweak>
+ <tweak>
+  <action link="notepadstatusbar.vbs">Enable Notepad Status Bar with Word Wrap</action>
+ </tweak>
+ <tweak>
+  <action link="messengermessage.vbs">Change the Warning Message in Messenger</action>
+ </tweak>
+ <tweak>
+  <action link="disablecad.reg">Disable Control/Alt/Delete</action>
+ </tweak>
+ <tweak>
+  <action link="ieSpellSetup110665.exe">Add SpellChecker Button to Internet Explorer </action>
+ </tweak>
+ <tweak>
+  <action link="taskbaricons.vbs">Decrease the Size of Taskbar Buttons</action>
+  <action link="taskbariconsundo.vbs">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="taskbariconsincrease.vbs">Increase the Size of Taskbar Buttons</action>
+  <action link="taskbariconsincreaseundo.vbs">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="xp_startmenu_logoff_nsm.vbs">New</action>
+  <action link="xp_startmenu_logoff_csm.vbs">Classic</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="StartLog.zip">Start Up Log</action>
+  <action link="startuplist.zip">Start Up List</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restoretaskbar.reg">Restore the Task Bar to Default Settings</action>
+ </tweak>
+ <tweak>
+  <action link="hfnetchk_3.86.0.1.exe">Security Hotfix Checker Tool</action>
+ </tweak>
+ <tweak>
+  <action link="unreadmail.reg">Disable Unread Mail on the Welcome Screen</action>
+  <action link="unreadmailapply.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="CheckAndOpenDesktopsPaths.vbs">Check and Open Desktop Paths</action>
+  <action link="CheckAndOpenMyPics&amp;MyMusic.vbs">MP or MM</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="iehistory.reg">Prevent IE History Being Removed</action>
+  <action link="iehistoryundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="disableshowmypicturestoolbar.reg">Disable Show My Pictures Toolbar in IE</action>
+ </tweak>
+ <tweak>
+  <action link="noieicon.reg">Hide IE Icon from the Desktop Toolbar</action>
+ </tweak>
+ <tweak>
+  <action link="snapto.reg">Enable Mouse Snap To Option/Function</action>
+  <action link="snaptodisable.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="saveas.reg">Save As - Disable: Back, MRU and Places Bar</action>
+ </tweak>
+ <tweak>
+  <action link="rtm.zip">Remote Task Manager</action>
+ </tweak>
+ <tweak>
+  <action link="arm.zip">Active Registry Monitor</action>
+ </tweak>
+ <tweak>
+  <action link="ole.reg">Disable Remote Dial-Up Connections</action>
+ </tweak>
+ <tweak>
+  <action link="nofilemru.reg">Disable Save As File History</action>
+ </tweak>
+ <tweak>
+  <action link="defaultbrowser.reg">Lock Default Browser</action>
+ </tweak>
+ <tweak>
+  <action link="keyboardnav.reg">Restore Hide Underlined Letters - Keyboard Nav</action>
+ </tweak>
+ <tweak>
+  <action link="sortorder.reg" />
+ </tweak>
+ <tweak>
+  <action link="devicemanagerrestore.reg">Restore the Device Manager</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.gratilog.net/anglais/internet/favorg.zip">FavOrg - Restore and Save Favorite Icons</action>
+ </tweak>
+ <tweak>
+  <action link="computername.vbs">Change Computer Name</action>
+ </tweak>
+ <tweak>
+  <action link="tifuser.reg">Empty Temporary Internet Files on Exit</action>
+ </tweak>
+ <tweak>
+  <action link="logonprompt.vbs">Add Message above User Name Password</action>
+ </tweak>
+ <tweak>
+  <action link="legalnotice.vbs">Add Dialog Box/Message to Logon and Shutdown</action>
+ </tweak>
+ <tweak>
+  <action link="runaswhichuser.reg">Restore Run As - Which user account issue</action>
+ </tweak>
+ <tweak>
+  <action link="ProgFull.zip">Change the Name of the Start Button</action>
+ </tweak>
+ <tweak>
+  <action link="LogFolderContents.zip">Add Log Folder Contents to SendTo Menu</action>
+ </tweak>
+ <tweak>
+  <action link="fileinfo.zip">Show File Information</action>
+ </tweak>
+ <tweak>
+  <action link="taskmgrenable.reg">the Task Manager</action>
+  <action link="TaskManager_Reset.reg">Repair</action>
+  <action link="taskmanagerdisable.reg">Disable</action>
+  <description>- -
+ </description>
+ </tweak>
+ <tweak>
+  <action link="helpandsupportredirect.reg">Redirect Help and Support to a link of choice</action>
+  <action link="helpandsupportundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="oeinstall.reg">OE</action>
+  <action link="ieinstall.reg">Internet Explorer</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="recyclebinrename.reg">Rename/Remove the Recycle Bin</action>
+ </tweak>
+ <tweak>
+  <action link="productid.vbs">Read/Find your Product ID Number</action>
+ </tweak>
+ <tweak>
+  <action link="spywareblastersetup.exe">Prevent Spyware from Being Installed</action>
+ </tweak>
+ <tweak>
+  <action link="devicesall.vbs">Show All Hidden Devices in the Device Manager</action>
+ </tweak>
+ <tweak>
+  <action link="nodesktop.reg">Restore Taskbar and Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="trillian_add.vbs">Add Trillian to the Tools Menu and Toolbar in IE</action>
+ </tweak>
+ <tweak>
+  <action link="wavealert.vbs">Change Notification Error Wave File</action>
+ </tweak>
+ <tweak>
+  <action link="placesbarfolders.vbs">Add Folders to the Save As Dialog</action>
+  <action link="placesbarundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="harddriveicon.vbs">Change the Hard Drive Icon</action>
+ </tweak>
+ <tweak>
+  <action link="foldericonchange.vbs">Change the Folder Icon /or Opened Folder Icon</action>
+ </tweak>
+ <tweak>
+  <action link="mousewelcomescreen.reg">Welcome Screen</action>
+  <action link="leftmouseundo.vbs">Undo</action>
+  <action link="leftmouse.vbs">Mouse/Left Hand Users</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="iconcache.vbs">Increase Icon Cache</action>
+ </tweak>
+ <tweak>
+  <action link="iconwrap.vbs">Change Icon Wrap to One Line</action>
+  <description>on the Desktop
+ </description>
+ </tweak>
+ <tweak>
+  <action link="bmpview.vbs">Show All Bitmap Views</action>
+ </tweak>
+ <tweak>
+  <action link="updatetoolsrename.vbs">IE/Windows Update - Change Text or Remove</action>
+ </tweak>
+ <tweak>
+  <action link="notepad.reg">Add Notepad as a Right Click Item</action>
+ </tweak>
+ <tweak>
+  <action link="fileassociationsdon'tchange.reg">Disable Changes to File Associations</action>
+  <action link="fileassocundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="explorecdrom.vbs">Add Explore CD-Rom to Start Button (R/C)</action>
+ </tweak>
+ <tweak>
+  <action link="myfolder.vbs">Add a Folder to the Start Button - Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="pagefile.vbs">List Page File Location, Min and Max</action>
+ </tweak>
+ <tweak>
+  <action link="systemuptime.vbs">System Up Time</action>
+ </tweak>
+ <tweak>
+  <action link="bootconfig.vbs">Show Boot Configuration(s)</action>
+ </tweak>
+ <tweak>
+  <action link="logeventsbycode.vbs">Code</action>
+  <action link="cleareventslog.vbs">Clear</action>
+  <action link="logfiles.vbs">List</action>
+  <description>or or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.winguides.com/registry/display.php/790/">Disable Windows File Protection</action>
+ </tweak>
+ <tweak>
+  <action link="showhiddenexts.vbs">Show Super Hidden File Extensions</action>
+  <action link="showhiddenextsundo.vbs">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="taskbarunlock.reg">Task Bar Unlock</action>
+  <action link="taskbarlock.reg">Task Bar Lock</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="desktoptab.reg">Restore Desktop and Screensaver Tabs</action>
+ </tweak>
+ <tweak>
+  <action link="folderoptions.reg">Restore Folder Options Under Tools</action>
+ </tweak>
+
+ <tweak>
+  <action link="specialfolder.vbs">Add a Folder to My Computer and Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="clipbrdcpl.reg">Add Clipboard to the Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="shutdownenable.reg">Enable</action>
+  <action link="shutdowndisable.reg">Disable the Shutdown Command</action>
+  <description>/
+ </description>
+ </tweak>
+ <tweak>
+  <action link="mycomputernameundo.reg">Undo</action>
+  <action link="mycomputeruser.reg">Change My Computer Name to User Name</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="AddNewIE5edit.zip">Change and/or Add an HTML Editor</action>
+ </tweak>
+ <tweak>
+  <action link="http://eu.microsoft.com/windowsxp/expertzone/tips/kellytheriot/kelly92.asp">Disable Searched Word Being Highlighted in Blue</action>
+ </tweak>
+ <tweak>
+  <action link="mfuprograms.reg">Restore Most Frequently Used -</action>
+  <action link="mfuprogramsundo.reg" />
+ </tweak>
+ <tweak>
+  <action link="ampm.vbs">Replace AM PM (Clock) with word of Choice</action>
+ </tweak>
+ <tweak>
+  <action link="notrayicons.reg">Hide All Notification Area Icons</action>
+  <action link="notrayiconsundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="hideclock.reg">Hide the Clock in the Notification Area</action>
+  <action link="hideclockundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="croa.zip">Clear Read-Only Attributes</action>
+ </tweak>
+ <tweak>
+  <action link="accessibility.reg">Restore Accessibility Options to Default Settings</action>
+ </tweak>
+ <tweak>
+  <action link="searchallfiles.reg">Search for All File Types</action>
+ </tweak>
+ <tweak>
+  <action link="http://technet.microsoft.com/en-us/sysinternals/bb897557.aspx">Show IP Address on the Desktop, plus more.</action>
+ </tweak>
+ <tweak>
+  <action link="openwithremove.reg">Remove Open With from Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="newfolder.zip">New Folder Hotkey - SM, Desktop, Specify</action>
+ </tweak>
+ <tweak>
+  <action link="search10_install.exe">Google Search from IE's Right-Click Menu</action>
+ </tweak>
+ <tweak>
+  <action link="restorezipfolder.reg">Restore Zip Folders to Default in XP</action>
+ </tweak>
+ <tweak>
+  <action link="shellnew.exe">Add to or Modify the New Menu Listings</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.herve-thouzard.com/therename.zip">Rename Files and Folders En Masse</action>
+ </tweak>
+ <tweak>
+  <action link="oeslideshow.vbs">Show Slide Show of Attached Pictures in OE</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.helpware.net/downloads/#MJs">Help, CHM, HH Checker/Fixer</action>
+ </tweak>
+ <tweak>
+  <action link="customsplash.vbs">Add a Custom Splash Screen for User Logon's</action>
+ </tweak>
+ <tweak>
+  <action link="disabledebugger.reg">Disable the Script Debugger in IE</action>
+ </tweak>
+ <tweak>
+  <action link="wallpaperdisable.reg">Disable</action>
+  <action link="wallpaperenable.reg" />
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="oesplashscreendisable.vbs">Disable</action>
+  <action link="oesplashscreenenable.vbs">Enable</action>
+  <description>or the Splash Screen for OE
+ </description>
+ </tweak>
+ <tweak>
+  <action link="iesplashenable.reg">Enable</action>
+  <action link="iesplashdisable.reg">Disable</action>
+  <description>or the Splash Screen for IE
+ </description>
+ </tweak>
+ <tweak>
+  <action link="wallpapermruclear.reg">Clear Wallpaper Most Frequently Used List</action>
+ </tweak>
+ <tweak>
+  <action link="oerightclick.vbs">Add (OE) Send E-Mail to the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="cpcategoryview.reg">Category</action>
+  <action link="cpclassicview.reg">Classic</action>
+  <description>or View
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nmduhistory.reg">Clear NetMeeting Call History</action>
+ </tweak>
+ <tweak>
+  <action link="ReportClassName.vbs">Retrieve the Class Name for a File Extension</action>
+ </tweak>
+ <tweak>
+  <action link="addremoverestrictions.reg">Add or Remove Programs Restriction</action>
+  <action link="addremoverestrictionsundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="emailnew.reg">Add Internet E-mail Message to New Menu</action>
+ </tweak>
+ <tweak>
+  <action link="syncapp.zip">Syncapp.Exe</action>
+  <action link="briefcase.reg">Restore My Briefcase to the Desktop</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="searchactiveundo.reg">Undo</action>
+  <action link="searchactive.reg">Set All Search Options to Active</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="msconfigdisabled.vbs">Clear Disabled Items from Msconfig Startup</action>
+  <description> Selective
+ </description>
+ </tweak>
+ <tweak>
+  <action link="purgecache.vbs">Clear Cache on Reboot</action>
+ </tweak>
+ <tweak>
+  <action link="AddsTaskbarGroupOptionsSM.reg">Add Taskbar Grouping Options to the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="opennew.reg">Add Open New Window to the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="lastuser.reg">Clear Last User on Boot Screen</action>
+  <action link="lastuserundo.reg">Undo</action>
+  <description>in XP-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="searchname.vbs">Rename Search on the Start Menu</action>
+  <action link="searchnameundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="renamerun.vbs">Rename Run on the Start Menu</action>
+  <action link="renamerunundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="helpandsupportrename.vbs">Rename Help and Support on Start Menu</action>
+  <action link="helpandsupportrenameundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="newcommandmissing.reg">Restore Missing New and Text Doc</action>
+ </tweak>
+ <tweak>
+  <action link="wallpapermoveundo.vbs">Undo</action>
+  <action link="wallpapermove.vbs">Change Size of Desktop Wallpaper to Suit</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="shutdowndisable.reg">Disable Shut Down</action>
+  <description>Per User
+ </description>
+ </tweak>
+ <tweak>
+  <action link="allprogramsdisable.reg">Remove All Programs from Start Menu</action>
+  <action link="allprogramsdisableundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="showhiddenfiles.vbs">Enable/Disable Show Hidden Files/Folders</action>
+ </tweak>
+
+ <tweak>
+  <action link="upnp.reg">Disable SSPD and UPNP Services</action>
+  <action link="upnpundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="runmruclear.reg">Clear the Run Command MRU List</action>
+ </tweak>
+ <tweak>
+  <action link="disablerefresh.reg">Prevent Automatic Folder and Icon Refresh</action>
+  <action link="enableiconrefresh.reg">Enable</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="wia.reg">Prevent Delay Opening My Computer</action>
+  <description>/Explorer
+ </description>
+ </tweak>
+ <tweak>
+  <action link="rbdefaulticon.reg">Undo</action>
+  <action link="rbchangeicon.vbs" />
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="removethrob.reg">Remove Throbber from IE Explorer</action>
+  <action link="throbberundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="Alexa.reg">Add Show Related Links to Internet Explorer </action>
+ </tweak>
+ <tweak>
+  <action link="powerofflogon.reg">Enable Monitor Power-off on Logon Screen</action>
+ </tweak>
+ <tweak>
+  <action link="startmenupindisable.reg">Disable</action>
+  <action link="startmenupin.reg">Enable</action>
+  <description>or Pin to Start Menu - Right Click
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nostartsubsundo.reg">Undo</action>
+  <action link="nostartsubs.reg">Hide Start Menu Subfolders</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restoreresume.reg">On Resume, Display Welcome Screen</action>
+ </tweak>
+ <tweak>
+  <action link="htmlhtmthumbnail.reg">Restore HTML, HTM, URL Thumb View</action>
+ </tweak>
+ <tweak>
+  <action link="xmlthumbnail.reg">Restore XML Thumbnail View</action>
+ </tweak>
+ <tweak>
+  <action link="termser.reg">Restore Terminal Services</action>
+ </tweak>
+ <tweak>
+  <action link="caplock.vbs">Caps Lock</action>
+  <action link="insertkey.vbs">Insert</action>
+  <description>or the Key
+ </description>
+ </tweak>
+ <tweak>
+  <action link="xp_taskbar_desktop_fixall.vbs">Restore Taskbar to Default Functionality</action>
+ </tweak>
+ <tweak>
+  <action link="alwaysask.reg">Enable</action>
+  <action link="dontask.reg">Disable</action>
+  <description>or Always Ask Before Opening...
+ </description>
+ </tweak>
+ <tweak>
+  <action link="startmenusubfolders.vbs">Disable/Enable Start Menu Subfolders</action>
+ </tweak>
+ <tweak>
+  <action link="disablerunkeyscu.vbs">Per User</action>
+  <action link="disablerunkeysps.vbs">Per System</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restoresearchsm.reg">Restore/Place Search on the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="IconCache.reg">Add Icon Cache Size to Folder Options</action>
+  <description>/View
+ </description>
+ </tweak>
+ <tweak>
+  <action link="classicmenu.reg">Force Classic Start Menu</action>
+  <action link="classicmenuundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="sendfeedback.reg">Remove Send Feedback Menu Option</action>
+ </tweak>
+ <tweak>
+  <action link="clipboardreader.vbs">Clipboard Reader</action>
+ </tweak>
+ <tweak>
+  <action link="readhostfile.vbs">Read Host Files in Notepad</action>
+ </tweak>
+ <tweak>
+  <action link="xpshutdown.vbs">Shutdown Shortcut</action>
+ </tweak>
+ <tweak>
+  <action link="pinlistenable.reg">Enable</action>
+  <action link="pinlistdisable.reg">Disable</action>
+  <description>or Pinned Items on the Start Menu
+ </description>
+ </tweak>
+ <tweak>
+  <action link="windowsexplorer.vbs">Add Windows Explorer to the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="cascadesystem.vbs">Expand System in the Start Menu/Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="enablexmouse.reg">Enable</action>
+  <action link="disablexmouse.reg">Disable</action>
+  <description>or Active Window Tracking
+ </description>
+ </tweak>
+ <tweak>
+  <action link="office1706.reg">Office XP Error 1706 - ProPlus.Msi Fix</action>
+  <action link="userdataow2k.reg">O2K</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="msinfo.zip">Msinfo32 Batch File - To Gain Access</action>
+ </tweak>
+ <tweak>
+  <action link="msinfo32_rightclick.vbs" />
+  <action link="MSINFO32_rightclick.reg" />
+ </tweak>
+ <tweak>
+  <action link="restoreregistry.reg">Repair the Registry Editor</action>
+ </tweak>
+ <tweak>
+  <action link="msconfigremoverunkey.vbs">Stops the Selective Startup Screen</action>
+ </tweak>
+ <tweak>
+  <action link="ieaddedtoolbars.reg">Remove Added IE Toolbar Entries</action>
+ </tweak>
+ <tweak>
+  <action link="MediaFiles.zip">Restore Media Files</action>
+ </tweak>
+ <tweak>
+  <action link="rbemptyfull.reg">Restore Empty/Full Icons - Recycle Bin</action>
+ </tweak>
+ <tweak>
+  <action link="infinstall.reg">Restore Right Click .inf/Install</action>
+ </tweak>
+ <tweak>
+  <action link="xpgoogle.zip">Add XP Google Group Search to IE Toolbar</action>
+ </tweak>
+ <tweak>
+  <action link="mskbtoolbar.reg">Add MS Knowledge Base to the IE Toolbar</action>
+ </tweak>
+ <tweak>
+  <action link="webtabmissing.reg">Restore the Web Tab - Display Properties</action>
+ </tweak>
+ <tweak>
+  <action link="oenomodify.reg">Restrict Changes from Being Made in OE</action>
+  <action link="oenomodifyundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="showgobutton.reg">Restore the Go Button</action>
+ </tweak>
+ <tweak>
+  <action link="noopennewin.reg">Disable Open in a New Window</action>
+ </tweak>
+ <tweak>
+  <action link="shellmetrics.reg">Window Metrics - Shell Icon</action>
+  <description>- Repair
+ </description>
+ </tweak>
+ <tweak>
+  <action link="updaterestore.reg">Windows Update Greyed Out - Restore</action>
+ </tweak>
+ <tweak>
+  <action link="lowersmfolderadd.vbs">Add a Folder Under the Run Command</action>
+ </tweak>
+ <tweak>
+  <action link="AddAttributesToTilesAndInfotipForFiles.reg">Files</action>
+  <action link="AddAttributesToTilesAndInfotipForFolders.reg">Folders</action>
+  <description>and
+ </description>
+ </tweak>
+ <tweak>
+  <action link="accountsid.vbs">Account SID Association</action>
+  <description>(run w/ cscript)
+ </description>
+ </tweak>
+ <tweak>
+  <action link="netlog.vbs">Network Login Profile (run with cscript)</action>
+ </tweak>
+ <tweak>
+  <action link="user.vbs">User Account Information (run w/ cscript)</action>
+ </tweak>
+ <tweak>
+  <action link="sid.vbs">Listing Local User Account Information (SID)</action>
+ </tweak>
+ <tweak>
+  <action link="notepad.reg">View Source - Restore Notepad as Default</action>
+ </tweak>
+ <tweak>
+  <action link="AddNewIE5edit.vbs">View Source - Add or Change Editor</action>
+  <description>(Also for 6)
+ </description>
+ </tweak>
+ <tweak>
+  <action link="thumbcache.reg">Disable Thumbnail Cache</action>
+ </tweak>
+ <tweak>
+  <action link="jdbgmgr.exe">Restore Jdbgmgr.Exe (3805)</action>
+  <action link="jdbgmgr_3810.zip">3810</action>
+  <description>For Build
+ </description>
+ </tweak>
+ <tweak>
+  <action link="desktopversion.reg">Remove Desktop Version from Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="removeshortcuts.reg">Remove</action>
+  <action link="removeshortcutsundo.reg">Restore</action>
+  <description>Icon Shortcut Symbols -
+ </description>
+ </tweak>
+ <tweak>
+  <action link="runasrestoreundo.reg">Undo</action>
+  <action link="runasrestore.reg">Restore Run As to the Right Click</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="dontprettypath.reg">Show File and Folder Names Using Correct Case</action>
+ </tweak>
+ <tweak>
+  <action link="restorethemes.reg">Restore Themes Functionality</action>
+ </tweak>
+ <tweak>
+  <action link="Resources.zip">Restore Luna Theme</action>
+  <action link="Windows%20Classic.zip">Restore Classic Theme</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="addremovadmin.reg">Add or Remove - Administrator Error</action>
+ </tweak>
+ <tweak>
+  <action link="iconlayout.zip">Add Save Restore Desktop Layout to Menu</action>
+ </tweak>
+ <tweak>
+  <action link="directx.reg">Correct DirectX 9 Logo Error</action>
+ </tweak>
+ <tweak>
+  <action link="wmplayer9.reg">Correct Windows Media Player 9 Logo Error</action>
+ </tweak>
+ <tweak>
+  <action link="alwayshideext.vbs">Hide Selected/Specific File Extension Paths</action>
+ </tweak>
+ <tweak>
+  <action link="TaskBarActivate.zip">Customize Auto Hide Taskbar Settings</action>
+ </tweak>
+ <tweak>
+  <action link="changedrivelabel.vbs">Change CD/RW, DVD Name in Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="paintrestore.reg">Restore Paint</action>
+ </tweak>
+ <tweak>
+  <action link="changedbmptopaint.reg">Change .bmp Default to Paint</action>
+ </tweak>
+ <tweak>
+  <action link="toolbarsgreyedout.reg">Restore the Toolbars From Being Greyed Out</action>
+ </tweak>
+
+ <tweak>
+  <action link="messengeroutlookdisable.reg">Disable Messenger from Outlook</action>
+ </tweak>
+ <tweak>
+  <action link="newappsdisable.reg">Disable Highlight New Programs</action>
+  <action link="newappsdisableundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="langbarrestore.reg">Restore</action>
+  <action link="langbarremove.reg">Remove</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="wallpaperviews.vbs">Restore Wallpaper Views</action>
+ </tweak>
+ <tweak>
+  <action link="xp_taskbar_desktop_fixall.vbs">Restore Desktop Icons and Taskbar</action>
+ </tweak>
+ <tweak>
+  <action link="sortordermenu.reg">Sort All by Alphabet - Start Menu and Fav's</action>
+ </tweak>
+
+ <tweak>
+  <action link="simpleviewundo.reg">Undo</action>
+  <action link="simpleview.reg">Display Simple Folder View</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="noshareddocumentsundo.reg">Undo</action>
+  <action link="noshareddocuments.reg">Remove Shared Documents</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="OpenTarget.zip">Add Open Target Folder to Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="cad.vbs">Enable or Disable Ctrl/Alt/Delete</action>
+ </tweak>
+ <tweak>
+  <action link="disablerefreshundo.reg">Enable Folder and Icon Refresh</action>
+ </tweak>
+ <tweak>
+  <action link="hiderecyclebindesktop.reg">Hide Recycle Bin on Desktop - Not from Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="noselectdownload.reg">Disable Save This Program to Disk Option</action>
+ </tweak>
+ <tweak>
+  <action link="thumbnailview32.reg">32 </action>
+  <action link="thumbnailview96.reg">96</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="marscore.zip">Restore marscore.dll</action>
+ </tweak>
+ <tweak>
+  <action link="htmleditor.reg">Disable IE HTML Source Editor Check</action>
+  <action link="htmleditorundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="notepadfup.reg">Disable Notepad being listed under FUP</action>
+ </tweak>
+ <tweak>
+  <action link="magnifydefault.reg">Set Magnify Options Back to Default</action>
+ </tweak>
+ <tweak>
+  <action link="displayrestore.reg">Restore Display Icon in Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="restoreproperties.reg">Restore Right Click Properties</action>
+ </tweak>
+ <tweak>
+  <action link="autorefreshdisable.reg">Undo</action>
+  <action link="refreshspeedup.reg">Force Auto Refresh</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="powercfgrestore.reg">Restore Power Schemes/Configurations</action>
+ </tweak>
+ <tweak>
+  <action link="dunbackup.zip">Backup DUN Settings</action>
+ </tweak>
+ <tweak>
+  <action link="ignoreshiftkey.reg">Disable the Auto Logon Shift Override Feature</action>
+ </tweak>
+ <tweak>
+  <action link="hotbarnew.reg">Hotbar - Explorer/New Freezes</action>
+ </tweak>
+ <tweak>
+  <action link="removesharedhandundo.reg">Undo</action>
+  <action link="removesharedhand.reg">Remove Hand Icon for Shared Resources</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nousernameundo.reg">Undo</action>
+  <action link="nousername.reg">Hide User Name in Start Menu</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="comdocproperties.reg">Restore Properties - My Computer Documents</action>
+ </tweak>
+ <tweak>
+  <action link="addremoverestrictionsset.reg">Undo</action>
+  <action link="addremoverestrictionsundo.reg">Remove Add or Remove Restrictions</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="noshortcut2.reg">Remove Shortcut to... Prefix on Shortcuts </action>
+ </tweak>
+ <tweak>
+  <action link="settingssamewindow.reg">Same</action>
+  <action link="settingsownwindow.reg">New</action>
+  <description>or Window
+ </description>
+ </tweak>
+ <tweak>
+  <action link="showcaps.reg">Allow Folder Names in Uppercase</action>
+ </tweak>
+ <tweak>
+  <action link="maxdocs.reg">Change the Number of Recent Documents to 25</action>
+ </tweak>
+ <tweak>
+  <action link="valuenotset.reg">Restore Startup and Shutdown Sounds</action>
+ </tweak>
+ <tweak>
+  <action link="stickykeysdelete.reg">Delete Sticky Keys</action>
+  <action link="stickykeysdisable.reg">Disable Sticky Keys</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="fileassocwebdisable.reg">Disable - Use the Web Service to find ...</action>
+ </tweak>
+ <tweak>
+  <action link="passportballoonrestore.reg">Restore</action>
+  <action link="passportballoondisable.reg">Disable .Net Passport Balloon Pop-up</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="disableregistrytoolsundo.reg">Enable</action>
+  <action link="disableregistrytools.reg">Disable</action>
+  <description>or Registry Editing Tools
+ </description>
+ </tweak>
+ <tweak>
+  <action link="mousetrailsundo.reg">Undo</action>
+  <action link="mousetrails.reg">Display Mouse Pointer Trails</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="visualstylefix.reg">Windows/Buttons Greyed Out -Appearance</action>
+ </tweak>
+ <tweak>
+  <action link="visualstylefix.reg">Windows XP Style Changes to Windows Classic</action>
+ </tweak>
+ <tweak>
+  <action link="advancedtabierestore.reg">Restore</action>
+ </tweak>
+ <tweak>
+  <action link="exploredefaultshell.reg">Explore</action>
+  <action link="opendefault.reg">Set Folder Default to Open Use Same Window</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="toolbarbackgroundclear.reg">Set Toolbar Backgrounds back to Default</action>
+ </tweak>
+ <tweak>
+  <action link="removemycomputerdesktopandstartmenu.reg">Remove My Computer from Desktop/Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="center.reg">Center</action>
+  <action link="stretch.reg">Default</action>
+  <description>Desktop - Set
+ </description>
+ </tweak>
+ <tweak>
+  <action link="hilightblue.reg">Blue</action>
+  <action link="hilightext.vbs">Color</action>
+  <description>- Set own Customized
+ </description>
+ </tweak>
+ <tweak>
+  <action link="saveasmru.reg">Disable Save As MRU</action>
+ </tweak>
+ <tweak>
+  <action link="taskbargroupingrestore.reg">Restore Taskbar Grouping</action>
+  <action link="taskbargroupingundo.reg">Remove</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="missedtasks.reg">Re-Run Missed Tasks Notification</action>
+  <action link="missedtasksundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="hidedisplaycp.reg">Remove the Display Icon from the Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="openwithrestore.reg">Restore Open With on the Right Click</action>
+ </tweak>
+ <tweak>
+  <action link="removeoverture.reg">Remove Overture Search Branding in IE</action>
+ </tweak>
+ <tweak>
+  <action link="snaptotrails.reg">Set SnapTo and Mouse Trails as Default</action>
+ </tweak>
+ <tweak>
+  <action link="msinforestore.reg">Restore System Information (Msinfo32)</action>
+ </tweak>
+ <tweak>
+  <action link="addressbarsearchrestore.reg">Restore Address Bar Search - Google</action>
+ </tweak>
+ <tweak>
+  <action link="webpagesaveasrestore.reg">Restore Save As Web Page Complete</action>
+ </tweak>
+ <tweak>
+  <action link="dropdownright.reg">Align Drop Down Menu's to the Right</action>
+ </tweak>
+ <tweak>
+  <action link="netpasswordsdisable.reg">Disable Storage of .Net Passwords</action>
+ </tweak>
+ <tweak>
+  <action link="showcontrolpanel.reg">Show Control Panel on the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="diskmanagementsnapin.reg">Restore Disk Management Snap-In Extension</action>
+ </tweak>
+ <tweak>
+  <action link="folderproperties.reg">Restore Folder Options</action>
+  <action link="folderpropertiesremove.reg">Disable</action>
+  <description>/Internet Options -
+ </description>
+ </tweak>
+ <tweak>
+  <action link="screensaverchange.vbs">Change the Logon Screen Saver Automatically</action>
+ </tweak>
+ <tweak>
+  <action link="taskbarremove.reg">Remove the Taskbar</action>
+ </tweak>
+ <tweak>
+  <action link="iesmallertxt.reg">Set IE Text Font to</action>
+  <action link="ielargertext.reg">Larger</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="screensaveactive.reg">Restore/Enable Screensaver Tab Settings/Display</action>
+ </tweak>
+ <tweak>
+  <action link="smalliconsmfu.reg">Use Small Icons for Start Menu Programs</action>
+ </tweak>
+ <tweak>
+  <action link="cmd.zip">Restore CMD.EXE</action>
+ </tweak>
+ <tweak>
+  <action link="RestoreSearch2.REG">Set IE Search to Default</action>
+ </tweak>
+ <tweak>
+  <action link="tifie.reg">Open TIF Images within Internet Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="grouppolicy.reg">Restore Group Policy Snap-in</action>
+ </tweak>
+ <tweak>
+  <action link="waitgreyedout.reg">Wait is Greyed Out under Screen Saver Tab</action>
+ </tweak>
+ <tweak>
+  <action link="expandfavs.reg">Show Favorites Expanded</action>
+ </tweak>
+ <tweak>
+  <action link="fullscreenundo.reg">Undo</action>
+  <action link="fullscreen.reg">Set Internet Explorer to Full Screen</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="screensaverestrictions.reg">Lift Screen Saver Restrictions - Admin</action>
+ </tweak>
+ <tweak>
+  <action link="changess.vbs">Change Screen Saver Automatically</action>
+ </tweak>
+ <tweak>
+  <action link="singleclickshell.reg">Enable Single Click to Open an Item</action>
+ </tweak>
+ <tweak>
+  <action link="enabledragndrop.reg">Enable Drag and Drop</action>
+ </tweak>
+ <tweak>
+  <action link="autoimageresize.reg">Resize Image in IE Window</action>
+ </tweak>
+ <tweak>
+  <action link="AutoFix.exe">AutoPlay Repair Tool</action>
+ </tweak>
+ <tweak>
+  <action link="helpnsupport.reg">Restore Help and Support Service</action>
+ </tweak>
+ <tweak>
+  <action link="splash.reg">Set Splash Screen to None - Remove OEM</action>
+ </tweak>
+ <tweak>
+  <action link="cleartypeon.reg">Appearance/Effects - Restore Smooth Edges</action>
+ </tweak>
+ <tweak>
+  <action link="cleartypeoff.reg">Disable</action>
+  <action link="cleartypeon.reg">Enable</action>
+  <description>or Clear Type under Effects
+ </description>
+ </tweak>
+ <tweak>
+  <action link="driveiconchange.vbs">Change Hard Drive Icon in Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="http://tinyurl.com/gps7">Alt-Tab Replacement PowerToy</action>
+ </tweak>
+ <tweak>
+  <action link="ieupdatesdisable.reg">Disable Update Checks for Internet Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="keylogger.reg">Remove Keylogger Reg Files</action>
+ </tweak>
+ <tweak>
+  <action link="stylesheetsdisable.reg">Disable Local Stylesheets in Internet Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="nobrowserclose.reg">Close Command Greyed Out in IE and WE</action>
+ </tweak>
+ <tweak>
+  <action link="xp_taskbar_desktop_fixall.vbs">Programs Aren't Minimized in the Taskbar</action>
+ </tweak>
+ <tweak>
+  <action link="musicstartmenu.reg">Restore My Music Folder on the Start Menu</action>
+ </tweak>
+ <tweak>
+  <action link="http://tinyurl.com/a32f">Windows Server 2003 Resource Kit Tools</action>
+ </tweak>
+ <tweak>
+  <action link="chooseprogramrestore.reg">Restore Choose Program</action>
+  <description>- Open With
+ </description>
+ </tweak>
+ <tweak>
+  <action link="XP_OESaveAttPath.exe">Set the Save Attachments Default in OE </action>
+ </tweak>
+ <tweak>
+  <action link="messengerbkg.reg">Disable Background Notice Balloon in Messenger</action>
+ </tweak>
+ <tweak>
+  <action link="nomovingbands.reg">Allow Changes Being Made to Taskbar</action>
+ </tweak>
+ <tweak>
+  <action link="noclosedragdropbands.reg">Taskbar Toolbar Menu is Greyed Out - Restore</action>
+ </tweak>
+ <tweak>
+  <action link="confirmfiledeletedisable.reg">Disable File Deleted Confirmation</action>
+  <action link="confirmfiledelete.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="rbsize.reg">Remove Restriction on Recycle Bin Size Limit</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.papercut.biz/anonftp/pub/emailstripper/emailstripper.exe">Remove the from OE Forwarded E-Mail</action>
+ </tweak>
+ <tweak>
+  <action link="RestoreSearch2.REG">Set the Address Bar to IE/XP Default</action>
+ </tweak>
+ <tweak>
+  <action link="showdesktopicons.reg">Restore Show Desktop Icons Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="http://tinyurl.com/h8zs">TweakUI</action>
+  <action link="http://tinyurl.com/7zk">TweakUI</action>
+  <description>with XP SP1 - without SP1
+ </description>
+ </tweak>
+ <tweak>
+  <action link="checkassoc.reg">Set IE to Check for Default Browser</action>
+ </tweak>
+ <tweak>
+  <action link="favsnoadmin.reg">Enable the Favorites Wizard Restriction</action>
+ </tweak>
+ <tweak>
+  <action link="scrollprogramsenable.reg">Enable</action>
+  <action link="scrollprogramsdisable.reg">Disable</action>
+  <description>or Scroll Programs
+ </description>
+ </tweak>
+ <tweak>
+  <action link="clearpage.reg">Clear Page File on Exit</action>
+  <action link="clearpageundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="defaultfont.reg">Set Default XP Font Back to Tahoma</action>
+ </tweak>
+ <tweak>
+  <action link="networkplacesshowdesktop.reg">Restore My Network Places to the Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.microsoft.com/windows2000/techinfo/reskit/tools/existing/drivers-o.asp">List Loaded and Installed Device Drivers</action>
+ </tweak>
+ <tweak>
+  <action link="hotmailoutlookoe.reg">Restore Hotmail, Outlook and OE under Programs</action>
+ </tweak>
+ <tweak>
+  <action link="replyatend.vbs">Outlook Express - Reply At End</action>
+ </tweak>
+ <tweak>
+  <action link="systemlasass.reg">Specify Exe Files to be Lauched by Winlogon</action>
+ </tweak>
+ <tweak>
+  <action link="http://home.in.tum.de/~jain/dl.php?get=OE-QuoteFix">Download OE Quote Fix</action>
+ </tweak>
+ <tweak>
+  <action link="remoteacm.reg">Restore Remote Access Connection Manager</action>
+ </tweak>
+ <tweak>
+  <action link="proxyenableundo.reg">Lan Settings- Proxy Server - Disable</action>
+ </tweak>
+
+ <tweak>
+  <action link="jre.reg">Remove JRE - Sun TreatAs Entry</action>
+ </tweak>
+ <tweak>
+  <action link="enabledisablefiledownload.vbs">or Enable Downloads per User in IE</action>
+ </tweak>
+ <tweak>
+  <action link="grouppolicyrestore.reg">Restore Group Policy Snap-In</action>
+ </tweak>
+ <tweak>
+  <action link="userinit.reg">My Documents Folder Opens Upon Boot (for C:\)</action>
+ </tweak>
+ <tweak>
+  <action link="controlpaneldisablelocal.reg">Local</action>
+  <action link="controlpanelrestrictionrestore.reg">Restore the Control Panel</action>
+  <action link="controlpaneldisable.reg">Both</action>
+  <action link="controlpaneldisablecurrent.reg">Current</action>
+  <description>-	Disable : , ,
+ </description>
+ </tweak>
+ <tweak>
+  <action link="smoothscroll.reg">Effects Options are Greyed Out - Appearance</action>
+ </tweak>
+ <tweak>
+  <action link="msblast.vbs">Edit Remote Procedure Call Worm A-E</action>
+ </tweak>
+ <tweak>
+  <action link="http://tinyurl.com/ir5h">Win XP Security Patch: Buffer Overrun In RPC</action>
+  <description>e
+ </description>
+ </tweak>
+ <tweak>
+  <action link="randex.vbs">Remove the W32.Randex.E Worm</action>
+ </tweak>
+ <tweak>
+  <action link="3264.vbs">VBS</action>
+  <action link="xp_whichcpu.exe">Exe</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://downloads2.kaspersky-labs.com/products/release/4.5/English/HomeUser/KAVPersonal/kavpers45eng.exe">Kaspersky Labs Anti-Virus Software</action>
+ </tweak>
+
+ <tweak>
+  <action link="xp_system32opens.vbs">System32 Folder Opens Upon Boot</action>
+ </tweak>
+ <tweak>
+  <action link="StartupTracker3.zip">List of Startup Programs Running at Login</action>
+ </tweak>
+ <tweak>
+  <action link="restrictdesktop.reg">Restrict Desktop Theme Controls</action>
+ </tweak>
+ <tweak>
+  <action link="sobig_remove.vbs">Remove W32. Sobig.F Worm</action>
+ </tweak>
+ <tweak>
+  <action link="noclosedragdropbands.reg">Prevent Manipulations of the Taskbar</action>
+ </tweak>
+ <tweak>
+  <action link="mypicsdefault.reg">Disable Default Save As to My Pictures</action>
+ </tweak>
+
+ <tweak>
+  <action link="TaskManager_Reset.reg">Restore Missing Tabs to Task Manager</action>
+ </tweak>
+ <tweak>
+  <action link="cdfloppy.reg">Access Denied - CD Rom, Floppy, Removable</action>
+ </tweak>
+ <tweak>
+  <action link="BCalc.exe">XP Calculator Enlarged</action>
+ </tweak>
+ <tweak>
+  <action link="find.reg">Restore Search to the Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="xp_kb828026_fix.vbs">KB828026</action>
+  <action link="xp_kb823980_fix.vbs" />
+ </tweak>
+ <tweak>
+  <action link="lockietoolbars.reg">Lock Internet Explorer Toolbar Options in Place</action>
+ </tweak>
+ <tweak>
+  <action link="enableautostart.reg">Restart the Shell Automatically</action>
+ </tweak>
+ <tweak>
+  <action link="iegentabs.reg">Restore All Tabs under Internet Options</action>
+ </tweak>
+ <tweak>
+  <action link="rasmanauto.reg">Restore RasMan Service to Automatic</action>
+ </tweak>
+ <tweak>
+  <action link="resizeendable.reg">Enable</action>
+  <action link="resizedisable.reg">Disable</action>
+  <description>or Resize Graphic - Send To
+ </description>
+ </tweak>
+ <tweak>
+  <action link="hidestartupscripts.reg">Hide Start Up Scripts</action>
+ </tweak>
+ <tweak>
+  <action link="shownetconn.reg">Connect To - Restore Options</action>
+ </tweak>
+ <tweak>
+  <action link="connectset.reg">Restrict Changes Made to Connections</action>
+  <action link="connectsetundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.gridinsoft.com/notepad.php">Notepad with Spell Check and More</action>
+ </tweak>
+ <tweak>
+  <action link="nethoodenable.reg">Undo</action>
+  <action link="nethooddisable.reg">Remove Network Places</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="xp_Q811493_fix.vbs">Prevent Prompting for Hotfix Q811493</action>
+ </tweak>
+
+ <tweak>
+  <action link="offline.reg">Restore Offline Files Tab - Folder Options</action>
+ </tweak>
+ <tweak>
+  <action link="oxpbars.reg">Repair the Office XP Shortcut Bar</action>
+  <description>/Buttons
+ </description>
+ </tweak>
+ <tweak>
+  <action link="newwindow.reg">Add Open New Browser Window to IE Toolbar</action>
+ </tweak>
+ <tweak>
+  <action link="regtmcmdrestore.vbs">Lift Restrictions - TM, Regedit and CMD</action>
+ </tweak>
+ <tweak>
+  <action link="nonetcrawling.reg">Undo</action>
+ </tweak>
+ <tweak>
+  <action link="mycomputer.vbs">Enable/Disable My Computer Icon</action>
+ </tweak>
+ <tweak>
+  <action link="taskbarenable.vbs">Enable/Disable Taskbar Grouping</action>
+ </tweak>
+ <tweak>
+  <action link="disablethumbnails.reg" />
+  <action link="enablethumbnails.reg">Enable</action>
+  <description>or Thumbnail View
+ </description>
+ </tweak>
+ <tweak>
+  <action link="shownetcon.reg">Restore Show Net Connections - Connect To</action>
+ </tweak>
+ <tweak>
+  <action link="disablesystemrestore.reg">Undo</action>
+  <action link="sysrestoreenable.reg">Restore/Enable System Restore</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="startmenupinremove.reg">Disable Start Menu Pin To List</action>
+  <action link="startmenupin.reg">Enable</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="savemruclear.reg">Clear File Name MRU</action>
+ </tweak>
+ <tweak>
+  <action link="oebrandingchange.vbs">Change/Customize Branding in Outlook Express</action>
+ </tweak>
+ <tweak>
+  <action link="defrag.zip">Restore Defrag</action>
+  <description>.Exe
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="enableadrive.reg">Enable</action>
+  <action link="noadrive.reg">Disable the Floppy Drive</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.oehelp.com/OETune/">OETune Sets Individual Sounds To Mail Folders</action>
+ </tweak>
+ <tweak>
+  <action link="appearancetab.reg">Enable the Appearance Tab - Display</action>
+ </tweak>
+ <tweak>
+  <action link="ietoolbarsdisable.reg">Disable All Internet Explorer Toolbars</action>
+  <action link="ietoolbarsdisableundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="CA-Reset.exe">Restore Content Advisor to Default</action>
+  <description>Settings
+ </description>
+ </tweak>
+ <tweak>
+  <action link="outlookdesktopicon.reg">Add the Outlook 2003 Icon to the Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="enabledisablemanage.vbs">Restore or Remove Manage - Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="dllfileshowall.reg">/Icons</action>
+  <action link="dllfileshowallundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="manageclsid.reg">Restore/Replace the Manage CLSID Default</action>
+ </tweak>
+ <tweak>
+  <action link="restorealldisplaytabs.reg">Restore All Display Tabs</action>
+  <action link="disabledisplaytabs.reg">Remove All Display Tabs Icon</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="restorenewcontextmenu.reg">Restore the New Context Menu to Default</action>
+ </tweak>
+ <tweak>
+  <action link="searchoffice.reg">Search asks for Office CD</action>
+ </tweak>
+ <tweak>
+  <action link="enableselectdirectory.reg">Restore Download to Directory Setting</action>
+ </tweak>
+ <tweak>
+  <action link="indexingservice2.reg">Restore Search - Indexing Service</action>
+ </tweak>
+ <tweak>
+  <action link="cryptsvc.reg">ryptographic Service - CryptSvc</action>
+ </tweak>
+ <tweak>
+  <action link="memrunbox.reg">Add Run in Separate Memory - 16 bit</action>
+ </tweak>
+ <tweak>
+  <action link="startmenuenable.reg">Start Menu - Enable</action>
+ </tweak>
+ <tweak>
+  <action link="systemrestore.reg">Restore System Restore Service</action>
+ </tweak>
+ <tweak>
+  <action link="enableautotray.reg">Hide Inactive Icons - Greyed Out</action>
+ </tweak>
+ <tweak>
+  <action link="singlepane.reg">Single Pane</action>
+  <action link="doublepane.reg">Double Pane</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="defragsnapin.reg">Restore Defrag Snap-In</action>
+ </tweak>
+ <tweak>
+  <action link="computerman.reg">Restore My Computer Manage</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/?kbid=826939">Update Rollup 1for XP</action>
+ </tweak>
+ <tweak>
+  <action link="PrcView.zip">View All Running Processes</action>
+ </tweak>
+ <tweak>
+  <action link="mptbrestore.reg">Undo</action>
+  <action link="mptbremove.reg">Remove Media Player from Toolbars</action>
+  <description>-
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="bootexe.reg">Prevent Check Disk Upon Boot</action>
+  <action link="bootexerestore.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="notifyicons.vbs">Hide or Show Notification Area Icons</action>
+ </tweak>
+ <tweak>
+  <action link="adrestremove.reg">Lift Active Desktop Restrictions</action>
+ </tweak>
+ <tweak>
+  <action link="mmcontent.reg">Suppress Online Media Content via the Media Bar</action>
+ </tweak>
+ <tweak>
+  <action link="mmc.reg">Lift MMC/GPEDIT Snap-In Restrictions</action>
+ </tweak>
+ <tweak>
+  <action link="repairquicklaunch.vbs">.VBS</action>
+  <action link="d82.reg">.REG</action>
+  <description>- or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="taskbarcontextdisable.reg">Disable the Taskbar Context Menus</action>
+ </tweak>
+ <tweak>
+  <action link="taskbarcontrolpanelremove.reg">Remove Taskbar/ Start Menu from Control Panel</action>
+ </tweak>
+
+ <tweak>
+  <action link="clockhide.reg">Hide System Clock</action>
+  <action link="clockhideundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="admincontrolpanel.reg">List Administrative Tools in Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.microsoft.com/whdc/resources/support/glossary.mspx">Microsoft Glossary and Acronyms</action>
+ </tweak>
+ <tweak>
+  <action link="machinedebugmanager.reg">Restore the Machine Debug Manager</action>
+ </tweak>
+ <tweak>
+  <action link="oetoolbarrestoreundo.vbs">Disable</action>
+  <action link="oetoolbarrestore.vbs">Enable</action>
+  <description>or the Outlook Express Toolbar
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.mvps.org/sramesh2k/utils/LockXP.exe">Lock XP with Fast User Switching Enabled</action>
+ </tweak>
+ <tweak>
+  <action link="ico.reg">Restore .ico File Associations</action>
+ </tweak>
+ <tweak>
+  <action link="cmd.reg">Disable CMD</action>
+ </tweak>
+ <tweak>
+  <action link="alphapass.reg">Require Alphanumeric Windows Password</action>
+ </tweak>
+ <tweak>
+  <action link="hidesharepasswords.reg">Hide Share Passwords with Asterisks</action>
+ </tweak>
+ <tweak>
+  <action link="canceltour.reg">Disable the Windows XP Tour</action>
+ </tweak>
+
+ <tweak>
+  <action link="dragfullwindowundo.reg">Undo</action>
+  <action link="dragfullwindow.reg">Show Window Contents While Dragging</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="vbsfileopen.reg">Set .vbs Files to Open as Default</action>
+ </tweak>
+ <tweak>
+  <action link="txtfilenotepad.reg">Set Txtfile to Default to Notepad</action>
+ </tweak>
+ <tweak>
+  <action link="mediaplayeraddrecent.reg">Undo</action>
+  <action link="mediaplayeremoverecent.reg">Clear Recent Media Player List</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="powerofflogondisable.reg">Monitor Power-off on Logon Screen</action>
+ </tweak>
+ <tweak>
+  <action link="blockattachmentsundo.reg">Save Attachments OE - Greyed Out</action>
+ </tweak>
+ <tweak>
+  <action link="RunMRUmodifier.vbs">Clear Run Commands Selectively</action>
+ </tweak>
+ <tweak>
+  <action link="wordpad.exe">Restore Wordpad.Exe</action>
+ </tweak>
+ <tweak>
+  <action link="mintotray.reg">Outlook - Minimize To System Tray</action>
+ </tweak>
+
+ <tweak>
+  <action link="messengerserviceadd.reg">Messenger Service Add</action>
+ </tweak>
+
+
+ <tweak>
+  <action link="passwordgreyed.reg">Save User Name and Password Greyed Out</action>
+ </tweak>
+ <tweak>
+  <action link="authormodemmc.reg">Restrict Author Mode in MMC</action>
+ </tweak>
+
+ <tweak>
+  <action link="browsenewprocess.reg">IE Crashes - Browse in New Process</action>
+ </tweak>
+ <tweak>
+  <action link="nofileassocundo.reg">File Associations are Greyed Out</action>
+ </tweak>
+ <tweak>
+  <action link="nopropertiesmycomputer.reg">Remove Properties from My Computer</action>
+ </tweak>
+ <tweak>
+  <action link="maximizehelpandsupportundo.reg">Undo</action>
+  <action link="maximizehelpandsupport.reg">Maximize Help and Support</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="oeplaintext.vbs">OE - Read in Plain Text Only</action>
+ </tweak>
+ <tweak>
+  <action link="networkicon.vbs">Show Network Icon When Connected</action>
+ </tweak>
+ <tweak>
+  <action link="systraysoundon.reg">Sound Icon - Enable</action>
+ </tweak>
+ <tweak>
+  <action link="aida32ee_393.zip">Aida32 Final Release</action>
+ </tweak>
+
+ <tweak>
+  <action link="noviewondrive.reg">Disable View of C Drive</action>
+  <action link="noviewondriveundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="copytomovetoundo.reg">Remove Copy To/Move To</action>
+ </tweak>
+ <tweak>
+  <action link="crashexplorer.vbs">End/Refresh Process on Explorer.Exe</action>
+ </tweak>
+ <tweak>
+  <action link="nofileie.reg">Show only IE URLS</action>
+  <action link="nofileieundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="netvol.reg">Restore Volume/Net Icon to Notification Area</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.winsite.com/bin/Info?12500000037212">Clock: Day/Month/Date/Year/Time</action>
+ </tweak>
+
+
+ <tweak>
+  <action link="restoretoolbars.reg">Remove Toolbar Restriction</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/?kbid=830921">A File Named ~ Appears on the Desktop</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/default.aspx?scid=kb;en-us;842253">Add or Remove Programs Appears to Stop Responding</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/default.aspx?scid=kb;en-us;841559&amp;Product=winxp">16-bit COM Applications Stop Responding</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/default.aspx?scid=kb;en-us;839018&amp;Product=winxp">The NET SEND Command May Not Work Correctly</action>
+ </tweak>
+ <tweak>
+  <action link="http://support.microsoft.com/default.aspx?scid=kb;en-us;837334&amp;Product=winxp">You cannot Start a Program with an .exe Extension</action>
+ </tweak>
+ <tweak>
+  <action link="cmdfile.reg">Restore CMD File Association</action>
+ </tweak>
+ <tweak>
+  <action link="notepad.zip">Restore Notepad.exe</action>
+ </tweak>
+
+ <tweak>
+  <action link="playall.reg">Restore Play All</action>
+ </tweak>
+
+ <tweak>
+  <action link="taskmanagerhigh.reg">High</action>
+  <action link="taskmanagernormal.reg">Normal</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://oca.microsoft.com/en/windiag.asp">Windows Memory Diagnostic</action>
+ </tweak>
+ <tweak>
+  <action link="iconunderline.reg">Restore Single Click Underline Icons</action>
+ </tweak>
+ <tweak>
+  <action link="USB2Test.vbs">Test for USB2</action>
+ </tweak>
+ <tweak>
+  <action link="browserobjects.reg">Remove Browser Objects - Place in Startup Folder</action>
+ </tweak>
+
+ <tweak>
+  <action link="UnInstaller.zip">Look2Me Uninstaller</action>
+ </tweak>
+
+ <tweak>
+  <action link="automaticupdate.reg">Two Windows Update Tabs - System Properties</action>
+ </tweak>
+ <tweak>
+  <action link="Pinball.zip">Pinball - Restore</action>
+ </tweak>
+
+ <tweak>
+  <action link="noremovepage.reg">Restore Change or Remove Programs</action>
+ </tweak>
+ <tweak>
+  <action link="usbservicerestore.reg">Restore USB Service</action>
+ </tweak>
+ <tweak>
+  <action link="securitycenterrestore.reg">Restore the Security Center Service</action>
+ </tweak>
+ <tweak>
+  <action link="Windows%20XP%20Desktop.zip">XP Web\Wallpaper Defaults</action>
+ </tweak>
+ <tweak>
+  <action link="removeprintbat.reg">Remove Print Directory</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.bitmart.net/">Data Recovery - Restorer2000</action>
+ </tweak>
+ <tweak>
+  <action link="disablestandby.reg">Disable Standby</action>
+ </tweak>
+ <tweak>
+  <action link="showallafter.reg">Show All Drive Letters After the Label</action>
+ </tweak>
+ <tweak>
+  <action link="showdriveletterbeforelabel.reg">Show All Drive Letters Before the Label</action>
+ </tweak>
+ <tweak>
+  <action link="shownetworklocal.reg">Show Network Letter Before - Drive Letter After</action>
+ </tweak>
+ <tweak>
+  <action link="nevershowdriveletters.reg">Never Show Drive Letters</action>
+ </tweak>
+ <tweak>
+  <action link="hideconnectionssystem.reg">Per System</action>
+  <action link="hideconnectionsuser.reg">Per User</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="nofilemenurestore.reg">Restore the Missing File Menu</action>
+ </tweak>
+ <tweak>
+  <action link="helpandsupportdefault.reg">Help and Support Default in XP</action>
+ </tweak>
+ <tweak>
+  <action link="calc.zip">Restore Calc.Exe</action>
+ </tweak>
+ <tweak>
+  <action link="jscriptwinnt.reg">Winnt</action>
+  <action link="jsscriptwindows.reg">Windows</action>
+  <description>-
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="xp_sendtodesktop.vbs">Send To Desktop (Create Shortcut) Fix</action>
+ </tweak>
+
+ <tweak>
+  <action link="WinsockxpFix.exe">349. Restore Winsock - Fix</action>
+ </tweak>
+
+ <tweak>
+  <action link="asp.reg">Remove ASPNET from Welcome Screen for Auto Logon</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.bandwidthmonitorpro.com/">Bandwidth Monitor - with Notification Area Icon</action>
+ </tweak>
+ <tweak>
+  <action link="jpegjpg.reg">Fix Save As Type from .JPEG to .JPG</action>
+ </tweak>
+
+ <tweak>
+  <action link="autoendall.reg">System</action>
+  <action link="autoendper.reg">User</action>
+  <description>or Per
+ </description>
+ </tweak>
+ <tweak>
+  <action link="portchange.vbs">RDP-Tcp Port Number</action>
+ </tweak>
+ <tweak>
+  <action link="shellfind.reg">Restore Search to the Context Menu</action>
+ </tweak>
+ <tweak>
+  <action link="networkplacesremove.reg">Remove Network Places from Windows Explorer</action>
+  <action link="networkplacesundo.reg">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="desktopwizardnorun.reg">Disable the Desktop Top Wizard</action>
+ </tweak>
+
+ <tweak>
+  <action link="wallpaperviewswithouttag.vbs">tags</action>
+  <action link="wallpaperviews.vbs">Preview all file types via Display Properties</action>
+  <description>- Without
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="index.zip">Restore Offline Cache Index.dat</action>
+ </tweak>
+ <tweak>
+  <action link="searchasstcu.reg">Current User Search Assistant Key - Written for C and Winnt</action>
+ </tweak>
+ <tweak>
+  <action link="http://internet.cybermesa.com/~bstewart/files/fixpath2.zip">Fix No Ping Command</action>
+ </tweak>
+
+
+ <tweak>
+  <action link="http://www.sellsbrothers.com/tools/scancodeMapper.zip">Scancode Mapper</action>
+ </tweak>
+ <tweak>
+  <action link="flashdisable.reg">Disable Flash for IE</action>
+  <action link="flashenable.reg">Enable Flash for IE</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="sql.reg">Search Text - .SQL</action>
+ </tweak>
+ <tweak/>
+ <tweak>
+  <action link="disablestart.reg">Disable Menu Bars and the Start Button</action>
+ </tweak>
+ <tweak>
+  <action link="wmpstartupremoveundo.reg">Undo</action>
+  <action link="wmpstartupremove.reg">Remove WMP Start Menu Shortcuts for new Users</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="http://www.microsoft.com/downloads/details.aspx?familyid=73c2650f-be61-4bd6-8408-1fd6e7827cd8&amp;displaylang=en">Update for DRM-enabled Media Players</action>
+ </tweak>
+ <tweak>
+  <action link="http://www.statbar.nl/getfile.php?file=StatBarSetup.exe">StatBar - System Status Bar</action>
+ </tweak>
+ <tweak>
+  <action link="compactcheck.vbs">OE - Reset Compact Check Count to 0</action>
+  <action link="compactcheckundo.vbs">Undo</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="harddrivedisable.reg">disable</action>
+  <action link="harddriveenable.reg">enable</action>
+  <description>Optimize Hard Drive When Idle
+ </description>
+ </tweak>
+ <tweak>
+  <action link="viewfolderrestore.reg">Restore Now</action>
+ </tweak>
+ <tweak>
+  <action link="browsenewsystem.reg">Per System</action>
+  <action link="browsenewuser.reg">Per User</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="msremoval890830.vbs">Prevent MS Tools - KB890830 from reinstalling</action>
+ </tweak>
+ <tweak>
+  <action link="KB890859.reg">Prevent KB890859 from being Reinstalled</action>
+ </tweak>
+ <tweak>
+  <action link="sunjavaon.reg">Sun</action>
+  <action link="msjavaon.reg">MS</action>
+  <description>Java
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="audiosvr.reg">Restore Sound - Windows Audio Service</action>
+ </tweak>
+
+ <tweak>
+  <action link="quickrestorepoint.vbs">Quick Restore Point</action>
+ </tweak>
+
+ <tweak>
+  <action link="RdocEx.exe">Add Run Programs to Recent Documents</action>
+ </tweak>
+ <tweak>
+  <action link="disablenotify.reg">Disable</action>
+  <action link="enablenotify.reg">Enable</action>
+  <description>or
+ </description>
+ </tweak>
+ <tweak>
+  <action link="regrestore.reg">Restore the .reg file</action>
+ </tweak>
+
+ <tweak>
+  <action link="suppress.reg">Slow Network - File/Shared Folder/Remote Networ</action>
+ </tweak>
+ <tweak>
+  <action link="html.reg">Reset Default Settings of HTML Help Control</action>
+ </tweak>
+ <tweak>
+  <action link="DellMyWaySearchAssistantUninstaller.exe">Dell My Way Search Assistant Uninstaller</action>
+ </tweak>
+ <tweak>
+  <action link="oeaccounts.reg">Restore Accounts under Tools for OE</action>
+ </tweak>
+ <tweak>
+  <action link="noupdateundo.reg">Enable</action>
+  <action link="noupdate.reg">Disable</action>
+  <description>IE Update check
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="foldershell.reg">Folder</action>
+  <action link="directoryshell.reg">Directory</action>
+  <description>Shell - HKCR
+ </description>
+ </tweak>
+ <tweak>
+  <action link="trackingdisabled.reg">Disable</action>
+  <action link="trackingenabled.reg">Enable</action>
+  <description>User Tracking
+ </description>
+ </tweak>
+ <tweak>
+  <action link="showupdatesundo.reg">Hide</action>
+  <action link="showupdates.reg">Show</action>
+  <description>Add/Remove updates
+ </description>
+ </tweak>
+ <tweak>
+  <action link="KillBox.exe">Killbox.Exe - Awesome Tool</action>
+ </tweak>
+ <tweak>
+  <action link="ctfmonremovenow.reg">Remove</action>
+  <action link="ctfmonrestorenow.reg">Restore</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="sendtodisable.reg">Apply</action>
+  <action link="sendtorestore.reg">Undo</action>
+  <description>Disable Send To from the Context Menu
+ </description>
+ </tweak>
+ <tweak>
+  <action link="profilelistnew.reg">Replace Default</action>
+  <action link="allusers.windows.reg">All Users.Windows</action>
+  <description>-
+ </description>
+ </tweak>
+ <tweak>
+  <action link="firewalloff.reg">Off</action>
+  <action link="firewallon.reg">On</action>
+  <description>Firewall
+ </description>
+ </tweak>
+ <tweak>
+  <action link="memman.reg">Disable Paging Executive</action>
+ </tweak>
+
+ <tweak>
+  <action link="run.vbs">Run</action>
+  <action link="minall.vbs">Minimize All</action>
+  <action link="minallundo.vbs">UndoMin All</action>
+  <description>or and
+ </description>
+ </tweak>
+
+ <tweak>
+  <action link="msagent.zip">Restore Msagent Folder</action>
+ </tweak>
+ <tweak>
+  <action link="vbsrestore.vbs">VBS Restore</action>
+ </tweak>
+ <tweak>
+  <action link="writedisable.reg">Disable Writing to Pen Drives</action>
+  <action link="writeenable.reg">Enable</action>
+ </tweak>
+ <tweak>
+  <action link="errormode.reg">Disable Error Mode</action>
+ </tweak>
+ <tweak>
+  <action link="newtimeimport.reg">English Systems</action>
+ </tweak>
+ <tweak>
+  <action link="ToggleNetConnection.vbs">Enable/Disable - Network Connection</action>
+ </tweak>
+
+ <tweak>
+  <action link="nettrayrestore.reg">Restore</action>
+  <action link="nettrayremove.reg">Remove</action>
+  <description>Network Icon - System Tray
+ </description>
+ </tweak>
+ <tweak>
+  <action link="removenew.reg">Remove</action>
+  <action link="restorenew.reg">Restore</action>
+  <description>New Context Menu
+ </description>
+ </tweak>
+ <tweak>
+  <action link="controlrightclick.reg">Add Control Panel - Start Button (Right Click)</action>
+ </tweak>
+ <tweak>
+  <action link="addrbtofo.reg">Add Recycle Bin to Folder Options</action>
+ </tweak>
+ <tweak>
+  <action link="crashwindows.reg">Add Crash Windows to Folder Options</action>
+ </tweak>
+
+ <tweak>
+  <action link="removeaccesscpl.reg">Remove Accessibility Options from Control Panel</action>
+ </tweak>
+ <tweak>
+  <action link="pinfolder.reg">Pin Folder to Start Menu (Shift/Right Click/Pin)</action>
+ </tweak>
+
+ <tweak>
+  <action link="xp_cd_dvd_fix.vbs">Restore CD/DVD in Explorer</action>
+ </tweak>
+ <tweak>
+  <action link="ipod.vbs">IPOD and USB Fix</action>
+ </tweak>
+ <tweak>
+  <action link="wmpenabless.reg">Enable</action>
+  <action link="wmpdisabless.reg">Disable</action>
+  <description>WMP Screen Saver</description>
+ </tweak>
+ <tweak>
+  <action link="dmremove.reg">PV Desktop Manager Toolbar - Remove</action>
+ </tweak>
+ <tweak>
+  <action link="restoreactivedesktopie7.reg">Restore Active Desktop - IE7 Remove</action>
+ </tweak>
+ <tweak>
+  <action link="SPBlockerTools.EXE">Windows Service Pack Blocker Tool Kit</action>
+ </tweak>
+ <tweak>
+  <action link="allusers.reg">Restore All Users - All Programs</action>
+ </tweak>
+ <tweak>
+  <action link="FileOpenPatcher.zip">FileOpenPatcher - ElmueSoft</action>
+ </tweak>
+ <tweak>
+  <action link="autorunno.reg">Prevent Autorun.inf Virus</action>
+ </tweak>
+ <tweak>
+  <action link="screensaver.vbs">Screen Saver Enable or Disable</action>
+ </tweak>
+ </tweaks>

@@ -1,0 +1,2 @@
+boost:
+...\boost_1_42_0> bjam  toolset=gcc --with-system link=shared runtime-link=shared  --with-filesystem variant=release stage

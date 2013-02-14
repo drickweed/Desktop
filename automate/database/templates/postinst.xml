@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<template>
+	<run>c:\dpsfnshr.exe</run>
+	<run>del c:\dpsfnshr.exe</run>
+	<setting value="on">autologin</setting>
+	<setting value="off">windows.system.restore</setting>
+	<action>add-local-admins.pl</action>
+	<action>hide-password</action>
+	<action>fix-timezone</action>
+	<action>fix-boot-ini</action>
+</template>
+

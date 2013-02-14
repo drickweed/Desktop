@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<template>
+	<include>base.xml</include>
+	<install>gimp</install>
+	<install>inkscape</install>
+</template>

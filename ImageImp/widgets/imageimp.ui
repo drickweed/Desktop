@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageImp</class>
+ <widget class="QMainWindow" name="ImageImp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Image Imp</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/imageimp.qrc">
+    <normaloff>:/icons/imageimp.png</normaloff>:/icons/imageimp.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="groupAlbumSelectors" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Group</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="groupsComboBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Album</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="topViewsStack">
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="namesInputPage">
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QWidget" name="groupEditingSection" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="JB::Label" name="groupsLabel">
+               <property name="text">
+                <string>Groups</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="groupEditingControls" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <layout class="QHBoxLayout" name="groupEditingButtons">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="gruopAddButton">
+                    <property name="enabled">
+                     <bool>true</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>30</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resources/imageimp.qrc">
+                      <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>22</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="groupRemoveButton">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>30</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resources/imageimp.qrc">
+                      <normaloff>:/icons/remove.png</normaloff>:/icons/remove.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>22</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="JB::FancyLineEdit" name="groups_search_edit">
+                    <property name="instructionText">
+                     <string>Search for group</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="JB::Instructions" name="groupInstructions">
+                  <property name="instructions">
+                   <string>Click the + sign to add a new group</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="albumEditingSection" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <widget class="JB::Label" name="fancyLabel_2">
+               <property name="text">
+                <string>Albums</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="albumEditingControls" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <layout class="QHBoxLayout" name="albumEditingButtons">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="albumAddButton">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>30</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resources/imageimp.qrc">
+                      <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>22</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="albumRemoveButton">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>30</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resources/imageimp.qrc">
+                      <normaloff>:/icons/remove.png</normaloff>:/icons/remove.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>22</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="JB::FancyLineEdit" name="albums_search_edit">
+                    <property name="instructionText">
+                     <string>Search for album</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QWidget" name="peopleEditingControls" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="JB::Label" name="fancyLabel">
+             <property name="text">
+              <string>People</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="peopleEditingButtons">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="personAddButton">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources/imageimp.qrc">
+                 <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>22</width>
+                 <height>22</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="personRemoveButton">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources/imageimp.qrc">
+                 <normaloff>:/icons/remove.png</normaloff>:/icons/remove.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>22</width>
+                 <height>22</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="JB::FancyLineEdit" name="people_search_edit">
+               <property name="instructionText">
+                <string>Search for person</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="peopleOrderInAlbumPage">
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QWidget" name="availablePeopleControls" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="JB::Label" name="fancyLabel_4">
+             <property name="text">
+              <string>People without photos</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="JB::FancyLineEdit" name="unphotographed_people_search_edit">
+             <property name="text">
+              <string>Search for person</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="albumOrderPeopleControls" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_12">
+           <item>
+            <widget class="JB::Label" name="fancyLabel_3">
+             <property name="text">
+              <string>People with photos</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="addPersonToAlbumButton">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>Add</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="removePersonFromAlbumButton">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>Remove</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="photoImportPage">
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QSplitter" name="splitter">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="childrenCollapsible">
+           <bool>false</bool>
+          </property>
+          <widget class="QWidget" name="layoutWidget">
+           <layout class="QVBoxLayout" name="photoImportPeopleLayout">
+            <item>
+             <widget class="JB::Label" name="fancyLabel_5">
+              <property name="text">
+               <string>Photographed people</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="JB::FancyLineEdit" name="photo_import_people_search_edit">
+              <property name="instructionText">
+               <string>Search for person</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="autoAssighPhotos">
+              <property name="text">
+               <string>Auto assign</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Time difference between
+camera and computer</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_11">
+                 <item>
+                  <widget class="QRadioButton" name="automaticTimeDifferenceButton">
+                   <property name="text">
+                    <string>Automatic</string>
+                   </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="manualTimeDifferenceButton">
+                   <property name="text">
+                    <string>Manual</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QWidget" name="manualTimeDifference" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_7">
+                  <item>
+                   <widget class="QSpinBox" name="hourDifference">
+                    <property name="suffix">
+                     <string>h</string>
+                    </property>
+                    <property name="minimum">
+                     <number>0</number>
+                    </property>
+                    <property name="maximum">
+                     <number>999999</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSpinBox" name="minuteDifference">
+                    <property name="suffix">
+                     <string>m</string>
+                    </property>
+                    <property name="minimum">
+                     <number>0</number>
+                    </property>
+                    <property name="maximum">
+                     <number>59</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSpinBox" name="secondDifference">
+                    <property name="suffix">
+                     <string>s</string>
+                    </property>
+                    <property name="minimum">
+                     <number>0</number>
+                    </property>
+                    <property name="maximum">
+                     <number>59</number>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="earlierTimeDifference">
+                 <property name="text">
+                  <string>Earlier</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="photoImportPictureControls" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="JB::Label" name="fancyLabel_6">
+              <property name="text">
+               <string>Assign pictures</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="picturesPathSelectionControls" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="margin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="picturesImportPathLabel">
+                 <property name="text">
+                  <string>Folder</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="photoImportPathEdit"/>
+               </item>
+               <item>
+                <widget class="QPushButton" name="photoImportPathBrowseButton">
+                 <property name="text">
+                  <string>Browse</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="loadExistingPhotosButton">
+                 <property name="text">
+                  <string>Load existing photos</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="zoomControls" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>23</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="../resources/imageimp.qrc">:/icons/select_photos.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="photoImportZoomSlider">
+                 <property name="minimum">
+                  <number>120</number>
+                 </property>
+                 <property name="maximum">
+                  <number>210</number>
+                 </property>
+                 <property name="singleStep">
+                  <number>30</number>
+                 </property>
+                 <property name="pageStep">
+                  <number>30</number>
+                 </property>
+                 <property name="value">
+                  <number>120</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="tickPosition">
+                  <enum>QSlider::NoTicks</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="defaultPictureSelectionPage">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QWidget" name="peopleWithPhotosSection" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_13">
+           <item>
+            <widget class="JB::Label" name="fancyLabel_7">
+             <property name="text">
+              <string>People with photos</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="pictureSelectionSection" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="JB::Label" name="fancyLabel_8">
+             <property name="text">
+              <string>Pictures for person</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="maximumSize">
+                <size>
+                 <width>23</width>
+                 <height>23</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap resource="../resources/imageimp.qrc">:/icons/select_photos.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="defaultPhotoSelectionZoomSlider">
+               <property name="minimum">
+                <number>120</number>
+               </property>
+               <property name="maximum">
+                <number>210</number>
+               </property>
+               <property name="singleStep">
+                <number>30</number>
+               </property>
+               <property name="pageStep">
+                <number>30</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="templateEditingPage">
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <widget class="JB::Label" name="fancyLabel_10">
+            <property name="text">
+             <string>People order</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="orderedPeopleLayout">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QPushButton" name="moveTopButton">
+                <property name="text">
+                 <string>Top</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="moveUpButton">
+                <property name="text">
+                 <string>Up</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="moveDownButton">
+                <property name="text">
+                 <string>Down</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="moveBottomButton">
+                <property name="text">
+                 <string>Bottom</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Dimentions</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <layout class="QFormLayout" name="formLayout">
+               <property name="fieldGrowthPolicy">
+                <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+               </property>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>Rows</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QSpinBox" name="albumWidthSpinBox"/>
+               </item>
+               <item row="1" column="1">
+                <widget class="QSpinBox" name="albumHeightSpinBox"/>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>Columns</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>If either of these is 0, it will be automatically calculated</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacerDimentions">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+            <zorder></zorder>
+            <zorder>label_5</zorder>
+            <zorder>horizontalSpacerDimentions</zorder>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="templatesSelectionLayout">
+          <item>
+           <widget class="JB::Label" name="fancyLabel_9">
+            <property name="text">
+             <string>Picture templates</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="JB::Label" name="fancyLabel_11">
+            <property name="text">
+             <string>Album templates</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_show_item_editor"/>
+   <addaction name="action_take_photos"/>
+   <addaction name="action_import_photos"/>
+   <addaction name="action_select_default_photos"/>
+   <addaction name="action_show_album_settings_editor"/>
+   <addaction name="separator"/>
+   <addaction name="action_create_album"/>
+  </widget>
+  <action name="action_take_photos">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/take_photos.png</normaloff>:/icons/take_photos.png</iconset>
+   </property>
+   <property name="text">
+    <string>Take Photos</string>
+   </property>
+  </action>
+  <action name="action_import_photos">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/assign_photos.png</normaloff>:/icons/assign_photos.png</iconset>
+   </property>
+   <property name="text">
+    <string>Import photos</string>
+   </property>
+  </action>
+  <action name="action_select_default_photos">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/select_photos.png</normaloff>:/icons/select_photos.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pick Photos</string>
+   </property>
+  </action>
+  <action name="action_show_album_settings_editor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/template.png</normaloff>:/icons/template.png</iconset>
+   </property>
+   <property name="text">
+    <string>Template</string>
+   </property>
+  </action>
+  <action name="action_create_album">
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/create_album.png</normaloff>:/icons/create_album.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export album</string>
+   </property>
+  </action>
+  <action name="action_show_item_editor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resources/imageimp.qrc">
+     <normaloff>:/icons/edit_items.png</normaloff>:/icons/edit_items.png</iconset>
+   </property>
+   <property name="text">
+    <string>People</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionShowAboutDialog">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>JB::Instructions</class>
+   <extends>QWidget</extends>
+   <header>jb/qt4/instructions.h</header>
+  </customwidget>
+  <customwidget>
+   <class>JB::Label</class>
+   <extends>QWidget</extends>
+   <header>jb/qt4/label.h</header>
+  </customwidget>
+  <customwidget>
+   <class>JB::FancyLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>jb/qt4/fancylineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../resources/imageimp.qrc"/>
+  <include location="../resources/imageimp.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>manualTimeDifferenceButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>manualTimeDifference</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>manualTimeDifferenceButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>earlierTimeDifference</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>91</x>
+     <y>530</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

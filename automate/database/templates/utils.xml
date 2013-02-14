@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<template>
+	<install>acroread</install>
+	<install>7zip</install>
+	<install>usbdlm</install>
+	<install>resource-kit</install>
+	<install>ntfs-undelete</install>
+</template>

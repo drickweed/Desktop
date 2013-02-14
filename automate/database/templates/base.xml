@@ -1,0 +1,12 @@
+<!DOCTYPE export>
+<template>
+ <install>7zip</install>
+ <install>acroread</install>
+ <install>directx</install>
+ <install>firefox</install>
+ <install>java-jre</install>
+ <install>klite</install>
+ <install>msi</install>
+ <install>smplayer</install>
+ <install>usbdlm</install>
+</template>

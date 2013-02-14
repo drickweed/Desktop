@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<template>
+	<setting value="off">windows.autologin</setting>
+	<setting value="on">windows.system.restore</setting>
+	<command>.reboot</command>
+</template>

@@ -1,0 +1,33 @@
+div.content {
+	background-color: #B8DEEB;
+}
+
+img {
+	margin:1em;	
+}
+
+div.logo {
+	font-size:1.5em;
+}
+
+h3 {
+	font-size:2em;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+p#download {
+	padding-top:1em;
+}
+
+span.download {
+	border:1px solid black;
+	background-color: #5EF2FF;
+	padding:0.5em;
+	font-size:1.5em;
+}
+
+div#donate {
+	position:relative;
+	float:right;
+}

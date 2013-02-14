@@ -1,0 +1,65 @@
+- todo
++ done
+
+0.1:
++ import/export file format. first draft
++ code parsers/generators for said formats
++ redesign ui
+
+0.2:
++ redesign ui. More intuitive.
++ reload button
++ configuration dialog
++ search
++ config options:
+  + database location
+  + overwrite when downloading
+  + halt on error, or keep going to next application
+  + install non-silent app first or last
++ marker for application with no silent install option
++ bypass vista uac (set registry key -> reboot)
++ help
++ Command line parameters:
+  + Auto apply
+  + Download only
+  + template name
+
+0.3:
++ model for tweaks
+- more code documentation
+- install thread (use qt qprocess and qconcurrent)
++ parser for tweaks index file
+- load/save tweak selection
++ tweaks applier action
++ remove as much qt dependency as possible
+- what do to if version in template not found (don't install, or mark latest)
+
+0.4:
+- Built-in tweak editor
+- Log level
+- Application install order queueing (dependencies ?)
+- new application settings file (var=value, var_version=value). eg. parameters=/S parameters_1.4=/SILENT)
+- FTP fails to abort
+- Rearrange application model
+- Add select all applications in model (or all found in search)
+- Replace application name with description summary when available (with application name visible somewhere less prominent)
+- Firefox extention for right clicking links and adding to database with name and version
+- Web database downloader
+
+
+Code documentation guidelines:
+
+
+Coding guidelines:
+- All private variables in the format m_var_name.
+- accessors for all private variables in the form of varName (not getVarName).
+- Document all classes, methods and variables.
+- Whitespace cleanup (unneeded space, syntax, newline at end of file, tabs for indenting).
+- Removed unneeded #includes.
+- method format : camelCase / actionNoun.
+- long method and variable names (attributes instead of attr, version instead of ver).
+- class names same as file names.
+- database schema documentation.
+- incrementors in the form i++ whenever it doesn't matter.
+- Document variables after their deleration
+- Space between method and next method's documentation

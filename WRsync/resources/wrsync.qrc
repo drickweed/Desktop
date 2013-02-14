@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>calendar.png</file>
+        <file>tray.png</file>
+        <file>monitor.png</file>
+        <file>running.png</file>
+        <file>abort.png</file>
+        <file>settings.png</file>
+        <file>backup.png</file>
+        <file>blue-dot.png</file>
+    </qresource>
+</RCC>

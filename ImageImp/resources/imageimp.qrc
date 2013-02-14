@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icons" >
+    <file>template.png</file>
+    <file>create_album.png</file>
+    <file>add.png</file>
+    <file>calendar.png</file>
+    <file>remove.png</file>
+    <file>assign_photos.png</file>
+    <file>select_photos.png</file>
+    <file>take_photos.png</file>
+    <file>edit_items.png</file>
+    <file>imageimp.png</file>
+  </qresource>
+  <qresource prefix="style" >
+    <file>imageimp.css</file>
+  </qresource>
+  <qresource prefix="tags" >
+    <file>default_photo.png</file>
+  </qresource>
+  <qresource prefix="scripts" >
+    <file>imageimp.sql</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TagSelector</class>
+ <widget class="QWidget" name="TagSelector">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>166</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TagSelector</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>1</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="tagsForLabel">
+     <property name="text">
+      <string>Labels for</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="JB::FancyLineEdit" name="searchLineEdit">
+     <property name="instructionText">
+      <string>Search</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListView" name="tagsView"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="applyButton">
+     <property name="text">
+      <string>Apply</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="newTagButton">
+     <property name="text">
+      <string>Create new</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="manageTagsButton">
+     <property name="text">
+      <string>Manage</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>JB::FancyLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>jb/widgets/fancylineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

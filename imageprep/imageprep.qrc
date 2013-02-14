@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icons" >
+    <file alias="spinner" >spinner.gif</file>
+    <file alias="ftp_error" >ftp_connection_error.png</file>
+    <file alias="ftp_ok" >ftp_connection_ok.png</file>
+  </qresource>
+</RCC>

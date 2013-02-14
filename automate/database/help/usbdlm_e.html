@@ -1,0 +1,705 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Uwe Sieber">
+   <meta http-equiv="content-language" content="en">
+   <meta name="keywords" lang="en-us" content="USB, flash drive, pen drive, USB disk, letter, drive letter, assignment, drive letter assignement, mount, mount point, first available, first free, default letter, fixed letter, fixed drive letter, standard drive letter, static drive letter, permanent, assign, define a default letter, drive mapping, A:, B:">
+   <meta name="Description" content="USBDLM - Drive Letter Manager for Windows">
+   <title>USB drive letter manager - USBDLM</title>
+
+  <style type="text/css">
+    <!--
+      body,tr,td,p,br,ul,li{font-family:Verdana,sans-serif,Helvetica;
+      font-size:10pt;color:#000000;
+      }
+      ul{margin-top:0mm;}
+      ul{margin-left:7mm;}
+    //-->
+  </style>
+
+
+</head>
+
+
+<body lang="en" text="#000000" bgcolor="#C0C0C0" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=6 WIDTH="850" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000099">&nbsp;</td>
+
+<td HEIGHT="55" BGCOLOR="#000099"><font color="#FFFFFF"><b><big>
+USBDLM V4.2.3 - </big>USB Drive Letter Manager for Windows 2000, XP, Server 2003 and Vista</b></font>
+</td>
+</tr>
+
+<tr>
+<td BGCOLOR="#FFFFE8">&nbsp;
+<br><a href="usbdlm.html"><img SRC="gif/german.gif" ALT="" BORDER=0 height=14 width=23></a><a href="usbdlm.html">&nbsp;
+This page is available in German language too</a>
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td VALIGN=TOP WIDTH="90%" HEIGHT="100%">&nbsp;
+
+
+
+<!--===========================================================================-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+What it is</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+
+USBDLM is a Windows service that gives control over Window's drive letter assignment for USB drives. Running as service makes it independent of the logged on user's privileges, so there is no need to give the users the privilege to change drive letters.<br>
+It automatically solves conflicts between USB drives and network or subst drives of the currently logged on user.<br>
+Furthermore you can define new default letters for USB drives and much more.
+
+<br>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+What it not is</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+
+USBDLM isn't a wonder tool. If Windows has problems with USB drives then USBDLM cannot fix it. Here are some <a href="usbtrouble_e.html">tips for solving problems with USB drives</a>.
+
+<br>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Getting Started</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+
+When a removable drive (USB flash drive, flash card reader, portable hard drive) is attached for the first time, Windows mounts it to the first available 'local' drive letter. If there is a network share on this letter, Windows XP will use it anyway for the new USB drive because since XP network shares are specific to the current user and not visible in the context of the system where the letter is assigned. The USB drive then appears to be invisible.<br>
+You can change the letter assignments in the Windows Disk Management Console with a lot of mouse clicks but you have to do it again for every new device.<br>
+And, for USB devices that have no serial number (in violation of the USB standards) you have to do it too when you attach it to a different USB port.
+<p>
+USBDLM can for newly attached USB drives
+<ul>
+<li>check if the letter is used by a network share of the currently logged on user and assign the next letter that is really available
+<li>reserve letters, so they are not used for local drives
+<li>assign a letter from a list of new default letters, also dependent on many different criteria as the active user, drive type, connection (USB, FireWire), USB port, volume label, size and others
+<li>assign letters for a specific USB drive by putting an INI file on the drive
+<li>remove the drive letters of card readers until a card is inserted
+<li>show a balloon tip with the assigned drive letter(s)
+<li>define autorun events depending on many different criteria
+<li>many other things, see help file, available <a href="usbdlm_help_e.html">online as HTML version</a> too
+</ul>
+All functions are applied to USB drives at the moment they are being attached, when the USBDLM service starts up and when a user logs on.
+<p>
+USBDLM runs as Win32 service under Windows 2000, XP, Server 2003 and Vista. 64 Bit versions are untested but should work too.
+<br>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Installation</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+
+Unzip the distribution (USBDLM.ZIP) file, e.g. to your programs folder (a USBDLM folder is included).
+<p>
+Then enter your preferred configuration into the USBDLM.INI (see below). There is a sample file
+included called USBDLM_sample.INI. Either create a new USBDLM.INI or rename the sample.
+<p>
+If you are logged on with administrator privileges you can simply install it.
+<pre>
+_install.cmd
+</pre>
+Without administrator privileges you will be prompted for them.
+<p>
+You can change the USBDLM.INI without restarting the service because it's read each time a new drive gets assigned a drive letter.
+<p>
+You can uninstall the service using parameter -uninstall:
+<pre>
+_uninstall.cmd
+</pre>
+Both can be done without the message box by using the following USBDLM commandline parameters
+<pre>
+USBDLM -silentinstall
+USBDLM -silentuninstall
+</pre>
+<p>
+It returns Errorlevel 0 on success, 1 on failure.
+<p>
+You can stop and start the installed service by means of the _stop.cmd and _start.cmd.
+<p>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Configuration</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+
+Running without a configuration USBDLM only prevents that an USB drive gets the letter of
+a network share or a subst drive of the currently logged on user. It remounts then to the next
+letter that is really available.
+
+<p>
+
+USBDLM is configured thru a text file, the USBDLM.INI. The USBDLM.INI is read from the folder of the USBDLM.EXE.<br>
+If required, read at Wikipedia how
+<a href="http://en.wikipedia.org/wiki/Ini_file">INI files</a> work.
+
+
+<p>
+<br>
+<b>New default letters for new USB drives (flash or harddrive)</b>
+
+<pre>
+[DriveLetters]
+Letter1=U
+Letter2=Y
+Letter3=Z
+</pre>
+
+USBDLM can have up to 9 'LetterX' entries in each section. They don't have to be continuous.
+<p>
+Have a look into the help file <b>USBDLM_ENG.CHM</b> for more details.
+If you get the 'cannot display the webpage' error then the help file has the NTFS file attribute 'downloaded from untrusted source' and Microsoft doesn't trust its own CHM file format. To fix this right click the USBDLM_E.CHM, select Properties and click Unblock.<br>
+The help file is available <a href="usbdlm_help_e.htm">online as HTML version</a> too.<br>
+
+
+<p>
+<br>
+<b>Card Readers</b>
+<p>
+The typical 20-in-1 card reader eats one drive letter for each of its slots - if we have a
+card for or not. USBDLM can remove the reader's drive letter until a media is inserted.
+<pre>
+[Settings]
+NoMediaNoLetter=1
+</pre>
+USBDLM assigns then a drive letter as configured. If you need different drive letters for a multislot cardreader, then use the criterion 'DeviceType' in a DriveLetters section (MSCR is short for <u>M</u>ulti<u>S</u>lot<u>C</u>ard<u>R</u>eaders which can be used too):
+<pre>
+[DriveLetters1]
+DeviceType=MSCR
+Letter1=R
+Letter2=W
+Letter3=
+</pre>
+
+<p>
+
+
+<p>
+<br>
+<b>Excluded drive letters</b>
+<p>
+You can prevent Windows mounting to certain letters by putting them into section ExcludedLetters.
+This is especially useful for letters of network shares which Windows may assign to USB drives while booting. Do not configure other letters than network, subst and TrueCrypt drives here!
+<pre>
+[ExcludedLetters]
+Letter1=F
+Letter2=
+Letter3=
+</pre>
+
+
+<p>
+<br>
+<b>Balloon Tips</b>
+<p>
+USBDLM can show a balloon tip with information about the drive letter(s) or mount points used for a just attached drive:
+
+<pre>
+[BalloonTips]
+Enabled=1
+</pre>
+
+<center><img src="gif/balloon_e.png" alt="balloon" border="0"></center>
+
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<a name="history"></a>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+History</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+For the complete history check out the help file which is available
+<a href="usbdlm_help_e.html">online as HTML version</a> too.
+<p>
+
+
+V4.0.0 (15th July 2007)
+<UL>
+<li>New: new, more simple, but incompatible format for the USBDLM.INI, if you update from USBDLM V3.x have a look at the 'Migration' section in the help file
+<li>New: drive letters depending on the logged on user's name, group or its admin status
+<li>New: drive letters depending on some new criterions
+<li>New: AutoRuns on media instertion (CD/DVD too)
+<li>New: AutoRuns depending on serveral criterions (as volume label, drive letter, device id and others)
+<li>New: AutoRuns on removal request and after removal of a drive
+<li>New: Events on Balloon click
+<li>New: Explorer default icon and label depending criteria
+<li>New: Drive events into the Windows system log
+</UL>
+
+V4.0.1 (20th July 2007)
+<UL>
+<li>Bugfix: ExcludedLetter didn't work
+<li>Bugfix: ListUsbDrives required admin privileges to show all information
+</UL>
+
+V4.0.2 (26th August 2007)
+<UL>
+<li>Bugfix: ListUsbDrives output had Unix style end of line marks (CR only) instead of DOS style (CF+LF) and Notepad cannot show this correctely
+<li>Bugfix: AutoRun events for drives without a drive letter did work only when an addtional criterion Letter=- was configured
+<li>Bugfix: Under Windows 2000 partition numbers and balloontips didn't work correctely for hard drives with multiple partitions
+</UL>
+
+
+V4.1.0 (19th October 2007)
+<UL>
+<li>Bugfix: Last line in the USBDLM.INI had been ignored when fewer than two empty line at the end
+<li>Bugfix: Even with NoMediaNoLetter=0 USBDLM registered for some notifications. Under Vista64 this prevents drives from being 'prepared for safe removal'
+<li>Workaround: NoMediaNoLetter works under Vista64
+<li>Bugfix: OnRemoval works now on removal of a card from a card reader
+<li>Bugfix: USBDLM service no more maked as 'interactive' under Vista which caused warnings in the syslog
+<li>New: NoMediaNoLetter can be configured more detailed:<br>
+ NoMediaNoLetter=0 -> no drive<br>
+ NoMediaNoLetter=1 -> multislot-cardreaders only<br>
+ NoMediaNoLetter=2 -> singleslot-cardreader too<br>
+ NoMediaNoLetter=3 -> all 'removable' drives<br>
+<li>New: NoMediaNoLetter can be forced for certain drives by a section [NoMediaNoLetterInclude] (analog to [NoMediaNoLetterExclude])
+<li>New: Drive letters in short notation. samples:<br>
+Letters=R,X,Y,Z<br>
+Letters=R,X-Z<br>
+Letters=RX-Z<br>
+This is available in lines 'Letter<u>s</u>=' only, not in Letter1=, Letter2= etc.
+<li>New: User=- can be configured as criterion for 'no user logged on'
+</UL>
+
+
+V4.2.0 (12th April 2008)
+<UL>
+<li>Bugfix: problems with NTFS mountpoint longer than 51 chars fixed
+<li>Bugfix: AutoRun programs did not become the active window under Vista
+<li>Bugifx: Username and group membership works now when logged on on a server
+<li>New/Bugfix: unavailable network drives considered
+<li>New: NoMediaNoLetter works under Windows 2000 too
+<li>New: most settings take effect without restarting the USBDLM service
+<li>New: Wildcards can be used configuring several parameters
+<li>New: drives can be completely ignored
+<li>New: drives and other devices can be removed from or added to the "safely remove hardware" facility
+<li>New: for USB drives the policy "Optimized for performance" can be set
+<li>New: on AutoRun USBDLM variables can be made available to the executed program as environment variables
+<li>New: on AutoRun programs can be execuded without admin privileges (if the current user is an admin)
+<li>New: obsolete NTFS mountpoints can be removed on startup
+<li>New: several minor fixes and improvements
+</UL>
+
+V4.2.1 (20th April 2008)
+<UL>
+<li>Bugfix: 'Working Directory' for autorun.inf and [OnArrival] is again (as before V4.2) the root of the new drive
+</UL>
+
+V4.2.2 (17th August 2008)
+<UL>
+<li>Bugfix: [OnArrival], [OnRemoval] works again without configuring a workdir when the drive has no mountpoint
+<li>Bugfix: [OnRemoval] works again without configuring a workdir
+<li>Bugfix: [OnRemoval] is triggered on removal of a media from a card reader
+<li>Bugfix: New BusTypes SD and MMC
+<li>Bugfix: Virtual drives of the Vista's "Volume Shadow Copy" will not get a drive letter assigned
+<li>Bugfix: Delay on Windows shutdown removed
+</UL>
+
+
+V4.2.3 (14th September 2008)
+<UL>
+<li>Bugfix: Das Ausführen von [OnArrival] konnte seit V4.0 trotz Einstellung Force=1 durch Halten der Shift-Taste übergangen werden
+<li>Bugfix: Das Ausführen der autorun.inf Open-Zeile wurde seit V4.2 standardmäßig ohne Admin-Rechte gemacht (AutoRunInfRestricted war standardmäßig aktiviert)
+<li>Bugfix: [NoMediaNoLetterInclude] hat meist nicht funktioniert
+</UL>
+
+
+V4.2.9.32 <b>beta</b> (19th October 2008)
+<UL>
+<li>New: In sections [OnArrival], OnRemoval etc up to 10 commands can be executed (open1 to open9 and the known open)
+<li>New: [OnArrival] for TrueCrypt volumes
+<li>New: When a DeviceID is configured then the BusType can be omitted for non USB drives, same for the DriveType e.g. for CDROM drives
+<li>New: [OnArrival] can start a program under Vista with full rights ("elevated")
+<li>New: Criteria "UserIsAdmin"<a href=""></a> is under Vista related to the "elevated" user, so it is 1 for an Admin under UAC
+<li>New: [OnRemovalFailed] is executed asynchronousely to avoid event ping pong when using RemoveDrive
+<li>New: AutoRun on System Events
+<li>New: NoMediaNoLetter more reliable under Windows 2000
+<li>New: First time arrivals under Windows 2000 optimized
+<li>New: Using [OnArrival], [OnRemoval] etc there is the new default criterion MinVolumeSize=1, so a media must be present
+<li>New: Drive letters can be checked [on resume] from standby and hibernation mode
+<li>New: Drive letters by Volume Serial Number
+<li>New: Drive description for USB drives in the menü of "Safely Remove Hardware"
+</UL>
+
+<p>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<p>
+
+<!--===========================================================================-->
+<a name="download"></a>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+
+<td HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Conditions and Download</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="100%" HEIGHT="30">&nbsp;
+<br>
+USBDLM is Freeware for private and educational (schools, colleges, universities) use only.
+The students shall outnumber all others.<br>
+Otherwise one licence per computer is required after a 30 day test period even though the software does not expire.
+<p>
+To support admins in schools which are often voluntary workers
+I made USBDLM freeware for schools, colleges and universities.
+But that's the line I've drawn and even your organization is non profit,
+good and important I have to say, it's beyond that line. Ask me
+for a discount in this case.<br>
+<p>
+For home users I suggest the ZIP file. Just unzip to "C:\Program Files" and run the _install.cmd.<br>
+Under Vista I suggest a different folder, for instance "C:\Tools" to prevent trouble caused by the Vista "Virtual Store" where the USBDLM.INI might be redirected to.<br>
+The MSI is for admins who want to deploy the software in their network. If you have problems uninstalling the USBDLM.MSI then try
+the <a href="http://support.microsoft.com/kb/290301">MSI cleanup tool</a>.
+<p>
+Download latest release V4.2.3:<br>
+<a href="files/usbdlm.zip">http://www.uwe-sieber.de/files/usbdlm.zip</a><br>
+(about 287KB)
+<p>
+<a href="files/usbdlm.msi">http://www.uwe-sieber.de/files/usbdlm.msi</a><br>
+(about 378KB)
+<p>
+
+
+<p>
+<b>Beta release:</b>
+<p>
+Download V4.2.9.32 (19th October 2008):<br>
+<a href="files/usbdlm_beta.zip">http://www.uwe-sieber.de/files/usbdlm_beta.zip</a><br>
+<p>
+<p>
+<b>Previous releases:</b>
+<p>
+Download 4.2.2 release:<br>
+<a href="files/usbdlm422.zip">http://www.uwe-sieber.de/files/usbdlm421.zip</a><br>
+<a href="files/usbdlm422.msi">http://www.uwe-sieber.de/files/usbdlm421.msi</a><br>
+<p>
+Download 4.2.1 release:<br>
+<a href="files/usbdlm421.zip">http://www.uwe-sieber.de/files/usbdlm421.zip</a><br>
+<a href="files/usbdlm421.msi">http://www.uwe-sieber.de/files/usbdlm421.msi</a><br>
+<p>
+Download 4.2.0 release:<br>
+<a href="files/usbdlm420.zip">http://www.uwe-sieber.de/files/usbdlm420.zip</a><br>
+<a href="files/usbdlm420.msi">http://www.uwe-sieber.de/files/usbdlm420.msi</a><br>
+<p>
+Download 4.1.0 release:<br>
+<a href="files/usbdlm410.zip">http://www.uwe-sieber.de/files/usbdlm410.zip</a><br>
+<a href="files/usbdlm410.msi">http://www.uwe-sieber.de/files/usbdlm410.msi</a><br>
+<p>
+Download 3.4.2 release:<br>
+<a href="files/usbdlm342.zip">http://www.uwe-sieber.de/files/usbdlm342.zip</a><br>
+<a href="files/usbdlm342.msi">http://www.uwe-sieber.de/files/usbdlm342.msi</a><br>
+<p>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<a name="purchase"></a>
+<a name="prices"></a>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+<td WIDTH="98%" HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Purchase USBDLM</font></b></td>
+</tr>
+<tr>
+<td WIDTH="100%" HEIGHT="30">
+
+<br>
+
+<p>
+<b>Prices with effect from April 2008</b><br>
+(Euro prices are constant, USD prices are floating):
+<br><br>
+
+<table BORDER CELLPADDING=3 WIDTH="49%" BGCOLOR="#E8FFFF">
+  <tr BGCOLOR="#33CCFF">
+   <td NOWRAP WIDTH="65%">Quantity:&nbsp;</td>
+   <td ALIGN=LEFT WIDTH="15%"><div align=right>Price per licence</div></td>
+  </tr>
+  <tr>
+   <td>1 - 9</td>
+   <td ALIGN=LEFT WIDTH="100%"><div align=right>14.40 USD</div></td>
+  </tr>
+  <tr>
+   <td>10 - 99</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>9.60 USD</div></td>
+  </tr>
+  <tr>
+   <td>100 - 999</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>7.20 USD</div></td>
+  </tr>
+  <tr>
+   <td>1000 - 9999</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>4.80 USD</div></td>
+  </tr>
+  <tr>
+   <td>&gt;10000</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>2.40 USD</div></td>
+  </tr>
+  <tr>
+   <td>Site Licence</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>2400.00 USD</div></td>
+  </tr>
+  <tr>
+   <td>World-Wide Licence</td>
+   <td ALIGN=LEFT NOWRAP WIDTH="100%"><div align=right>9600.00 USD</div></td>
+  </tr>
+</table>
+
+
+<p>
+A Site License allows anyone in the organization making the purchase, within a 160 km (100 mile) radius of the purchasing location, to use the software. This includes people from that organization location who are travelling but it does not include people with locations outside of the 160 km radius.
+<p>
+A World-Wide License allows anyone in the organization making the purchase, who is on the planet Earth, to use the software.
+<p>
+You can order directly at me, I send offer and invoice on request.<br>
+An online order is possible at the KAGI online Shop (USA, California) with credit card, check or cash. VAT is charged depending on your country and can be skipped by having a VAT ID number.
+<p>
+The licence is delivered as licence number by eMail or on the invoice. It's not required for the software, the software is not limited in any way and it does not expire.
+<p>
+<a href="https://order.kagi.com/cgi-bin/store.cgi?storeID=9YD&&">
+KAGI Online Shop (USA, California)</a>
+<p>
+All licences are not limited in time and valid for future versions too. All updates are free of charge. Purchasers of V1.x, 2.x and 3.x are free to use V4.x.
+<br>
+
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+<!--===========================================================================-->
+<a name="plans"></a>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=3 WIDTH="100%" >
+<tr>
+<td ROWSPAN="3" WIDTH="1" BGCOLOR="#000000">&nbsp;</td>
+<td WIDTH="98%" HEIGHT="40" BGCOLOR="#000000"><b><font color="#FFFFFF">
+Plans</font></b></td>
+</tr>
+<tr>
+<td WIDTH="100%" HEIGHT="30">
+
+<p><br>
+
+No more big plans at the moment. Everything I ever had in mind for USBDLM is implemented in USBDLM V4.<br>
+<p>
+Plans for a graphical configuration tool are stalled at the moment because I've no idea how it should look like to be more efficient than the INI files.
+<p>
+
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</table>
+<!--===========================================================================-->
+
+<br>
+
+
+
+<p>
+<hr WIDTH="100%">
+<p>
+Counter since Feb. 1998<br>
+<img SRC="/tinc?key=pSK1cCpN" ALT="">
+<p>
+last change: 19th October 2008
+<p>
+<img src="gif/adr_e.png" alt="Impressum" border="0"><br>
+The phone number is here because of the strange german law. Please don't call me, write an eMail instead.
+<form action="email_e.html" method="GET" target="_self"><input type="submit" value="eMail"></form>
+<p>
+Home: <a href="english.html">http://www.uwe-sieber.de/english.html</a>
+</td>
+</tr>
+</table>
+&nbsp;
+</td>
+
+<td WIDTH="1"></td>
+</tr>
+
+<tr>
+<td BGCOLOR="#000099">&nbsp;</td>
+
+<td></td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>
+<!--==-->

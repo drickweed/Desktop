@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons" >
+        <file>fontmate.png</file>
+        <file>edit.png</file>
+        <file>search.png</file>
+        <file>remove.png</file>
+        <file>add.png</file>
+    </qresource>
+    <qresource prefix="/tags" >
+        <file>installed.png</file>
+    </qresource>
+    <qresource prefix="/images" >
+        <file>logo.png</file>
+    </qresource>
+    <qresource prefix="/scripts" >
+        <file>fontmate.sql</file>
+    </qresource>
+</RCC>

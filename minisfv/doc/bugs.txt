@@ -1,0 +1,5 @@
+- minisfv . - default sfv file name not created
+- skip and stop crash on windows.
+- windows: file exe very large
+- windows: remove dos box
+- show partial progress during processing

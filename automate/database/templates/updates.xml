@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<template>
+	<include winlang="enu" winver="xp">windows-xp-x86-enu-updates.template</include>
+	<include winlang="heb" winver="xp">windows-xp-x86-heb-updates.template</include>
+</template>

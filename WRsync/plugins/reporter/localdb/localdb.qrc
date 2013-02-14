@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/database">
+        <file>localdb.sql</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+#summary Application database structure description
+
+= Introduction =
+This is a description of the application database. Sample database is included with the application.
+
+Must be located in "database" folder under the application's folder.
+
+Top level folders:
+ * applications - application install files.
+ * templates - setting templates.
+ * tweaks - tweaks and setting files.
+
+= applications =
+Contains a folder for each application
+
+= application folder =
+Contains a folder for each version, inside of which are the install files.
+Automatic installer detection:
+ * Windows Installer (.msi) : First one is detected and used. Installed without user interaction.
+ * Executable (.exe) : If only one in folder, it is used as installer. If more than one, relies on presence of installer._version_ file (see below)
+ * setup.exe : Used automatically as installer. Overridden by installer._version_
+
+Optional files in the root application folder:
+ * parameters._version_ : Single line of command line parameters for installer.
+ * urls : List of urls for application version downloads. Lines of the format `version url` where `version` is a single word (no whitespace).
+ * installer._version_ : Single line containing the file to run to install the application.
+ * description : Application description. First line is used as summary.

@@ -1,0 +1,738 @@
+<HTML>
+<HEAD>
+<TITLE>ShellExView - Shell Extension Manager For Windows</TITLE>
+<meta name="description" content="Shell Extensions Manager">
+<meta name="keywords" content="shell,extensions,freeware,tool,enable,disable,manager,windows">
+<link rel="stylesheet" href="../main.css">
+
+</HEAD>
+<BODY leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td>
+<a href="http://www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5286073190998405";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+//2007-09-06: B
+google_ad_channel = "1865289816";
+google_color_border = "D8E8F8";
+google_color_bg = "D8E8F8";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</table>
+
+
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" class="siteheader" width="138">
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menu1"><td nowrap><a href="http://www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/blog">Blog</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/freeware_links.html">Links</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/awards.html">Awards</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+</table>
+<br>
+<table border="0" cellpadding="3" width="100%">
+<tr class="menu2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/cmp/index.html">Components</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/code_samples.html">Code Samples</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-5286073190998405";
+google_alternate_color = "D8E8F8";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text_image";
+//2007-09-10: Left Side
+google_ad_channel = "7529666936";
+google_color_border = "D8E8F8";
+google_color_bg = "D8E8F8";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+
+</td>
+
+<td class="menutomain">
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" width1 = "100%" colspan="3">
+</td>
+<tr>
+<td style="width:7"></td>
+<td valign="top">
+
+
+
+
+<table border="0" class="utilcaption">
+<tr><td><img src="shexview_icon.gif">
+<td>ShellExView v1.25 - Shell Extensions Manager
+<br>
+Copyright (c) 2003 - 2008 Nir Sofer
+</table>
+
+
+
+<h4 class="utilsubject">Related Utilities</h4>
+<ul>
+<li><a href="shell_menu_view.html">ShellMenuView</a> - Disable/enable static context menu items of Explorer.
+<li><a href="regscanner.html">RegScanner</a> - find/search in the Registry of Windows.
+<li><a href="file_types_manager.html">FileTypesMan</a> - Alternative to 'File Types' manager of Windows. 
+
+</ul>
+
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+Shell Extensions are in-process COM objects which extends the abilities of Windows operating system. 
+Most shell extensions are automatically installed by the operating system, but there are
+also many other applications that install additional shell extension components. 
+For example: If you install WinZip on your computer, you'll see a special WinZip menu
+when you right-click on a Zip file. This menu is created by adding a shell extension to the system.
+<p>
+The ShellExView utility displays the details of shell extensions installed on your computer,
+and allows you to easily disable and enable each shell extension.
+
+<p>
+ShellExView can be used for solving context-menu problems in Explorer environment.
+For more information, read the following article:
+<a href="http://windowsxp.mvps.org/slowrightclick.htm" target="mvps1">Right-click is slow or weird behavior caused by context menu handlers</a>
+
+
+
+<p>
+<img src="shexview.gif">
+<p>
+
+
+
+<h4 class="utilsubject">Versions History</h4>
+<table border="1" cellpadding="5">
+
+<tr class="utiltableheader"><th>Date <th> Version <th> Description
+<tr><td>24/10/2008<td>1.25<td>
+<ul>
+<li>New restriction: ShellExView won't allow you to disable at once more than 15 shell extensions created by Microsoft.
+The reason for this restriction is that recently there were a few cases of people that disabled most of their shell extensions,
+including system extensions that installed as a part of the operating system, and then found themselves with a system that cannot boot properly.
+</ul>
+
+<tr><td>02/10/2008<td>1.24<td>
+<ul>
+<li>Fixed bug: Exception window appeared when starting ShellExView in some systems.
+</ul>
+
+<tr><td>08/07/2008<td>1.23<td>
+<ul>
+<li>Fixed bug: The dates displayed in system locale format, instead of user locale. 
+</ul>
+
+
+<tr><td>14/05/2008<td>1.22<td>
+<ul>
+<li>Added shell extensions under &quot;My Network Places&quot;, &quot;Entire Network&quot;, and &quot;Remote Computer&quot; Registry keys.
+<li>Added 3 columns: &quot;My Network Places&quot;, &quot;Entire Network&quot;, and &quot;Remote Computer&quot; 
+(which tells you whether the Shell Extension was added into these folders)
+
+</ul>
+
+<tr><td>03/05/2008<td>1.21<td>
+<ul>
+<li>Fixed bug: The main window lost the focus when the user switched to another application and then returned back to ShellExView.
+</ul>
+
+
+<tr><td>24/04/2008<td>1.20<td>
+<ul>
+<li>Added support for saving as comma-delimited text file
+</ul>
+
+
+
+<tr><td>22/11/2007<td>1.19<td>
+<ul>
+<li>Under Vista, ShellExView now requires to run as administrator.
+</ul>
+
+
+<tr><td>21/09/2007<td>1.18<td>
+<ul>
+<li>Configuration of ShellExView is now saved to a cfg file instead of the Registry.
+</ul>
+
+<tr><td>04/08/2007<td>1.17<td>
+<ul>
+<li>Added support for properly enabling/disabling shell extensions under Windows Vista.
+(The disabled shell extensions are added to 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked' key in the Registry)
+<li>Added x64 version (as a separated download) for using under Windows Vista x64.
+<li>Added shell extensions under SystemFileAssociations key.
+</ul>
+
+
+<tr><td>16/02/2007<td>1.16<td>
+<ul>
+<li>Fixed bug: When a filename was enclosed with quotes, ShellExView failed to display the properties of the file.
+</ul>
+
+<tr><td>12/08/2006<td>1.15<td>
+<ul>
+<li>A tooltip is displayed when a string in a column is longer than the column length. 
+</ul>
+
+<tr><td>30/12/2005<td>1.14<td>
+<ul>
+<li>Added shell extensions under HKEY_CLASSES_ROOT\Directory\Background
+</ul>
+
+<tr><td>15/07/2005<td>1.13<td>
+<ul>
+<li>New columns: File Attributes and File Size.
+<li>New option: Mark Suspicious Shell Extensions - mark in red color shell extensions with 
+unusual file attribues (hidden/read-only) or with unusual file extensions.
+</ul>
+
+<tr><td>21/06/2005<td>1.12<td>
+<ul>
+<li>New shell extension types: InfoTip Handler, Shell Link, Structure Storage, MetaData.
+<li>Multiple shell extensions with the same CLSID are now displayed in separated entries.
+<li>Added support for Windows XP style.
+</ul>
+
+<tr><td>27/02/2005<td>1.11<td>
+<ul>
+<li>New shell extension type: URL Search Hook.
+<li>Open the CLSID key of the shell extension in RegEdit.
+<li>New column: File Extensions.
+</ul>
+
+<tr><td>25/11/2004<td>1.10<td>
+<ul>
+<li>New columns: File Created Time, CLSID Modified Time, Microsoft.
+<li>New extensions types: Browser Helper Object, IE Toolbar, Explorer Bar, IE Extensions.
+<li>Choose columns dialog-box.
+<li>Auto-Size columns.
+<li>Find dialog-box.
+<li>HTML Reports.
+<li>Save as XML file.
+<li>Mark disabled items in gray color.
+<li>Mark non-Microsoft extensions in pink color. 
+<li>Ability to translate to other languages.
+</ul>
+
+<tr><td>23/08/2003<td>1.01<td>
+Critical bug from previous version (1.00) was fixed:   
+In some circumstances, after disabling a shell extension and then enabling it again,
+the shell extension continued to be disabled, even if ShellExView show that it's enabled.
+<tr><td>05/06/2003<td>1.00<td>
+First Release.
+</table>
+
+
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. 
+You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided "AS IS" without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+This utility works on any version of Windows, starting from Windows 98 and up to Windows Vista.
+Be aware that if you work with 64-bit version of Windows, you should download and use the 64-bit release of ShellExView utility
+
+<p>
+<h4 class="utilsubject">Using ShellExView</h4>
+The ShellExView is a standalone executable. It doesn't require any installation process
+or additional DLLs. Just copy it to any folder you want, and run it.
+After you run it, wait a few seconds until ShellExView loads all shell extensions items.
+<br>
+The main window of ShellExView displays the details of all shell extensions in 12 different columns:
+<br>
+<table border="1" cellpadding="6" bordercolor="#000000">
+<tr class="utiltableheader"><th width="150"> <nobr>Column Name</nobr> <th>Description
+<tr><td>Extension Name<td>
+The name of the shell extension, as it appears in the Registry.
+<tr><td>Disabled<td>
+Tells you whether the shell extension is disabled.
+<tr><td>Type<td>
+The type of the shell extension. There are more than 10 different types of shell extensions.
+For more information about the types of shell extensions, see the table below.
+
+<tr><td>Description<td>
+Description of the shell extension item. This information is extracted from the DLL file that contains this shell extension. 
+<tr><td>Version<td>
+Version of the shell extension item. This information is extracted from the DLL file that contains this shell extension. 
+
+<tr><td>Product Name<td>
+The name of the product that created this shell extension.  This information is extracted from the DLL file that contains this shell extension.
+
+<tr><td>Company<td>
+The name of the company that created this shell extension.
+
+<tr><td>My Computer<td>
+Tells you whether the "My Computer" folder contains this shell extension.
+This column is only relevant to "Shell Folder" extensions.
+
+<tr><td>Desktop<td>
+Tells you whether the "Desktop" folder contains this shell extension.
+This column is only relevant to "Shell Folder" extensions.
+
+<tr><td>Control Panel<td>
+Tells you whether the "Control Panel" folder contains this shell extension.
+This column is only relevant to "Shell Folder" extensions under Windows 2000/XP.
+
+<tr><td>Filename<td>
+The filename that contains this shell extension.
+
+<tr><td>CLSID<td>
+The CLSID of this shell extension.
+
+<tr><td>File Created Time<td>
+The creation time of the extension dll.
+You can use this field in order to find out when the extension was installed on your system.
+
+<tr><td>CLSID Modified Time<td>
+The Modified Time of CLSID in the Registry. Only available under Windows NT/2000/XP.
+
+<tr><td>Microsoft<td>
+Specifies whether the extension was created by Microsoft ('Yes' value) or by other
+company ('No' value).
+
+<tr><td>File Extensions<td>
+Specifies a list of file extensions (like .txt, .html) that use this shell extension.
+
+<tr><td>File Attributes<td>
+Specifies the attributes of the shell extension file. (H for hidden, R for read-only, and so on)
+
+<tr><td>File Size<td>
+Specifies the size (in bytes) of the shell extension file.
+
+</table>
+<p>
+There are more than 10 types of shell extension, here's a small description for each type:
+<table border="1" cellpadding="6" bordercolor="#000000">
+<tr class="utiltableheader"><th width="150"> <nobr>Extension Type</nobr> <th>Description
+<tr><td>Shell Folder<td>
+Provides special system folders like "Printers", "Fonts", "Recycle Bin", and more...
+
+<tr><td>Context Menu<td>
+Provides the ability to add new items to the context menu of particular file type.
+
+<tr><td>Drag & Drop Handler<td>
+Provides the ability to add new items to the context menu that appears when you drag a file with right mouse button.
+
+<tr><td>Icon Handler<td>
+Provides the ability to dynamically assign icons to file objects.
+
+<tr><td>Copy Hook Handler<td>
+This type of shell extension is called when a file is moved, copies, renamed or deleted.
+
+<tr><td>Drop Handler<td>
+Provides the ability to control the "Drop" behavior of files.
+
+<tr><td>Data Handler<td>
+Provides the ability to copy files/objects to the clipboard.
+
+<tr><td>Property Sheet<td>
+Property Sheet dialog boxes.
+
+<tr><td>Search Handler<td>
+Provides the ability to create a system search engine (Like the standard "Search For Files or Folders" module)
+
+<tr><td>Column Handler<td>
+Provides the ability to add new columns to the details view of Explorer window.
+ 
+<tr><td>Thumbnail<td>
+Provides the ability to display images in "Thumbnail" view.
+
+<tr><td>Browser Helper Object<td>
+Provides the ability to customize and control the Internet Explorer browser.
+
+<tr><td>IE Toolbar<td>
+Provides the ability to add new toolbars into Internet Explorer (like Yahoo! Toolbar)
+
+
+<tr><td>Explorer Bar<td>
+Provides the ability to add Explorer bars to Internet Explorer.
+
+<tr><td>URL Search Hook<td>
+Browser extension stored under Software\Microsoft\Internet Explorer\URLSearchHooks.
+
+<tr><td>System<td>
+All other types of shell extensions that ShellExView utility cannot recognize are
+categorized as "System" type.
+ 
+</table>
+<p>
+<h4 class="utilsubject">Disable/Enable Shell Extensions</h4>
+The ShellExView utility allows you to disable and enable the shell extensions components on your system.
+In order to disable or enable a shell extension item, select the desired item, and 
+from the File menu (or from the pop-up menu) select the appropriate option - "Enable Selected Items" or "Disable Selected Items".
+<br>
+Here's 2 examples of useful things that you can do with this feature:
+<br>
+<ul>
+
+<li> Context Menu: Some applications, like WinZip, CuteFTP, and others, add some
+items to the context menu when you right-click on a file in explorer window.
+If you disable the appropriate shell extension, you won't get these additional menu items.
+<br>
+In order to locate the desired shell extension item:
+<ol>
+<li>Sort the extensions list by the "Type" column and look at all "Context Menu" items.
+<li>Search the application that creates the menu you want to disable. The icon near each item can help to locate the desired shell extension.
+</ol>
+
+<li> Shell Folder: When you enter into some special folders like "History" and
+"Temporary Internet Files", you don't see the real file system, but the a 
+virtual folder that the shell extension create for you.
+If you want to watch the real file system inside "History" or "Temporary Internet Files",
+you can disable the appropriate shell extension items.
+
+</ul>
+<p>
+<h4 class="utilsubject">Add/Remove special folders to "My Computer" and "Desktop" folders</h4>
+Some special shell folders like "Printers", "Recycle Bin", "Scheduled Tasks", "Network and Dial-up Connections", "Mobile Device", and others
+can be added (and be removed) to "My Computer", "Desktop", and even to "Control Panel" (Only in Windows 2000) by using the ShellExView utility.
+<br>
+For Example: Under Windows 2000, you can add the "Printers", "Recycle Bin",
+and "Scheduled Tasks" folders to "My Computer". 
+In order to do that, select the item that you want to add or remove (You can only use "Shell Folder" items)
+and from the File menu, select the appropriate add/remove option. 
+<br>
+Be aware that you cannot add any shell folder to "My Computer" or "Desktop" folders.
+For example: adding the "Administrative Tools" folder to "My Computer" won't work properly as you might expect.
+
+
+
+<p>
+<h4 class="utilsubject">Mark Suspicious Shell Extensions</h4>
+Most shell extensions use standard file extensions (.dll, .ocx or .cpl) as well as they usually don't turn on their system attribues (read-only/hidden/system).
+If ShellExView detect shell extension with unusual file extension or with unusual attribute (e.g: shell extension dll that is marked as hidden in the file system), 
+it'll be marked in red color. It's recommended to deeply check these unusual shell extensions to insure that they are not unwanted malicious programs that penetrated into your system.
+
+
+<p>
+<h4 class="utilsubject">Command-line options</h4>
+<table border="1" cellpadding="5" bordercolor="#000000">
+<tr><td nowrap>
+/stext &lt;Filename&gt;
+<td>Save the list of shell extensions into a regular text file.
+
+<tr><td nowrap>
+/stab &lt;Filename&gt;
+<td>Save the list of shell extensions into a tab-delimited text file.
+
+
+<tr><td nowrap>
+/scomma &lt;Filename&gt;
+<td>Save the list of shell extensions into a comma-delimited text file.
+
+
+<tr><td nowrap>
+/stabular &lt;Filename&gt;
+<td>Save the list of shell extensions into a tabular text file.
+
+<tr><td nowrap>
+/shtml &lt;Filename&gt;
+<td>Save the list of shell extensions into HTML file.
+
+<tr><td nowrap>
+/sverhtml &lt;Filename&gt;
+<td>Save the list of shell extensions into vertical HTML file.
+
+<tr><td nowrap>
+/xml &lt;Filename&gt;
+<td>Save the list of shell extensions into XML file.
+
+<tr><td nowrap>
+/NoLoadSettings
+<td>Run ShellExView without loading your last settings. (window position, columns size, etc. )
+
+
+</table>
+
+
+
+
+<p>
+<h4 class="utilsubject">Translating ShellExView to other languages</h4>
+In order to translate ShellExView to other language, follow the instructions below:
+<ol>
+<li>Run ShellExView with /savelangfile parameter:
+<br>
+shexview.exe /savelangfile
+<br>
+A file named shexview_lng.ini will be created in the folder of ShellExView utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all string entries to the desired language.
+Optionally, you can also add your name and/or a link to your Web site. 
+(TranslatorName and TranslatorURL values) If you add this information, it'll be 
+used in the 'About' window. 
+ 
+<li>After you finish the translation, Run ShellExView, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run ShellExView without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+<p>
+
+
+
+
+
+
+
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="shexview.zip">Download ShellExView in Zip file</a>
+<tr><td align="center">
+<a class="downloadline" href="shexview_setup.exe">
+Download self-install executable for installing ShellExView with uninstall support 
+</a>
+
+<tr><td align="center">
+<a class="downloadline" href="shexview-x64.zip">Download ShellExView for x64</a>
+
+</table>
+
+
+ShellExView is also available in other languages. In order to change the language of 
+ShellExView, download the appropriate language zip file, extract the 'shexview_lng.ini', 
+and put it in the same folder that you Installed ShellExView utility.<p><table border="1" cellpadding="6" bordercolor="#000000"><tr class="utiltableheader">
+<th>Language<th>Translated By<th>Date<th>Version
+
+<tr><td><a href="trans/shexview_arabic.zip">Arabic</a><td>
+<a href="http://www.drkhateeb.netfirms.com" target="trans">Dr Muhammad Alkhateeb</a>
+<td>22/10/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_arabic1.zip">Arabic</a><td>
+<a href="http://hisoft-sy.com" target="trans">„«Ãœ «·Õ”Ì‰</a>
+<td>25/12/2007<td>&nbsp;
+
+<tr><td><a href="trans/shexview_czech.zip">Czech</a><td>Jaroslav KratochvÌl
+<td>20/06/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_dutch.zip">Dutch</a><td>&nbsp;
+<td>05/01/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_french.zip">French</a><td>
+<a href="http://softrads.etrad.net/" target="trans">Jean-Michel Gillion</a>
+<td>31/10/2007<td>&nbsp;
+
+<tr><td><a href="trans/shexview_french1.zip">French</a><td>
+<a href="http://perso.wanadoo.fr/eitang" target="trans">Eitan Gilboa</a>
+<td>17/07/2008<td>1.23
+
+<tr><td><a href="trans/shexview_galician.zip">Galician</a><td>
+<a href="http://engalego.blogspot.com" target="trans">XosÈ AntÛn Vicente RodrÌguez</a>
+<td>04/12/2004<td>&nbsp;
+
+<tr><td><a href="trans/shexview_german.zip">German</a><td>Latino v1.24 (03.10.2008)
+<td>03/10/2008<td>1.24
+
+<tr><td><a href="trans/shexview_german2.zip">German</a><td>
+<a href="http://www.vektorton.de" target="trans">Simon 20080705</a>
+<td>05/07/2008<td>&nbsp;
+
+<tr><td><a href="trans/shexview_greek.zip">Greek</a><td>¡¸ÛÙÔÎÔÚ ‘Û‹ÙÛÔÚ - ≈ÎÎ‹Ú
+<td>18/11/2007<td>&nbsp;
+
+<tr><td><a href="trans/shexview_hebrew.zip">Hebrew</a><td>&nbsp;
+<td>15/09/2006<td>&nbsp;
+
+<tr><td><a href="trans/shexview_hungarian.zip">Hungarian</a><td>Zoltan Zorgo
+<td>30/05/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_italian.zip">Italian</a><td>
+<a href="http://www.freewaresnews.it" target="trans">Giacomo Margarito</a>
+<td>05/11/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_italian1.zip">Italian</a><td>
+<a href="http://mdt.swzone.it" target="trans">Marco D'Amato</a>
+<td>19/07/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_japanese.zip">Japanese</a><td>
+<a href="http://xworks.org/" target="trans">X-WORKS</a>
+<td>20/07/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_korean.zip">Korean</a><td>
+<a href="http://qaos.com/" target="trans">KIM JaeGeun</a>
+<td>29/10/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_norwegian.zip">Norwegian</a><td>Helge R¯dne Skjeveland
+<td>03/12/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_persian.zip">Persian</a><td>
+<a href="http://WWW.ITICO.NET" target="trans">Mustapha Ramezanpour</a>
+<td>15/08/2006<td>&nbsp;
+
+<tr><td><a href="trans/shexview_polish.zip">Polish</a><td>
+<a href="http://www.turbokrecik.info" target="trans">wins</a>
+<td>18/08/2006<td>&nbsp;
+
+<tr><td><a href="trans/shexview_portuguese.zip">Portuguese</a><td>
+<a href="http://Not avaliable" target="trans">Mauro Gil</a>
+<td>20/08/2008<td>&nbsp;
+
+<tr><td><a href="trans/shexview_russian.zip">Russian</a><td>
+<a href="http://www.fenzin.org" target="trans">W.W., ??????????: ?.??????</a>
+<td>13/08/2006<td>&nbsp;
+
+<tr><td><a href="trans/shexview_schinese.zip">Simplified Chinese</a><td>
+<a href="http://lmx.blogcup.com" target="trans">¡˘√¢–«</a>
+<td>25/08/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_schinese2.zip">Schinese</a><td>
+<a href="http://spaces.msn.com/members/wnchina" target="trans">WnChina</a>
+<td>15/07/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_slovak.zip">Slovak</a><td>emperror
+<td>15/07/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_spanish.zip">Spanish</a><td>Pablo de Francisco
+<td>26/11/2004<td>&nbsp;
+
+<tr><td><a href="trans/shexview_swedish.zip">Swedish</a><td>Xina + Leif Larsson
+<td>18/05/2008<td>&nbsp;
+
+<tr><td><a href="trans/shexview_tchinese.zip">Traditional Chinese</a><td>
+<a href="http://sulatio.blogspot.com" target="trans">Minson</a>
+<td>25/09/2007<td>&nbsp;
+
+<tr><td><a href="trans/shexview_thai.zip">Thai</a><td>ª√– ‘∑∏‘Ï ·§¿Ÿ‡¢’¬«
+<td>25/03/2008<td>&nbsp;
+
+<tr><td><a href="trans/shexview_turkish.zip">Turkish</a><td>
+<a href="http://www.geocities.com/pi511" target="trans">pi511@hotmail.com</a>
+<td>25/10/2005<td>&nbsp;
+
+<tr><td><a href="trans/shexview_valencian.zip">Valencian</a><td>
+<a href="http://vjatv.iespana.es" target="trans">vjatv</a>
+<td>04/10/2007<td>&nbsp;
+
+</table>
+<p>
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+
+</BODY>
+</HTML>
+
+
+
+

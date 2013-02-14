@@ -1,0 +1,20 @@
+Include files:
+	- Each include file starts with "#pragma once" to solve the problem of
+	  multiple header inclusions. (This is known to work properly in linux and
+	  on mingw)
+	- Include files are grouped according to the library they belong to and
+	  preceded by a commment specifying which library they are from, or
+	  "Application headers" if the heades are application specific. For
+	  example:
+
+	  /** QT headers **/
+	  #include <QList>
+	  #include <QString>
+
+	  /** Application headers **/
+	  #include <imp/group.h>
+
+Classes:
+	- When overloading a method of an inherited class, document the method with
+	"/** See <Library name> API **/" to refer to the documentation in the
+	library's api. (Example : /** See QT API **/)
