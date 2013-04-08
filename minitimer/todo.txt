@@ -1,4 +1,9 @@
 TODO:
 
 - keep on top switch
+- pause/restart switch
+- hide from taskbar ?
+- show mini view in notification tray
+- move config file to ~/.config (or other proper relative path according to OS)
+
 
